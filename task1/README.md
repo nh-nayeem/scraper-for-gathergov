@@ -23,12 +23,17 @@ python scraper.py
 ## Requirements
 - Python 3.7+
 - Playwright
+- BeautifulSoup4
 
 ## Setup
-1. Install the required dependencies:
+1. Install the required Python packages:
    ```bash
-   pip install playwright
+   pip install playwright beautifulsoup4
+   ```
+
+2. Install browser binaries for Playwright:
+   ```bash
    playwright install
    ```
-   This will install Playwright and download the necessary browser binaries for Chromium, Firefox, and WebKit.
+   This will download the necessary browser binaries for Chromium, Firefox, and WebKit.
 2. Run the scraper using the command mentioned above.

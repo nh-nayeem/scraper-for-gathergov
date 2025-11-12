@@ -3,16 +3,22 @@
 ## Setup Requirements
 
 ### Prerequisites
-- Python 3.7 or higher
+- Python 3.7+
+- Playwright
+- BeautifulSoup4
 - pip (Python package manager)
 
 ### Installation
-1. Install Playwright and required browsers:
+1. Install the required Python packages:
    ```bash
-   pip install playwright
+   pip install playwright beautifulsoup4
+   ```
+
+2. Install browser binaries for Playwright:
+   ```bash
    playwright install
    ```
-   This will install Playwright and download the necessary browser binaries for Chromium, Firefox, and WebKit.
+   This will download the necessary browser binaries for Chromium, Firefox, and WebKit.
 
 ## Project Structure
 
