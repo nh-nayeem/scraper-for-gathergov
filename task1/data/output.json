@@ -3,6 +3,13 @@
     "base_url": "https://www.cityofventura.ca.gov/AgendaCenter",
     "medias": [
       {
+        "meeting_url": "",
+        "agenda_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_11182025-3529",
+        "minutes_url": "",
+        "title": "City Council Closed Session/Regular Meeting",
+        "date": "2025-11-18"
+      },
+      {
         "meeting_url": "https://www.youtube.com/watch?v=3uQyYOUPCSw",
         "agenda_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_11042025-3522",
         "minutes_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Minutes/_11042025-3522",
@@ -459,20 +466,6 @@
       },
       {
         "meeting_url": "",
-        "agenda_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_08142025-3471",
-        "minutes_url": "",
-        "title": "Arts and Culture Commission Supplemental Packet 2 (8/14/2025)",
-        "date": "2025-08-14"
-      },
-      {
-        "meeting_url": "",
-        "agenda_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_08142025-3476",
-        "minutes_url": "",
-        "title": "Arts and Culture Commission Supplemental Packet 3 (8/14/2025)",
-        "date": "2025-08-14"
-      },
-      {
-        "meeting_url": "",
         "agenda_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_08142025-3454",
         "minutes_url": "",
         "title": "Arts and Culture Commission Regular Meeting (08/14/2025)",
@@ -483,6 +476,20 @@
         "agenda_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_08142025-3462",
         "minutes_url": "",
         "title": "Arts and Culture Commission Supplemental Packet 1 (8/14/2025)",
+        "date": "2025-08-14"
+      },
+      {
+        "meeting_url": "",
+        "agenda_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_08142025-3471",
+        "minutes_url": "",
+        "title": "Arts and Culture Commission Supplemental Packet 2 (8/14/2025)",
+        "date": "2025-08-14"
+      },
+      {
+        "meeting_url": "",
+        "agenda_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_08142025-3476",
+        "minutes_url": "",
+        "title": "Arts and Culture Commission Supplemental Packet 3 (8/14/2025)",
         "date": "2025-08-14"
       },
       {
@@ -866,7 +873,7 @@
       {
         "meeting_url": "https://www.youtube.com/live/PbjrMiK-qgc?si=T3yNJZ9qPczwb96Y",
         "agenda_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_10092025-3507",
-        "minutes_url": "",
+        "minutes_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Minutes/_10092025-3507",
         "title": "Historic Preservation Committee Meeting",
         "date": "2025-10-09"
       },
@@ -880,7 +887,7 @@
       {
         "meeting_url": "",
         "agenda_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_08142025-3459",
-        "minutes_url": "",
+        "minutes_url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Minutes/_08142025-3459",
         "title": "Historic Preservation Committee Meeting - Cancelled",
         "date": "2025-08-14"
       },

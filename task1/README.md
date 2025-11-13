@@ -24,6 +24,7 @@ python scraper.py
 - Python 3.7+
 - Playwright
 - BeautifulSoup4
+- pip (Python package manager)
 
 ## Setup
 1. Install the required Python packages:

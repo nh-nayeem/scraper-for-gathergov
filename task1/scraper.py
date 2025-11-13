@@ -1,86 +1,58 @@
 from playwright.sync_api import sync_playwright
-from bs4 import BeautifulSoup
-from urllib.parse import urljoin
 from typing import List, Dict, Any
 import json
+import importlib.util
+import sys
+from pathlib import Path
 
 class MeetingScraper:
     def __init__(self, config: Dict[str, Any]):
         self.config = config
         self.results = []
         
+    def _get_scraper_module(self, base_url: str):
+        """Dynamically import the appropriate scraper module based on the URL."""
+        if 'cityofventura' in base_url:
+            from scrapers import cityofventura
+            return cityofventura
+        # Add more scrapers for other websites here
+        return None
+
     def scrape(self) -> List[Dict[str, Any]]:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             context = browser.new_context()
             start_date = self.config["start_date"]
             end_date = self.config["end_date"]
+            
             for base_url in self.config["base_urls"]:
                 result = {
                     "base_url": base_url,
                     "medias": []
                 }
+                
+                # Get the appropriate scraper module
+                scraper_module = self._get_scraper_module(base_url)
+                
+                if scraper_module is None:
+                    print(f"No specific scraper found for {base_url}, using default scraper")
+                    continue
+                    
                 try:
                     page = context.new_page()
-                    print(f"Accessing {base_url}...")
-                    page.goto(base_url, wait_until="domcontentloaded")
-                    page.wait_for_load_state('networkidle', timeout=30000)
+                    # Use the cityofventura scraper
+                    meetings_data = scraper_module.scrape_url(
+                        page=page,
+                        base_url=base_url,
+                        start_date=start_date,
+                        end_date=end_date
+                    )
+                    result["medias"] = meetings_data
+                    # Add more website-specific scrapers here
                     
-                    # Get the page content after JavaScript execution
-                    content = page.content()
-                    soup = BeautifulSoup(content, 'html.parser')
-                    
-                    # Find all meeting rows with minutes
-                    meetings = soup.select('tr.catAgendaRow')
-                    
-                    if not meetings:
-                        print("No meeting rows found with class 'catAgendaRow'")
-                        return self.results
-                    
-                    for meeting in meetings:
-                        try:
-                            # Get minutes URL from td.minutes > a
-                            minutes_url = ""
-                            minutes_elem = meeting.select_one('td.minutes a')
-                            if minutes_elem and minutes_elem.has_attr('href'):
-                                minutes_url = urljoin(base_url, minutes_elem['href'])
-                            
-                            # Get meeting title and agenda URL from the row
-                            title_elem = meeting.select_one('td:first-child p a')
-                            title = title_elem.get_text(strip=True) if title_elem else "No title"
-                            agenda_url = urljoin(base_url, title_elem['href']) if title_elem and title_elem.has_attr('href') else ""
-                            
-                            # Get YouTube video URL if available
-                            video_elem = meeting.select_one('td.media a[href^="https://www.youtube.com/"]')
-                            video_url = video_elem['href'] if video_elem else ""
-                            
-                            # Extract and format the date
-                            from datetime import datetime
-                            date_elem = meeting.select_one('td:first-child h3 strong')
-                            date_str = date_elem.get_text(strip=True) if date_elem else ""
-                            try :
-                                date_obj = datetime.strptime(date_str,"%b%d, %Y")
-                                date_str = date_obj.strftime("%Y-%m-%d")
-                            except ValueError:
-                                pass
-                            
-                            meeting_data = {
-                                "meeting_url": video_url,  # Using YouTube video URL as meeting_url
-                                "agenda_url": agenda_url,
-                                "minutes_url": minutes_url,
-                                "title": title,
-                                "date": date_str
-                            }
-                            if (date_str >= start_date and date_str <= end_date):
-                                result["medias"].append(meeting_data)
-                            print(f"Found meeting: {title} - Minutes: {minutes_url}")
-                            
-                        except Exception as e:
-                            print(f"Error processing meeting: {e}")
-                            continue
-                            
-                    self.results.append(result)
-                    
+                    if result["medias"]:  # Only add if we found meetings
+                        self.results.append(result)
+                        
                 except Exception as e:
                     print(f"Error processing {base_url}: {e}")
                     continue
