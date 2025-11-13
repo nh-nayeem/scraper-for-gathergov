@@ -1,6 +1,6 @@
 # GatherGov Web Scraper
 
-This project contains a web scraper built with Playwright and beautifulSoup to extract data from the multiple websites.
+This project contains a web scraper to filter and extract valid downloadable URLs from a list of URLs.
 
 ## Input/Output Data
 
@@ -10,7 +10,7 @@ This project contains a web scraper built with Playwright and beautifulSoup to e
 
 ### Output
 - The scraped data is saved to `data/output.json`.
-- The output file contains structured data extracted from the target website.
+- The output file contains the list of valid downloadable URLs.
 
 ## How to Run
 
@@ -22,19 +22,15 @@ python scraper.py
 
 ## Requirements
 - Python 3.7+
-- Playwright
-- BeautifulSoup4
+- yt-dlp
+- ffmpeg
+- javascript runtime (Node/Deno)
 - pip (Python package manager)
 
 ## Setup
 1. Install the required Python packages:
    ```bash
-   pip install playwright beautifulsoup4
+   pip install yt-dlp
    ```
 
-2. Install browser binaries for Playwright:
-   ```bash
-   playwright install
-   ```
-   This will download the necessary browser binaries for Chromium, Firefox, and WebKit.
 2. Run the scraper using the command mentioned above.
