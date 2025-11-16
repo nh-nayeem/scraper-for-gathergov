@@ -1,4 +1,6 @@
 [
-  "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_11042025-3522",
-  "https://dallastx.new.swagit.com/videos/320946"
+  {
+    "url": "https://video.ibm.com/embed/recorded/134312408",
+    "command": "yt-dlp -x --audio-format mp3 --audio-quality 0 https://video.ibm.com/embed/recorded/134312408"
+  }
 ]

@@ -5,3 +5,34 @@ Added: https://dallastx.new.swagit.com/videos/320946 (video/audio)
 Found 2 valid URLs out of 2
 === End of log ===
 
+=== Log of added URLs ===
+Added: https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_11042025-3522 (document)
+=== Log of added URLs ===
+Added: https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_11042025-3522 (document)
+
+Found 1 valid URLs out of 2
+=== End of log ===
+
+=== Log of added URLs ===
+Added: https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_11042025-3522 (document)
+Added: https://dallastx.new.swagit.com/videos/320946 (video/audio)
+
+Found 2 valid URLs out of 2
+=== End of log ===
+
+2025-11-15 03:20:03,556 - INFO - 
+==================================================
+2025-11-15 03:20:03,557 - INFO - Processing URL: https://monticello.viebit.com/watch?hash=HCZTN4vuyJ91LlrS (type: audio)
+2025-11-15 03:20:04,478 - INFO - Starting to process URL: https://monticello.viebit.com/watch?hash=HCZTN4vuyJ91LlrS
+2025-11-15 03:20:04,898 - INFO - Navigating to https://monticello.viebit.com/watch?hash=HCZTN4vuyJ91LlrS...
+2025-11-15 03:20:08,613 - INFO - Successfully processed https://monticello.viebit.com/watch?hash=HCZTN4vuyJ91LlrS. Found 45 links.
+2025-11-15 03:20:08,759 - INFO - Found 45 links
+2025-11-15 03:20:08,760 - INFO - Sample links:
+2025-11-15 03:20:08,760 - INFO -   - https://MonticelloMN.gov
+2025-11-15 03:20:08,760 - INFO -   - https://cdn.jsdelivr.net/npm/bootstrap-toggle@2.2.2/css/bootstrap-toggle.min.css
+2025-11-15 03:20:08,761 - INFO -   - https://cdn.jsdelivr.net/npm/bootstrap-toggle@2.2.2/js/bootstrap-toggle.min.js
+2025-11-15 03:20:08,761 - INFO -   - https://cdn.jsdelivr.net/npm/bootstrap3-dialog@1.35.4/dist/css/bootstrap-dialog.min.css
+2025-11-15 03:20:08,762 - INFO -   - https://cdn.jsdelivr.net/npm/bootstrap3-dialog@1.35.4/dist/js/bootstrap-dialog.min.js
+2025-11-15 03:20:08,762 - INFO -   - ... and 40 more
+2025-11-15 03:20:08,763 - INFO - 
+Results saved to data\output.json

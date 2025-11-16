@@ -1,118 +1,65 @@
 import json
-import os
-import yt_dlp
-import requests
-from urllib.parse import urlparse
+import asyncio
+from typing import Dict, Any, List, Optional
 
-# Configuration
-INPUT_FILE = 'data/input.json'
-OUTPUT_FILE = 'data/output.json'
+class MediaScraper:
+    def __init__(self, input_file: str = 'data/input.json', output_file: str = 'data/output.json'):
+        self.input_file = input_file
+        self.output_file = output_file
+        self.results = []
 
-def is_video_or_audio(url):
-    """Check if URL points to a video or audio file."""
-    video_extensions = ('.mp4', '.webm', '.mkv', '.avi', '.mov', '.flv', '.wmv')
-    audio_extensions = ('.mp3', '.wav', '.ogg', '.m4a', '.flac', '.aac')
-    
-    parsed = urlparse(url)
-    path = parsed.path.lower()
-    
-    return path.endswith(video_extensions) or path.endswith(audio_extensions)
+    def _get_scraper(self, url: str):
+        if "dallastx.new.swagit.com" in url:
+            from scrapers.dallastxnewswagit import DallasTxNewSwagitScraper
+            return DallasTxNewSwagitScraper
+        if "champds.com" in url:
+            from scrapers.champds import champdsScraper
+            return champdsScraper
+        if "cityofventura.ca.gov" in url:
+            from scrapers.cityofventura import cityofventuraScraper
+            return cityofventuraScraper
+        if "video.ibm.com" in url:
+            from scrapers.ibm import ibmScraper
+            return ibmScraper
+        return None
 
-def is_document(url):
-    """Check if URL points to a document file."""
-    document_extensions = ('.pdf', '.doc', '.docx', '.txt', '.rtf', '.odt', '.xls', '.xlsx', '.ppt', '.pptx')
-    return any(url.lower().endswith(ext) for ext in document_extensions)
+    async def process_url(self, url: str, url_type: str) -> Dict[str, Any]:
+        """Delegate scraping of a URL to the appropriate scraper module."""
+        scraper_cls = self._get_scraper(url)
 
-def check_yt_dlp(url):
-    """Check if URL can be processed by yt-dlp."""
-    ydl_opts = {
-        'quiet': True,
-        'no_warnings': True,
-        'simulate': True,  # Don't download, just check
-    }
-    
-    try:
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            ydl.extract_info(url, download=False)
-        return True
-    except Exception:
-        return False
+        if scraper_cls is None:
+            print(f"No scraper available for URL: {url}")
+            return None
 
-def check_requests(url):
-    """Check if URL can be accessed via requests."""
-    try:
-        response = requests.head(url, allow_redirects=True, timeout=10)
-        response.raise_for_status()
-        return True
-    except (requests.RequestException, ValueError):
-        return False
+        try:
+            scraper = scraper_cls()
+            return await scraper.scrape(url, url_type)
+        except Exception as exc:  # noqa: BLE001
+            print(f"Error processing {url}: {exc}")
+            return None
 
-def process_links():
-    """Process links from input.json and save valid download URLs to output.json."""
-    valid_urls = []
-    os.makedirs('debug', exist_ok=True)  # Ensure debug directory exists
-    
-    try:
+    async def run(self):
         # Read input file
-        with open(INPUT_FILE, 'r', encoding='utf-8') as f:
-            links = json.load(f)
+        with open(self.input_file, 'r') as f:
+            data = json.load(f)
         
-        # Open log file for writing
-        with open('debug/log.txt', 'a', encoding='utf-8') as log_file:
-            log_file.write("=== Log of added URLs ===\n")
-            
-            # Process each link
-            for item in links:
-                url = item.get('url', '').strip()
-                link_type = item.get('type', '').lower()
-                
-                if not url:
-                    print(f"Skipping empty URL in item: {item}")
-                    continue
-                
-                try:
-                    # Determine how to process the link
-                    if link_type in ['video', 'audio'] or is_video_or_audio(url):
-                        if check_yt_dlp(url):
-                            valid_urls.append(url)
-                            log_entry = f"Added: {url} (video/audio)\n"
-                            log_file.write(log_entry)
-                            print(f"✓ {log_entry.strip()}")
-                        else:
-                            print(f"✗ Skipped (yt-dlp failed): {url}")
-                    elif link_type == 'document' or is_document(url):
-                        if check_requests(url):
-                            valid_urls.append(url)
-                            log_entry = f"Added: {url} (document)\n"
-                            log_file.write(log_entry)
-                            print(f"✓ {log_entry.strip()}")
-                        else:
-                            print(f"✗ Skipped (requests failed): {url}")
-                    else:
-                        print(f"✗ Skipped (unsupported type): {url}")
-                    
-                except Exception as e:
-                    error_msg = f"Error processing {url}: {str(e)}\n"
-                    log_file.write(error_msg)
-                    print(f"✗ {error_msg.strip()}")
-            
-            log_file.write(f"\nFound {len(valid_urls)} valid URLs out of {len(links)}\n")
-            log_file.write("=== End of log ===\n\n")
-        
-        # Save only valid URLs to output file
-        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            json.dump(valid_urls, f, indent=2)
-            
-        print(f"\nFound {len(valid_urls)} valid URLs out of {len(links)}")
-        print(f"Results saved to {OUTPUT_FILE}")
-        print(f"Log saved to debug/log.txt")
-        
-    except json.JSONDecodeError:
-        print(f"Error: Invalid JSON format in {INPUT_FILE}")
-    except FileNotFoundError:
-        print(f"Error: File not found: {INPUT_FILE}")
-    except Exception as e:
-        print(f"An unexpected error occurred: {str(e)}")
+        # Process each URL concurrently and collect results
+        for item in data:
+            url = item['url']
+            url_type = item.get('type', 'N/A')
+            result = await self.process_url(url, url_type)
+            if result:
+                self.results.append(result)
 
-if __name__ == "__main__":
-    process_links()
+        # Save results to output file
+        with open(self.output_file, 'w', encoding='utf-8') as f:
+            json.dump(self.results, f, indent=2, ensure_ascii=False)
+        
+        print(f"\nResults saved to {self.output_file}")
+
+async def main():
+    scraper = MediaScraper()
+    await scraper.run()
+
+if __name__ == '__main__':
+    asyncio.run(main())
