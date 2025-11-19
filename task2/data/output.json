@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://video.ibm.com/embed/recorded/134312408",
-    "command": "yt-dlp -x --audio-format mp3 --audio-quality 0 https://video.ibm.com/embed/recorded/134312408"
+    "url": "https://audiomack.com/pemberton-twp-planningzoning-board-meetings/song/678668c3069f2",
+    "instruction": "use audiomack_downloader.py to download this audio"
   }
 ]

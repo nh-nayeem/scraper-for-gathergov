@@ -9,18 +9,30 @@ class MediaScraper:
         self.results = []
 
     def _get_scraper(self, url: str):
-        if "dallastx.new.swagit.com" in url:
+        if "dallastx.new.swagit" in url:
             from scrapers.dallastxnewswagit import DallasTxNewSwagitScraper
             return DallasTxNewSwagitScraper
-        if "champds.com" in url:
+        if "champds" in url:
             from scrapers.champds import champdsScraper
             return champdsScraper
-        if "cityofventura.ca.gov" in url:
+        if "cityofventura" in url:
             from scrapers.cityofventura import cityofventuraScraper
             return cityofventuraScraper
-        if "video.ibm.com" in url:
+        if "video.ibm" in url:
             from scrapers.ibm import ibmScraper
             return ibmScraper
+        if "portal.civicclerk" in url:
+            from scrapers.civicclerk import civicclerkScraper
+            return civicclerkScraper
+        if "granicus" in url:
+            from scrapers.granicus import granicusScraper
+            return granicusScraper
+        if "sharepoint" in url:
+            from scrapers.sharepoint import sharepointScraper
+            return sharepointScraper
+        if "audiomack" in url:
+            from scrapers.audiomack import AudioMacScraper
+            return AudioMacScraper
         return None
 
     async def process_url(self, url: str, url_type: str) -> Dict[str, Any]:
