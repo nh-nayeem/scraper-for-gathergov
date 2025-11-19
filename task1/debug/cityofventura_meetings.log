@@ -1,0 +1,899 @@
+City of Ventura Meeting Scraper Debug Log
+=========================================
+Scraping URL: https://www.cityofventura.ca.gov/AgendaCenter
+Date Range: 2024-11-20 to 2025-11-26
+Timestamp: 2025-11-19T18:10:06.866109
+
+[*] Accessing https://www.cityofventura.ca.gov/AgendaCenter...
+[*] Found 221 meeting rows with class 'catAgendaRow'
+
+--- Processing Meeting #1 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #2 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 18 DE NOVIEMBRE DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #3 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #4 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 4 DE NOVIEMBRE DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #5 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #6 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 21 DE OCTUBRE DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #7 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #8 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 14 DE OCTUBRE DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #9 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #10 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 7 DE OCTUBRE DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #11 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #12 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 23 DE SEPTIEMBRE DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #13 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #14 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 16 DE SEPTIEMBRE DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #15 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #16 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 26 DE AGOSTO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #17 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Regular Meeting - Notice of Meeting Type Change
+
+--- Processing Meeting #18 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Special Meeting
+
+--- Processing Meeting #19 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 19 DE AGOSTO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #20 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Special Meeting
+
+--- Processing Meeting #21 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 9 DE JULIO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #22 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #23 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 8 DE JULIO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #24 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #25 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 1 DE JULIO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #26 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Special Meeting
+
+--- Processing Meeting #27 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 26 DE JUNIO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #28 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #29 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 24 DE JUNIO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #30 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Regular Meeting
+
+--- Processing Meeting #31 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 10 DE JUNIO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #32 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #33 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 27 DE MAYO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #34 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Special Meeting - General Plan
+
+--- Processing Meeting #35 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 15 DE MAYO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #36 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Special Meeting - General Plan
+
+--- Processing Meeting #37 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 14 DE MAYO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #38 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 13 DE MAYO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #39 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #40 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #41 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 6 DE MAYO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #42 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session Special Meeting
+
+--- Processing Meeting #43 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting
+
+--- Processing Meeting #44 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 22 DE ABRIL DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #45 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting - Supplemental Packet Posted
+
+--- Processing Meeting #46 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 8 DE ABRIL DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #47 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting - Supplemental Packet Posted
+
+--- Processing Meeting #48 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 25 DE MARZO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #49 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting - Supplemental Packet Posted
+
+--- Processing Meeting #50 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 18 DE MARZO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #51 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting - Supplemental Packet Posted
+
+--- Processing Meeting #52 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 25 DE FEBRERO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #53 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting - Supplemental Packet Posted
+
+--- Processing Meeting #54 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 11 DE FEBRERO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #55 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Strategic Priority Setting Meeting - Supplemental Packet Posted
+
+--- Processing Meeting #56 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 1 DE FEBRERO DE 2025 REUNIÓN DE DEFINICIÓN DE PRIORIDADES ESTRATÉGICAS
+
+--- Processing Meeting #57 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting - Supplemental Packet Posted
+
+--- Processing Meeting #58 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 28 DE ENERO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #59 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting - Supplemental Packet Posted
+
+--- Processing Meeting #60 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 21 DE ENERO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #61 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Closed Session/Regular Meeting - Supplemental Packet Posted
+
+--- Processing Meeting #62 ---
+    [+] INCLUDED - Meeting within date range
+        Title: 14 DE ENERO DE 2025 AGENDA DEL CONCEJO MUNICIPAL
+
+--- Processing Meeting #63 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Appointments Recommendation Committee Special Meeting
+
+--- Processing Meeting #64 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Appointments Recommendation Committee Special Meeting
+
+--- Processing Meeting #65 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Regular Meeting (11/13/2025)
+
+--- Processing Meeting #66 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Regular Meeting (10/09/2025)
+
+--- Processing Meeting #67 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Regular Meeting (9/11/2025)
+
+--- Processing Meeting #68 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Supplemental Packet 2 (8/14/2025)
+
+--- Processing Meeting #69 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Supplemental Packet 3 (8/14/2025)
+
+--- Processing Meeting #70 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Regular Meeting (08/14/2025)
+
+--- Processing Meeting #71 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Supplemental Packet 1 (8/14/2025)
+
+--- Processing Meeting #72 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Supplemental Packet 2 (7/10/2025)
+
+--- Processing Meeting #73 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Regular Meeting (07/10/2025)
+
+--- Processing Meeting #74 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Supplemental Packet 1 (7/10/2025)
+
+--- Processing Meeting #75 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Notice of Cancellation for the Arts and Culture Commission Meeting
+
+--- Processing Meeting #76 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Regular Meeting (05/8/2025)
+
+--- Processing Meeting #77 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Regular Meeting (04/10/2025)
+
+--- Processing Meeting #78 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Regular Meeting (03/13/2025)
+
+--- Processing Meeting #79 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Supplemental Packet for 3-13-2025
+
+--- Processing Meeting #80 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Regular Meeting (02/13/2025)
+
+--- Processing Meeting #81 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Arts and Culture Commission Regular Meeting (01/09/2025)
+
+--- Processing Meeting #82 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Streetlighting Ad Hoc Committee Meeting
+
+--- Processing Meeting #83 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Streetlighting Ad Hoc Committee Meeting
+
+--- Processing Meeting #84 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Rules Committee Regular Meeting - CANCELLED
+
+--- Processing Meeting #85 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Rules Committee Regular Meeting
+
+--- Processing Meeting #86 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Rules Committee Special Meeting
+
+--- Processing Meeting #87 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Rules Committee Regular Meeting
+
+--- Processing Meeting #88 ---
+    [+] INCLUDED - Meeting within date range
+        Title: City Council Rules Committee Special Meeting
+
+--- Processing Meeting #89 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Special Meeting - 6:00 PM
+
+--- Processing Meeting #90 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Special Meeting- 4:30 P.M.
+Regular Meeting – 5:30 P.M.
+
+--- Processing Meeting #91 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Meeting
+
+--- Processing Meeting #92 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Meeting
+
+--- Processing Meeting #93 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Meeting - CANCELLED
+
+--- Processing Meeting #94 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee - Special Meeting: Objective Design Standards - Second Open House
+
+--- Processing Meeting #95 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Meeting
+
+--- Processing Meeting #96 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Meeting
+
+--- Processing Meeting #97 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Meeting
+
+--- Processing Meeting #98 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Special Meeting - Objective Design Standards Open House
+
+--- Processing Meeting #99 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Meeting
+
+--- Processing Meeting #100 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Meeting
+
+--- Processing Meeting #101 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Meeting
+
+--- Processing Meeting #102 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Design Review Committee Meeting
+
+--- Processing Meeting #103 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Director's Hearing Agenda
+
+--- Processing Meeting #104 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Director's Hearing Meeting
+
+--- Processing Meeting #105 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Director's Hearing Meeting
+
+--- Processing Meeting #106 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Director's Hearing Meeting
+
+--- Processing Meeting #107 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Director's Hearing Meeting
+
+--- Processing Meeting #108 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Director's Hearing Meeting
+
+--- Processing Meeting #109 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Director's Hearing Meeting
+
+--- Processing Meeting #110 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Director's Hearing Meeting
+
+--- Processing Meeting #111 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Director's Hearing Meeting
+
+--- Processing Meeting #112 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Director's Hearing Meeting
+
+--- Processing Meeting #113 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Director's Hearing Meeting - Cancelled
+
+--- Processing Meeting #114 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Economic Development Subcommittee Regular Meeting - CANCELLED
+
+--- Processing Meeting #115 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Economic Development Subcommittee Special Meeting
+
+--- Processing Meeting #116 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Economic Development Subcommittee Special Meeting
+
+--- Processing Meeting #117 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Economic Development Subcommittee Regular Meeting - CANCELLED
+
+--- Processing Meeting #118 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Economic Development Subcommittee Regular Meeting
+
+--- Processing Meeting #119 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Economic Development Subcommittee Regular Meeting
+
+--- Processing Meeting #120 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Economic Development Subcommittee Regular Meeting
+
+--- Processing Meeting #121 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Finance, Audit & Budget Committee Special Meeting
+
+--- Processing Meeting #122 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Finance, Audit & Budget Committee Special Meeting
+
+--- Processing Meeting #123 ---
+    [+] INCLUDED - Meeting within date range
+        Title: General Plan Advisory Committee
+
+--- Processing Meeting #124 ---
+    [+] INCLUDED - Meeting within date range
+        Title: General Plan Advisory Committee Special Meeting
+
+--- Processing Meeting #125 ---
+    [+] INCLUDED - Meeting within date range
+        Title: General Plan Advisory Committee Meeting
+
+--- Processing Meeting #126 ---
+    [+] INCLUDED - Meeting within date range
+        Title: General Plan Advisory Committee Meeting
+
+--- Processing Meeting #127 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Historic Preservation Committee Meeting
+
+--- Processing Meeting #128 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Historic Preservation Committee Meeting
+
+--- Processing Meeting #129 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Historic Preservation Committee Meeting
+
+--- Processing Meeting #130 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Historic Preservation Committee Meeting - Cancelled
+
+--- Processing Meeting #131 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Historic Preservation Committee Meeting
+
+--- Processing Meeting #132 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Historic Preservation Committee Meeting
+
+--- Processing Meeting #133 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Historic Preservation Committee Meeting - Cancelled
+
+--- Processing Meeting #134 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Historic Preservation Committee Agenda
+
+--- Processing Meeting #135 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Historic Preservation Committee Meeting
+
+--- Processing Meeting #136 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Historic Preservation Committee Meeting
+
+--- Processing Meeting #137 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Historic Preservation Committee Meeting
+
+--- Processing Meeting #138 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Housing & Homelessness Subcommittee
+
+--- Processing Meeting #139 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Housing & Homelessness Subcommittee Special Meeting
+
+--- Processing Meeting #140 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Housing & Homelessness Subcommittee Meeting - CANCELLED
+
+--- Processing Meeting #141 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Housing & Homelessness Subcommittee Special Meeting
+
+--- Processing Meeting #142 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Housing & Homelessness Subcommittee
+
+--- Processing Meeting #143 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Housing & Homelessness Subcommittee
+
+--- Processing Meeting #144 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Housing & Homelessness Subcommittee
+
+--- Processing Meeting #145 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Housing & Homelessness Subcommittee
+
+--- Processing Meeting #146 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Housing & Homelessness Subcommittee
+
+--- Processing Meeting #147 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Housing & Homelessness Subcommittee - Meeting CANCELLATION
+
+--- Processing Meeting #148 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Housing & Homelessness Subcommittee
+
+--- Processing Meeting #149 ---
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: Main Street Moves Subcommittee Meeting
+
+--- Processing Meeting #150 ---
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: Supplemental Packet (10/07/2024)
+
+--- Processing Meeting #151 ---
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: Main Street Moves Subcommittee Special Meeting
+
+--- Processing Meeting #152 ---
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: Main Street Moves Subcommittee Meeting
+
+--- Processing Meeting #153 ---
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: Main Street Moves Subcommittee Meeting - CANCELLED
+
+--- Processing Meeting #154 ---
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: Main Street Moves Subcommittee Meeting
+
+--- Processing Meeting #155 ---
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: Main Street Moves Subcommittee Special Meeting
+
+--- Processing Meeting #156 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Measure O Citizens Oversight Committee - Regular Meeting
+
+--- Processing Meeting #157 ---
+    [+] INCLUDED - Meeting within date range
+        Title: CANCELLATION NOTICE - Measure O Citizens Oversight Committee, Regular Meeting on Monday, August 4, 2025
+
+--- Processing Meeting #158 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Measure O Citizens Oversight Committee - Regular Meeting
+
+--- Processing Meeting #159 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Measure O Citizens Oversight Committee - Supplemental Packet
+
+--- Processing Meeting #160 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Measure O Citizens Oversight Committee - Regular Meeting
+
+--- Processing Meeting #161 ---
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: Mobile Home Rent Review Board - June 2023 - Meeting Canceled
+
+--- Processing Meeting #162 ---
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: First Quarterly meeting of the Mobile Home Rent Review Board for 2023
+City Hall 3PM - Community Meeting Room
+
+--- Processing Meeting #163 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parking Advisory Committee Regular Meeting for Thursday, November 20, 2025
+
+--- Processing Meeting #164 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parking Advisory Committee Regular Meeting for Thursday, October 16, 2025
+
+--- Processing Meeting #165 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parking Advisory Committee Regular Meeting for Thursday, September 18, 2025 CANCELLED
+
+--- Processing Meeting #166 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parking Advisory Committee Regular Meeting for Thursday, August 21, 2025 CANCELLED
+
+--- Processing Meeting #167 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parking Advisory Committee Regular Meeting for Thursday, July 17, 2025
+
+--- Processing Meeting #168 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parking Advisory Committee Regular Meeting for Thursday, June 19, 2025 CANCELLED
+
+--- Processing Meeting #169 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parking Advisory Committee Regular Meeting for Thursday, May 15, 2025
+
+--- Processing Meeting #170 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parking Advisory Committee Regular Meeting for Thursday, April17, 2025 CANCELLED
+
+--- Processing Meeting #171 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parking Advisory Committee Regular Meeting for Thursday, March 20, 2025
+
+--- Processing Meeting #172 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parking Advisory Committee Regular Meeting for Thursday, February 20, 2025
+
+--- Processing Meeting #173 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Downtown Parking Advisory Committee Regular Meeting for Thursday, January 16, 2025
+
+--- Processing Meeting #174 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Regular Meeting (11/12/2025)
+
+--- Processing Meeting #175 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Regular Meeting (10/08/2025)
+
+--- Processing Meeting #176 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Supplemental Packet (10/8/2025)
+
+--- Processing Meeting #177 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Regular Meeting (9/10/2025)
+
+--- Processing Meeting #178 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Supplemental Packet (9/10/2025)
+
+--- Processing Meeting #179 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Notice of Cancellation for the Parks and Recreation Commission Meeting scheduled for August 13, 2025
+
+--- Processing Meeting #180 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Regular Meeting (7/9/2025)
+
+--- Processing Meeting #181 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Special Meeting (06/25/2025)
+
+--- Processing Meeting #182 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Supplemental Packet (6/25/2025)
+
+--- Processing Meeting #183 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Notice of Cancellation for the Parks and Recreation Commission Meeting scheduled for June 11, 2025
+
+--- Processing Meeting #184 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Regular Meeting (5/14/2025)
+
+--- Processing Meeting #185 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Supplemental Packet for 5/14/2025
+
+--- Processing Meeting #186 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Regular Meeting (4/09/2025)
+
+--- Processing Meeting #187 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Regular Meeting (3/12/2025)
+
+--- Processing Meeting #188 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Supplemental Packet for 3/12/2025
+
+--- Processing Meeting #189 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Regular Meeting (2/12/2025)
+
+--- Processing Meeting #190 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Supplemental Packet for 2-12-2025
+
+--- Processing Meeting #191 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Parks and Recreation Commission Regular Meeting (1/08/2025)
+
+--- Processing Meeting #192 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Agenda
+
+--- Processing Meeting #193 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Meeting
+
+--- Processing Meeting #194 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Special Meeting - Cancelled
+
+--- Processing Meeting #195 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Meeting - General Plan
+
+--- Processing Meeting #196 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Meeting
+
+--- Processing Meeting #197 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Meeting
+
+--- Processing Meeting #198 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Special Planning Commission Meeting and General Plan EIR Open House
+
+--- Processing Meeting #199 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Meeting - Cancelled
+
+--- Processing Meeting #200 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Special Meeting Agenda
+
+--- Processing Meeting #201 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Meeting
+
+--- Processing Meeting #202 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Meeting
+
+--- Processing Meeting #203 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Special Meeting
+
+--- Processing Meeting #204 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Meeting
+
+--- Processing Meeting #205 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Special Meeting
+
+--- Processing Meeting #206 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Meeting
+
+--- Processing Meeting #207 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Planning Commission Meeting
+
+--- Processing Meeting #208 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Water Commission Agenda October 27, 2025 Regular Meeting
+
+--- Processing Meeting #209 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Water Commission Agenda September 22, 2025 Regular Meeting
+
+--- Processing Meeting #210 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Water Commission Agenda September 8, 2025 Special Meeting
+
+--- Processing Meeting #211 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Water Commission Agenda August 25, 2025 Regular Meeting
+
+--- Processing Meeting #212 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Water Commission Agenda August 7, 2025 Special Meeting
+
+--- Processing Meeting #213 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Notice of Cancellation of Regular Water Commission Meeting for July 28, 2025
+
+--- Processing Meeting #214 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Water Commission Agenda June 23, 2025 Regular Meeting
+
+--- Processing Meeting #215 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Water Commission Agenda May 19, 2025 Regular Meeting
+
+--- Processing Meeting #216 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Water Commission Agenda April 28, 2025 Regular Meeting
+
+--- Processing Meeting #217 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Water Commission Agenda March 24, 2025 Regular Meeting - Amended 3/24/2025 - Supplemental Packet Posted
+
+--- Processing Meeting #218 ---
+    [+] INCLUDED - Meeting within date range
+        Title: ADVANCED AGENDA ITEM - PSA for Katz and Associates Strategic Communications Planning and Outreach Questionnaire
+
+--- Processing Meeting #219 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Water Commission Agenda February 24, 2025 Regular Meeting - Supplemental Packet Posted
+
+--- Processing Meeting #220 ---
+    [+] INCLUDED - Meeting within date range
+        Title: ADVANCED AGENDA ITEM - 2025 Water and Wastewater Rate Study
+
+--- Processing Meeting #221 ---
+    [+] INCLUDED - Meeting within date range
+        Title: Water Commission Agenda January 27, 2025 Regular Meeting
+
+=== Summary ===
+Total meetings processed: 221
+Meetings within date range: 212
+Meetings added to results: 212

@@ -1,0 +1,152 @@
+Bethlehem Meeting Scraper Debug Log
+===================================
+Base URL: https://www.bethlehem-pa.gov/Calendar
+Date Range: 2024-11-20 to 2025-11-26
+Timestamp: 2025-11-19T18:11:52.347627
+
+[*] Starting calendar URL extraction...
+[*] Processing month 1...
+    [+] Found 8 meeting URLs this month (8 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9405
+[*] Processing month 2...
+    [+] Found 6 meeting URLs this month (4 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9375
+[*] Processing month 3...
+    [+] Found 6 meeting URLs this month (4 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9344
+[*] Processing month 4...
+    [+] Found 4 meeting URLs this month (3 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9313
+[*] Processing month 5...
+    [+] Found 4 meeting URLs this month (3 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9283
+[*] Processing month 6...
+    [+] Found 5 meeting URLs this month (4 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9252
+[*] Processing month 7...
+    [+] Found 4 meeting URLs this month (3 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9222
+[*] Processing month 8...
+    [+] Found 4 meeting URLs this month (2 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9191
+[*] Processing month 9...
+    [+] Found 6 meeting URLs this month (5 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9163
+[*] Processing month 10...
+    [+] Found 6 meeting URLs this month (3 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9132
+[*] Processing month 11...
+    [+] Found 4 meeting URLs this month (2 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9101
+[*] Processing month 12...
+    [+] Found 4 meeting URLs this month (4 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9071
+[*] Processing month 13...
+    [+] Found 7 meeting URLs this month (4 unique)
+    [*] Switching to next month via EVENTARGUMENT = V9040
+[*] Total meeting URLs extracted: 49
+[*] Starting individual meeting scraping...
+[*] Processing meeting 1/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/449
+        [+] Meeting added: Public Safety Committee Meeting on 2025-10-29
+[*] Processing meeting 2/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/390
+        [+] Meeting added: City Council Meeting - 11/5/2025 7:00:00 PM on 2025-11-05
+[*] Processing meeting 3/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/363
+        [+] Meeting added: Budget Meeting (1st) on 2025-11-10
+[*] Processing meeting 4/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/364
+        [+] Meeting added: Budget Meeting (2nd) on 2025-11-12
+[*] Processing meeting 5/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/391
+        [+] Meeting added: City Council Meeting - 11/18/2025 7:00:00 PM on 2025-11-18
+[*] Processing meeting 6/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/365
+        [+] Meeting added: Budget Meeting (3rd) on 2025-11-20
+[*] Processing meeting 7/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/392
+        [-] Meeting outside date range: 2025-12-02
+[*] Processing meeting 8/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/448
+        [-] Meeting outside date range: 2025-12-02
+[*] Processing meeting 9/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/388
+        [+] Meeting added: City Council Meeting - 10/7/2025 7:00:00 PM on 2025-10-07
+[*] Processing meeting 10/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/418
+        [+] Meeting added: Committee of the Whole Meeting-Amend Article 112 - 10/7/25 6:00 PM on 2025-10-07
+[*] Processing meeting 11/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/389
+        [+] Meeting added: City Council Meeting - 10/21/2025 7:00:00 PM on 2025-10-21
+[*] Processing meeting 12/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/367
+        [+] Meeting added: Committee of the Whole Meeting-Capital Plan Review on 2025-10-21
+[*] Processing meeting 13/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/386
+        [+] Meeting added: City Council Meeting - 9/2/2025 7:00:00 PM on 2025-09-02
+[*] Processing meeting 14/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/387
+        [+] Meeting added: City Council Meeting - 9/16/2025 7:00:00 PM on 2025-09-16
+[*] Processing meeting 15/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/409
+        [+] Meeting added: Finance Committee Meeting 9/16/2025 6:00 PM on 2025-09-16
+[*] Processing meeting 16/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/404/404
+        [+] Meeting added: POSTPONED - City Council-Pension Board Appeal Hearing - 9/25/2025 6:00:00 PM on 2025-09-25
+[*] Processing meeting 17/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/382
+        [+] Meeting added: City Council Meeting - 8/5/2025 on 2025-08-05
+[*] Processing meeting 18/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/404/408
+        [+] Meeting added: POSTPONED - City Council-Pension Board Appeal Hearing - 8/12/2025 6:00:00 PM on 2025-08-12
+[*] Processing meeting 19/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/385
+        [+] Meeting added: City Council Meeting - 8/19/2025 7:00:00 PM on 2025-08-19
+[*] Processing meeting 20/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/380
+        [+] Meeting added: City Council Meeting - 7/1/2025 on 2025-07-01
+[*] Processing meeting 21/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/381
+        [+] Meeting added: City Council Meeting - 7/15/2025 on 2025-07-15
+[*] Processing meeting 22/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/406
+        [+] Meeting added: No title on 2025-07-15
+[*] Processing meeting 23/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/378
+        [+] Meeting added: City Council Meeting - 6/3/2025 on 2025-06-03
+[*] Processing meeting 24/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/379
+        [+] Meeting added: City Council Meeting - 6/17/2025 on 2025-06-17
+[*] Processing meeting 25/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/399
+        [+] Meeting added: Community Development Committee 6/17/2025 on 2025-06-17
+[*] Processing meeting 26/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/404
+        [+] Meeting added: POSTPONED - City Council-Pension Board Appeal Hearing - 6/24/2025 6:00:00 PM on 2025-06-24
+[*] Processing meeting 27/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/398
+        [+] Meeting added: Finance Committee 4/29/2025 on 2025-04-29
+[*] Processing meeting 28/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/400
+        [+] Meeting added: City Council Meeting - 5/6/2025 on 2025-05-06
+[*] Processing meeting 29/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/377
+        [+] Meeting added: City Council Meeting - 5/21/2025 on 2025-05-21
+[*] Processing meeting 30/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/374
+        [+] Meeting added: No title on 2025-04-01
+[*] Processing meeting 31/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/375
+        [+] Meeting added: City Council Meeting - 4/15/2025 on 2025-04-15
+[*] Processing meeting 32/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/396
+        [+] Meeting added: Finance Committee on 2025-02-24
+[*] Processing meeting 33/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/372
+        [+] Meeting added: City Council Meeting - 3/4/2025 on 2025-03-04
+[*] Processing meeting 34/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/394
+        [+] Meeting added: POSTPONED - Community Development Committee 3/4/2025 on 2025-03-04
+[*] Processing meeting 35/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/373
+        [+] Meeting added: City Council Meeting - 3/18/2025 on 2025-03-18
+[*] Processing meeting 36/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/397
+        [+] Meeting added: Community Development Committee 3/18/2025 on 2025-03-18
+[*] Processing meeting 37/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/370
+        [+] Meeting added: No title on 2025-02-04
+[*] Processing meeting 38/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/Committee-Meetings/395
+        [+] Meeting added: Finance Committee on 2025-02-04
+[*] Processing meeting 39/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/371
+        [+] Meeting added: City Council Meeting - 2/18/2025 on 2025-02-18
+[*] Processing meeting 40/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/368
+        [+] Meeting added: No title on 2025-01-07
+[*] Processing meeting 41/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2025/City-Council-Meetings/369
+        [+] Meeting added: City Council Meeting - 1/21/2025 on 2025-01-21
+[*] Processing meeting 42/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2024/City-Council-Meetings/365
+        [+] Meeting added: Budget Meeting (3rd) on 2024-11-25
+[*] Processing meeting 43/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2024/City-Council-Meetings/344
+        [+] Meeting added: City Council Meeting 12/3/2024 on 2024-12-03
+[*] Processing meeting 44/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2024/Committee-Meetings/362
+        [+] Meeting added: Finance Committee on 2024-12-03
+[*] Processing meeting 45/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2024/City-Council-Meetings/345
+        [+] Meeting added: City Council Meeting 12/17/2024 on 2024-12-17
+[*] Processing meeting 46/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2024/City-Council-Meetings/342
+        [-] Meeting outside date range: 2024-11-06
+[*] Processing meeting 47/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2024/City-Council-Meetings/363
+        [-] Meeting outside date range: 2024-11-11
+[*] Processing meeting 48/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2024/City-Council-Meetings/364
+        [-] Meeting outside date range: 2024-11-12
+[*] Processing meeting 49/49: https://www.bethlehem-pa.gov/Calendar/Meetings/2024/City-Council-Meetings/343
+        [-] Meeting outside date range: 2024-11-19
+
+=== Summary ===
+Total meeting URLs found: 49
+Total meetings processed: 49
+Meetings within date range: 43
+Meetings added to results: 43

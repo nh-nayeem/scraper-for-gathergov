@@ -1,0 +1,61 @@
+Lansdale Meeting Scraper Debug Log
+===================================
+Scraping URL: https://www.lansdale.org/CivicMedia?CID=2024-Council-Meetings-26
+Date Range: 2024-11-20 to 2025-11-26
+Timestamp: 2025-11-19T18:10:53.664865
+
+[*] Accessing https://www.lansdale.org/CivicMedia?CID=2024-Council-Meetings-26...
+[*] Found 8 video links on the page
+
+--- Processing Video #1 ---
+    Video URL: https://www.lansdale.org/CivicMedia.aspx?VID=Work-Session-1242024-262
+    [*] Extracting meeting data...
+    [+] INCLUDED - Meeting within date range
+        Title: Work Session 12.4.2024
+
+--- Processing Video #2 ---
+    Video URL: https://www.lansdale.org/CivicMedia.aspx?VID=Work-Session-1242024-262#player
+    [*] Extracting meeting data...
+    [+] INCLUDED - Meeting within date range
+        Title: Work Session 12.4.2024
+
+--- Processing Video #3 ---
+    Video URL: https://www.lansdale.org/CivicMedia.aspx?VID=November-20-Business-Meeting-260#player
+    [*] Extracting meeting data...
+    [+] INCLUDED - Meeting within date range
+        Title: November 20 Business Meeting
+
+--- Processing Video #4 ---
+    Video URL: https://www.lansdale.org/CivicMedia.aspx?VID=November-6-Work-Session-259#player
+    [*] Extracting meeting data...
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: November 6 Work Session
+
+--- Processing Video #5 ---
+    Video URL: https://www.lansdale.org/CivicMedia.aspx?VID=101624-Business-Meeting-2-258#player
+    [*] Extracting meeting data...
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: 101624 Business Meeting 2
+
+--- Processing Video #6 ---
+    Video URL: https://www.lansdale.org/CivicMedia.aspx?VID=10022024-worksession-257#player
+    [*] Extracting meeting data...
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: 10022024 worksession
+
+--- Processing Video #7 ---
+    Video URL: https://www.lansdale.org/CivicMedia.aspx?VID=September-18-Business-Meeting-256#player
+    [*] Extracting meeting data...
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: September 18 Business Meeting
+
+--- Processing Video #8 ---
+    Video URL: https://www.lansdale.org/CivicMedia.aspx?VID=Work-Session-September-4-255#player
+    [*] Extracting meeting data...
+    [-] SKIPPED - Meeting outside date range (2024-11-20 to 2025-11-26)
+        Title: Work Session September 4
+
+=== Summary ===
+Total videos processed: 8
+Videos within date range: 3
+Meetings added to results: 4

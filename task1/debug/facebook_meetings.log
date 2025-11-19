@@ -1,0 +1,259 @@
+Facebook Meeting Scraper Debug Log
+==================================
+Scraping URL: https://www.facebook.com/DauphinCountyPA/videos
+Date Range: 2024-11-20 to 2025-11-26
+Timestamp: 2025-11-19T18:10:27.292205
+
+[*] Accessing https://www.facebook.com/DauphinCountyPA/videos...
+[*] Closed login popup with selector: [aria-label="Close"]
+[!] Networkidle timeout, continuing anyway...
+[*] Found 46 video links
+
+--- Processing Video #1 ---
+    Video URL: https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2FDauphinCountyPA%2Fvideos
+    Title: Log in
+    [!] No date found in title
+
+--- Processing Video #2 ---
+    Video URL: /100064568477099/videos/1497069601513182
+    Title: Dauphin County 2026 Budget Hearing 11/13/2025
+    Formatted Date: 2025-11-13
+    [+] INCLUDED - Meeting within date range
+
+--- Processing Video #3 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-2026-budget-hearing-11132025/1497069601513182/
+    Title: 1:37:57
+    [!] No date found in title
+
+--- Processing Video #4 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-2026-budget-hearing-11132025/1497069601513182/
+    Title: Dauphin County 2026 Budget Hearing 11/13/2025
+    Formatted Date: 2025-11-13
+    [+] INCLUDED - Meeting within date range
+
+--- Processing Video #5 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-commissioners-workshop-meeting-11122025/728567373633436/
+    Title: 35:06
+    [!] No date found in title
+
+--- Processing Video #6 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-commissioners-workshop-meeting-11122025/728567373633436/
+    Title: Dauphin County Commissioners' Workshop meeting 11/12/2025
+    Formatted Date: 2025-11-12
+    [+] INCLUDED - Meeting within date range
+
+--- Processing Video #7 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-prison-town-hall-meeting-11102025/1354658713066657/
+    Title: 1:52:05
+    [!] No date found in title
+
+--- Processing Video #8 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-prison-town-hall-meeting-11102025/1354658713066657/
+    Title: Dauphin County Prison Town Hall meeting 11/10/2025
+    Formatted Date: 2025-11-10
+    [+] INCLUDED - Meeting within date range
+
+--- Processing Video #9 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-2026-budget-hearing-111025-afternoon/626977670410089/
+    Title: 2:28:11
+    [!] No date found in title
+
+--- Processing Video #10 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-2026-budget-hearing-111025-afternoon/626977670410089/
+    Title: Dauphin County 2026 Budget Hearing 11/10/25 Afternoon
+    [!] No date found in title
+
+--- Processing Video #11 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-2026-budget-hearing-111025-morning/1189278383077815/
+    Title: 2:22:10
+    [!] No date found in title
+
+--- Processing Video #12 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-2026-budget-hearing-111025-morning/1189278383077815/
+    Title: Dauphin County 2026 Budget Hearing 11/10/25 morning
+    [!] No date found in title
+
+--- Processing Video #13 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-2026-budget-hearing/2253894891686402/
+    Title: 2:22:55
+    [!] No date found in title
+
+--- Processing Video #14 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-2026-budget-hearing/2253894891686402/
+    Title: Dauphin County 2026 Budget Hearing
+    [!] No date found in title
+
+--- Processing Video #15 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-commissioners-legislative-meeting-1152025/2288073781665193/
+    Title: 1:08:01
+    [!] No date found in title
+
+--- Processing Video #16 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-commissioners-legislative-meeting-1152025/2288073781665193/
+    Title: Dauphin County Commissioners' Legislative meeting 11/5/2025
+    Formatted Date: 2025-11-05
+    [+] INCLUDED - Meeting within date range
+
+--- Processing Video #17 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-commissioners-workshop-meeting-10292025/802668019211471/
+    Title: 56:24
+    [!] No date found in title
+
+--- Processing Video #18 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-commissioners-workshop-meeting-10292025/802668019211471/
+    Title: Dauphin County Commissioners' Workshop meeting 10/29/2025
+    Formatted Date: 2025-10-29
+    [+] INCLUDED - Meeting within date range
+
+--- Processing Video #19 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-commissioners-legislative-meeting-102225/1831608501054262/
+    Title: 38:54
+    [!] No date found in title
+
+--- Processing Video #20 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-commissioners-legislative-meeting-102225/1831608501054262/
+    Title: Dauphin County Commissioners' Legislative Meeting 10/22/25
+    [!] No date found in title
+
+--- Processing Video #21 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/join-us-at-wildwood-park-on-saturday-september-21st-for-celebrate-wildwood-dont-/3831875120415889/
+    Title: 3:31
+    [!] No date found in title
+
+--- Processing Video #22 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/join-us-at-wildwood-park-on-saturday-september-21st-for-celebrate-wildwood-dont-/3831875120415889/
+    Title: Join us at Wildwood Park on Saturday, September 21st for Celebrate Wildwood! Don’t miss your chance to celebrate a day of all things Wildwood with live music, guided walks, kids’ nature activities, food, and giveaways!
+
+Sponsored by Lancaster County Solid Waste Management Authority.
+
+Event website: https://bit.ly/Celebrate_WW
+    [!] No date found in title
+
+--- Processing Video #23 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/commissioner-george-hartwick-joins-soni-diamond-to-share-the-excitement-of-the-1/1021891729123262/
+    Title: 3:18
+    [!] No date found in title
+
+--- Processing Video #24 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/commissioner-george-hartwick-joins-soni-diamond-to-share-the-excitement-of-the-1/1021891729123262/
+    Title: Commissioner George Hartwick joins Soni Diamond to share the excitement of the 16th Annual Cultural Fest, set to electrify the city riverfront tomorrow from 3 pm to 10 pm, rain or shine. Please listen and see what live music, ethnic foods, traditional dancing and more is in store! And remember, admission to this live entertainment and more is FREE.
+    [!] No date found in title
+
+--- Processing Video #25 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/harrisburg-symphony/877909667710137/
+    Title: Sorry, we're having trouble with playing this video.Learn more0:58
+    [!] No date found in title
+
+--- Processing Video #26 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/harrisburg-symphony/877909667710137/
+    Title: Harrisburg Symphony
+    [!] No date found in title
+
+--- Processing Video #27 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dancing-to-kenyan-independence/835316445179378/
+    Title: 0:13
+    [!] No date found in title
+
+--- Processing Video #28 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dancing-to-kenyan-independence/835316445179378/
+    Title: Dancing to Kenyan Independence
+    [!] No date found in title
+
+--- Processing Video #29 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-commissioner-mike-pries-rallies-the-students-from-nativity-and-st/754166746672996/
+    Title: 1:13
+    [!] No date found in title
+
+--- Processing Video #30 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-commissioner-mike-pries-rallies-the-students-from-nativity-and-st/754166746672996/
+    Title: Dauphin County Commissioner Mike Pries rallies the students from Nativity and St.Stephens Schools before the original play at Gamut Theater by Sharia Benn. The Jackson Rooming House spotlights the many major musicians who played and stayed in Harrisburg
+    [!] No date found in title
+
+--- Processing Video #31 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/new-years/1836825083432988/
+    Title: 0:05
+    [!] No date found in title
+
+--- Processing Video #32 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/new-years/1836825083432988/
+    Title: New Year's
+    [!] No date found in title
+
+--- Processing Video #33 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/santas-helpers-the-county-commissioners-and-judge-john-cherry-are-giving-you-a-p/3549701235359187/
+    Title: 0:23
+    [!] No date found in title
+
+--- Processing Video #34 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/santas-helpers-the-county-commissioners-and-judge-john-cherry-are-giving-you-a-p/3549701235359187/
+    Title: Santa’s helpers (the county commissioners and Judge John Cherry) are giving you a peek into the toy store being shopped by Children & Youth Services’ client families.
+
+🎁 454 families
+🎁 1,173 children
+🎁 17 businesses and organizations donating gifts
+    [!] No date found in title
+
+--- Processing Video #35 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/thanksgiving-2023/705887951603598/
+    Title: 0:14
+    [!] No date found in title
+
+--- Processing Video #36 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/thanksgiving-2023/705887951603598/
+    Title: Thanksgiving 2023
+    [!] No date found in title
+
+--- Processing Video #37 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/a-highlight-of-the-hispanic-heritage-festival-every-year-the-food-were-having-a-/888050996265621/
+    Title: 0:18
+    [!] No date found in title
+
+--- Processing Video #38 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/a-highlight-of-the-hispanic-heritage-festival-every-year-the-food-were-having-a-/888050996265621/
+    Title: A highlight of the Hispanic Heritage Festival every year? The food! We’re having a great time this afternoon celebrating the accomplishments and cultural milestones of our Hispanic and Latino friends.
+    [!] No date found in title
+
+--- Processing Video #39 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/greenways-trails-summit/183389744782244/
+    Title: 2:57
+    [!] No date found in title
+
+--- Processing Video #40 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/greenways-trails-summit/183389744782244/
+    Title: Greenways & Trails Summit
+    [!] No date found in title
+
+--- Processing Video #41 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-drug-alcohol-services/348368100863653/
+    Title: 1:11
+    [!] No date found in title
+
+--- Processing Video #42 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-drug-alcohol-services/348368100863653/
+    Title: Dauphin County Drug & Alcohol Services
+    [!] No date found in title
+
+--- Processing Video #43 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/when-the-hershey-bears-faced-the-coachella-valley-firebirds-in-the-calder-cup-ch/653888466607139/
+    Title: 0:53
+    [!] No date found in title
+
+--- Processing Video #44 ---
+    Video URL: https://www.facebook.com/DauphinCountyPA/videos/when-the-hershey-bears-faced-the-coachella-valley-firebirds-in-the-calder-cup-ch/653888466607139/
+    Title: When the Hershey Bears faced the Coachella Valley Firebirds in the Calder Cup Championships, Supervisor V. Manuel Perez initiated a wager on the AHL championships’ outcome. Today, we held an unboxing for the spoils of that wager. Go Bears!
+    [!] No date found in title
+
+--- Processing Video #45 ---
+    Video URL: /login/?next=%2FDauphinCountyPA%2Fvideos
+    Title: Log in
+    [!] No date found in title
+
+--- Processing Video #46 ---
+    Video URL: /reg/?next=%2FDauphinCountyPA%2Fvideos
+    Title: Create new account
+    [!] No date found in title
+
+=== Summary ===
+Total videos processed: 6
+Videos within date range: 6
+Meetings added to results: 6
