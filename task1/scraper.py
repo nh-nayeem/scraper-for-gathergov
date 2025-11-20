@@ -26,6 +26,11 @@ class MeetingScraper:
         if 'bethlehem' in base_url:
             from scrapers.bethlehem import BethlehemScraper
             return BethlehemScraper
+        
+        if 'boarddocs' in base_url:
+            from scrapers.boarddocs import BoardDocsScraper
+            return BoardDocsScraper
+
         return None
 
     def scrape(self) -> List[Dict[str, Any]]:

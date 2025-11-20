@@ -1,0 +1,66 @@
+BoardDocs Meeting Scraper Debug Log
+===================================
+Base URL: https://go.boarddocs.com/ca/acoe/Board.nsf/Public
+Date Range: 2024-11-20 to 2025-11-26
+Timestamp: 2025-11-19T19:15:29.934457
+
+Found 46 script tags in head
+Found 328 meetings in JSON data
+Added meeting: Regular Board Meeting on 2025-11-18
+Added meeting: POLICY & LEGISLATION COMMITTEE MEETING on 2025-11-18
+Added meeting: Regular Board Meeting on 2025-10-14
+Added meeting: BUDGET COMMITTEE MEETING on 2025-10-14
+Added meeting: POLICY & LEGISLATION COMMITTEE MEETING on 2025-10-14
+Added meeting: Regular Board Meeting on 2025-09-23
+Added meeting: POLICY & LEGISLATION COMMITTEE MEETING on 2025-09-09
+Added meeting: Regular Board Meeting on 2025-09-09
+Added meeting: Special Board Meeting - Interdistrict Transfer Appeals on 2025-09-08
+Added meeting: Regular Board Meeting on 2025-08-12
+Added meeting: FACILITIES COMMITTEE MEETING on 2025-08-12
+Added meeting: Reorganization Board Meeting on 2025-07-22
+Added meeting: Regular Board Meeting on 2025-06-10
+Added meeting: BUDGET COMMITTEE MEETING on 2025-06-09
+Added meeting: POLICY & LEGISLATION COMMITTEE MEETING on 2025-06-09
+Added meeting: AMENDED - Regular Board Meeting on 2025-05-27
+Added meeting: BUDGET COMMITTEE MEETING on 2025-05-27
+Added meeting: POLICY & LEGISLATION COMMITTEE MEETING on 2025-05-27
+Added meeting: Regular Board Meeting on 2025-05-13
+Added meeting: POLICY & LEGISLATION COMMITTEE MEETING on 2025-05-13
+Added meeting: POLICY & LEGISLATION COMMITTEE MEETING on 2025-04-22
+Added meeting: Regular Board Meeting on 2025-04-22
+Added meeting: Regular Board Meeting on 2025-04-08
+Added meeting: POLICY & LEGISLATION COMMITTEE MEETING on 2025-04-08
+Added meeting: AD HOC INTERDISTRICT TRANSFER APPEALS (IDT) AND REDISTRICTING COMMITTEE MEETING on 2025-04-08
+Added meeting: Regular Board Meeting on 2025-03-11
+Added meeting: AD HOC INTERDISTRICT TRANSFER APPEALS (IDT) AND REDISTRICTING COMMITTEE MEETING - CANCELED on 2025-03-11
+Added meeting: POLICY & LEGISLATION COMMITTEE MEETING - CANCELED on 2025-03-11
+Added meeting: BUDGET COMMITTEE MEETING on 2025-03-11
+Added meeting: BUDGET COMMITTEE MEETING on 2025-02-25
+Added meeting: Regular Board Meeting on 2025-02-20
+Added meeting: Regular Board Meeting on 2025-02-11
+Added meeting: Alameda County Committee on School District Organization on 2025-02-11
+Added meeting: AD HOC INTERDISTRICT TRANSFER APPEALS (IDT) AND REDISTRICTING COMMITTEE MEETING on 2025-01-28
+Added meeting: AMENDED - Regular Board Meeting on 2025-01-28
+Added meeting: POLICY & LEGISLATION COMMITTEE MEETING on 2025-01-28
+Added meeting: Regular Board Meeting on 2024-12-10
+Added meeting: BUDGET COMMITTEE MEETING on 2024-12-10
+Added meeting: POLICY & LEGISLATION COMMITTEE MEETING on 2024-12-10
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2025-11-20
+Added meeting: Special Meeting of the Personnel Commission - 9:00 AM-CANCELLED on 2025-10-30
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2025-10-09
+Added meeting: Special Meeting of the Personnel Commission - 1:00 PM on 2025-10-09
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2025-09-11
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2025-08-14
+Added meeting: Personnel Commission Annual Retreat - 9:00 AM on 2025-08-13
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2025-07-17
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2025-06-10
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2025-05-15
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2025-04-10
+Added meeting: Special Meeting of the Personnel Commission - 1:00 PM on 2025-04-10
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2025-03-13
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2025-02-13
+Added meeting: Special Meeting of the Personnel Commission - 1:00 PM on 2025-02-13
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2025-01-09
+Added meeting: Personnel Commission Mid-Year Retreat - 9:30 AM on 2025-01-09
+Added meeting: Regular Meeting of the Personnel Commission - 2:00 PM on 2024-12-12
+Successfully extracted 57 meetings within date range

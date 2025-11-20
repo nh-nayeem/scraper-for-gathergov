@@ -2,12 +2,12 @@ Facebook Meeting Scraper Debug Log
 ==================================
 Scraping URL: https://www.facebook.com/DauphinCountyPA/videos
 Date Range: 2024-11-20 to 2025-11-26
-Timestamp: 2025-11-19T18:10:27.292205
+Timestamp: 2025-11-19T19:11:55.055165
 
 [*] Accessing https://www.facebook.com/DauphinCountyPA/videos...
 [*] Closed login popup with selector: [aria-label="Close"]
 [!] Networkidle timeout, continuing anyway...
-[*] Found 46 video links
+[*] Found 34 video links
 
 --- Processing Video #1 ---
     Video URL: https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2FDauphinCountyPA%2Fvideos
@@ -180,75 +180,11 @@ Event website: https://bit.ly/Celebrate_WW
     [!] No date found in title
 
 --- Processing Video #33 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/santas-helpers-the-county-commissioners-and-judge-john-cherry-are-giving-you-a-p/3549701235359187/
-    Title: 0:23
-    [!] No date found in title
-
---- Processing Video #34 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/santas-helpers-the-county-commissioners-and-judge-john-cherry-are-giving-you-a-p/3549701235359187/
-    Title: Santa’s helpers (the county commissioners and Judge John Cherry) are giving you a peek into the toy store being shopped by Children & Youth Services’ client families.
-
-🎁 454 families
-🎁 1,173 children
-🎁 17 businesses and organizations donating gifts
-    [!] No date found in title
-
---- Processing Video #35 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/thanksgiving-2023/705887951603598/
-    Title: 0:14
-    [!] No date found in title
-
---- Processing Video #36 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/thanksgiving-2023/705887951603598/
-    Title: Thanksgiving 2023
-    [!] No date found in title
-
---- Processing Video #37 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/a-highlight-of-the-hispanic-heritage-festival-every-year-the-food-were-having-a-/888050996265621/
-    Title: 0:18
-    [!] No date found in title
-
---- Processing Video #38 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/a-highlight-of-the-hispanic-heritage-festival-every-year-the-food-were-having-a-/888050996265621/
-    Title: A highlight of the Hispanic Heritage Festival every year? The food! We’re having a great time this afternoon celebrating the accomplishments and cultural milestones of our Hispanic and Latino friends.
-    [!] No date found in title
-
---- Processing Video #39 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/greenways-trails-summit/183389744782244/
-    Title: 2:57
-    [!] No date found in title
-
---- Processing Video #40 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/greenways-trails-summit/183389744782244/
-    Title: Greenways & Trails Summit
-    [!] No date found in title
-
---- Processing Video #41 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-drug-alcohol-services/348368100863653/
-    Title: 1:11
-    [!] No date found in title
-
---- Processing Video #42 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/dauphin-county-drug-alcohol-services/348368100863653/
-    Title: Dauphin County Drug & Alcohol Services
-    [!] No date found in title
-
---- Processing Video #43 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/when-the-hershey-bears-faced-the-coachella-valley-firebirds-in-the-calder-cup-ch/653888466607139/
-    Title: 0:53
-    [!] No date found in title
-
---- Processing Video #44 ---
-    Video URL: https://www.facebook.com/DauphinCountyPA/videos/when-the-hershey-bears-faced-the-coachella-valley-firebirds-in-the-calder-cup-ch/653888466607139/
-    Title: When the Hershey Bears faced the Coachella Valley Firebirds in the Calder Cup Championships, Supervisor V. Manuel Perez initiated a wager on the AHL championships’ outcome. Today, we held an unboxing for the spoils of that wager. Go Bears!
-    [!] No date found in title
-
---- Processing Video #45 ---
     Video URL: /login/?next=%2FDauphinCountyPA%2Fvideos
     Title: Log in
     [!] No date found in title
 
---- Processing Video #46 ---
+--- Processing Video #34 ---
     Video URL: /reg/?next=%2FDauphinCountyPA%2Fvideos
     Title: Create new account
     [!] No date found in title

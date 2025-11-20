@@ -1,0 +1,11 @@
+Meeting Scraper Debug Log
+========================
+Start Date: 2024-11-20
+End Date: 2025-11-26
+Total URLs: 1
+Timestamp: 2025-11-21T02:29:55.438639
+
+2025-11-21T02:29:55.438951 - [*] Processing URL: https://www.cityofsanteeca.gov/city-clerk/agendas-minutes
+2025-11-21T02:29:55.439218 - [*] Trying TableScraper for https://www.cityofsanteeca.gov/city-clerk/agendas-minutes
+2025-11-21T02:30:23.049617 - [+] TableScraper succeeded for https://www.cityofsanteeca.gov/city-clerk/agendas-minutes
+2025-11-21T02:30:23.049924 - [+] Found 32 meetings for https://www.cityofsanteeca.gov/city-clerk/agendas-minutes

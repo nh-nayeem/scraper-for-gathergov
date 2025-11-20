@@ -2,7 +2,7 @@ City of Ventura Meeting Scraper Debug Log
 =========================================
 Scraping URL: https://www.cityofventura.ca.gov/AgendaCenter
 Date Range: 2024-11-20 to 2025-11-26
-Timestamp: 2025-11-19T18:10:06.866109
+Timestamp: 2025-11-19T19:11:36.014537
 
 [*] Accessing https://www.cityofventura.ca.gov/AgendaCenter...
 [*] Found 221 meeting rows with class 'catAgendaRow'

@@ -1536,39 +1536,6 @@
     ]
   },
   {
-    "base_url": "https://www.lansdale.org/CivicMedia?CID=2024-Council-Meetings-26",
-    "medias": [
-      {
-        "meeting_url": "https://www.lansdale.org/CivicMedia?CID=2024-Council-Meetings-26",
-        "agenda_url": "",
-        "minutes_url": "",
-        "title": "121824Businessmeeting",
-        "date": "2024-12-19"
-      },
-      {
-        "meeting_url": "https://www.lansdale.org/CivicMedia.aspx?VID=Work-Session-1242024-262",
-        "agenda_url": "",
-        "minutes_url": "",
-        "title": "Work Session 12.4.2024",
-        "date": "2024-12-05"
-      },
-      {
-        "meeting_url": "https://www.lansdale.org/CivicMedia.aspx?VID=Work-Session-1242024-262#player",
-        "agenda_url": "",
-        "minutes_url": "",
-        "title": "Work Session 12.4.2024",
-        "date": "2024-12-05"
-      },
-      {
-        "meeting_url": "https://www.lansdale.org/CivicMedia.aspx?VID=November-20-Business-Meeting-260#player",
-        "agenda_url": "",
-        "minutes_url": "",
-        "title": "November 20 Business Meeting",
-        "date": "2024-11-21"
-      }
-    ]
-  },
-  {
     "base_url": "https://www.bethlehem-pa.gov/Calendar",
     "medias": [
       {
@@ -1914,6 +1881,410 @@
         "audio_url": "https://www.bethlehem-pa.gov/getattachment/ba22e863-1d34-4c56-9d0a-0419d972c458/COBCalendar_MeetingAudio.aspx ",
         "title": "City Council Meeting 12/17/2024",
         "date": "2024-12-17"
+      }
+    ]
+  },
+  {
+    "base_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/Public",
+    "medias": [
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DMNT2M75469C",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-11-18"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DMQU477A31A9",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "POLICY & LEGISLATION COMMITTEE MEETING",
+        "date": "2025-11-18"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DL7P3E629B68",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-10-14"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DLFTJW77A8DA",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "BUDGET COMMITTEE MEETING",
+        "date": "2025-10-14"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DM2MSP5CACB4",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "POLICY & LEGISLATION COMMITTEE MEETING",
+        "date": "2025-10-14"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DL7NJ2601903",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-09-23"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DJPSTC74351D",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "POLICY & LEGISLATION COMMITTEE MEETING",
+        "date": "2025-09-09"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DKALRH57CF94",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-09-09"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DKWLAW55AB50",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Special Board Meeting - Interdistrict Transfer Appeals",
+        "date": "2025-09-08"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DJPSRJ73F1F6",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-08-12"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DJPSUF745F19",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "FACILITIES COMMITTEE MEETING",
+        "date": "2025-08-12"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DHAUKF7C6CFD",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Reorganization Board Meeting",
+        "date": "2025-07-22"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DFXPYL66EA7E",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-06-10"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DH4S3770AC33",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "BUDGET COMMITTEE MEETING",
+        "date": "2025-06-09"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DH4S4270CBAC",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "POLICY & LEGISLATION COMMITTEE MEETING",
+        "date": "2025-06-09"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DF4MXL5D3827",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "AMENDED - Regular Board Meeting",
+        "date": "2025-05-27"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DFLNV561B913",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "BUDGET COMMITTEE MEETING",
+        "date": "2025-05-27"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DG8TQ6786EDA",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "POLICY & LEGISLATION COMMITTEE MEETING",
+        "date": "2025-05-27"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DF4MW35D281F",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-05-13"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DFSN3D5DF271",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "POLICY & LEGISLATION COMMITTEE MEETING",
+        "date": "2025-05-13"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DFBRUB6FAA8D",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "POLICY & LEGISLATION COMMITTEE MEETING",
+        "date": "2025-04-22"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DFRVDV804D48",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-04-22"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DERTXU798F21",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-04-08"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DF3R5Q6C5814",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "POLICY & LEGISLATION COMMITTEE MEETING",
+        "date": "2025-04-08"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DF3R6M6C72F2",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "AD HOC INTERDISTRICT TRANSFER APPEALS (IDT) AND REDISTRICTING COMMITTEE MEETING",
+        "date": "2025-04-08"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DDP2KR0298C7",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-03-11"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DE3URA7D487E",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "AD HOC INTERDISTRICT TRANSFER APPEALS (IDT) AND REDISTRICTING COMMITTEE MEETING - CANCELED",
+        "date": "2025-03-11"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DE3URP7D4E26",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "POLICY & LEGISLATION COMMITTEE MEETING - CANCELED",
+        "date": "2025-03-11"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DE3USB7D5F08",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "BUDGET COMMITTEE MEETING",
+        "date": "2025-03-11"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DE2MVT5D21DD",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "BUDGET COMMITTEE MEETING",
+        "date": "2025-02-25"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DDTUU77D7F45",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-02-20"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DBMPC463EA47",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2025-02-11"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DBZQF5690B21",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Alameda County Committee on School District Organization",
+        "date": "2025-02-11"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DB5S4M70B651",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "AD HOC INTERDISTRICT TRANSFER APPEALS (IDT) AND REDISTRICTING COMMITTEE MEETING",
+        "date": "2025-01-28"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DBKNMH605A64",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "AMENDED - Regular Board Meeting",
+        "date": "2025-01-28"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DBKPK564ED05",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "POLICY & LEGISLATION COMMITTEE MEETING",
+        "date": "2025-01-28"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DAPMGJ5B30B5",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Board Meeting",
+        "date": "2024-12-10"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DAPMPN5C3BD7",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "BUDGET COMMITTEE MEETING",
+        "date": "2024-12-10"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DB5S3Z70A076",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "POLICY & LEGISLATION COMMITTEE MEETING",
+        "date": "2024-12-10"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DN3W4B8395CD",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2025-11-20"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DMVU4479AA8F",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Special Meeting of the Personnel Commission - 9:00 AM-CANCELLED",
+        "date": "2025-10-30"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DLSR856CB333",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2025-10-09"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DLUNYH622682",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Special Meeting of the Personnel Commission - 1:00 PM",
+        "date": "2025-10-09"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DL6RYW70563B",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2025-09-11"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DKATPL7858CA",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2025-08-14"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DKG75C17ECEC",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Personnel Commission Annual Retreat - 9:00 AM",
+        "date": "2025-08-13"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DJC7J519CBDB",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2025-07-17"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DH9NER5F9D36",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2025-06-10"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DGF8SD1FB147",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2025-05-15"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DFANXL6214C6",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2025-04-10"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DFANYG62328E",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Special Meeting of the Personnel Commission - 1:00 PM",
+        "date": "2025-04-10"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DEENRZ61433A",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2025-03-13"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DDEQS86AAC09",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2025-02-13"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DDTRW56FEEAC",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Special Meeting of the Personnel Commission - 1:00 PM",
+        "date": "2025-02-13"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DC38XZ208402",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2025-01-09"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DCNT7D75F8A3",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Personnel Commission Mid-Year Retreat - 9:30 AM",
+        "date": "2025-01-09"
+      },
+      {
+        "meeting_url": "https://go.boarddocs.com/ca/acoe/Board.nsf/goto?open&id=DBMSFR728350",
+        "agenda_url": "can be downloaded from the meeting_url by a python script",
+        "minutes_url": "can be downloaded from the meeting_url by a python script",
+        "title": "Regular Meeting of the Personnel Commission - 2:00 PM",
+        "date": "2024-12-12"
       }
     ]
   }
