@@ -45,16 +45,16 @@ class MeetingScraper:
         self._log_debug(f"[*] Processing URL: {url}")
         
         # Try table scraper first
-        # try:
-        #     self._log_debug(f"[*] Trying TableScraper for {url}")
-        #     result = TableScraper.try_scrape(url, start_date, end_date)
-        #     if result is not None:
-        #         self._log_debug(f"[+] TableScraper succeeded for {url}")
-        #         return result
-        #     else:
-        #         self._log_debug(f"[-] TableScraper returned None for {url}")
-        # except Exception as e:
-        #     self._log_debug(f"[!] TableScraper failed for {url}: {str(e)}")
+        try:
+            self._log_debug(f"[*] Trying TableScraper for {url}")
+            result = TableScraper.try_scrape(url, start_date, end_date)
+            if result is not None:
+                self._log_debug(f"[+] TableScraper succeeded for {url}")
+                return result
+            else:
+                self._log_debug(f"[-] TableScraper returned None for {url}")
+        except Exception as e:
+            self._log_debug(f"[!] TableScraper failed for {url}: {str(e)}")
         
         # Try list scraper if table scraper failed
         try:
