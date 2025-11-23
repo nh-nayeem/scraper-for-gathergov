@@ -61,14 +61,14 @@ async def check_single_url_with_retry(browser_context, url, stealth, max_retries
             # Additional wait for JS-rendered content
             await asyncio.sleep(random.uniform(1.5, 2.5))
             
-            # Check for tr elements
-            tr_elements = await page.query_selector_all('tr')
+            # Check for li elements
+            li_elements = await page.query_selector_all('li')
             
-            if tr_elements:
-                logging.info(f"Found {len(tr_elements)} <tr> elements")
+            if li_elements:
+                logging.info(f"Found {len(li_elements)} <li> elements")
                 return True
             else:
-                logging.info("No <tr> elements found")
+                logging.info("No <li> elements found")
                 return False
                 
         except Exception as e:

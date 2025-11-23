@@ -6,6 +6,7 @@ from typing import Dict, Any, List
 
 from scrapers.table import TableScraper
 from scrapers.list import ListScraper
+from scrapers.pdf import PdfScraper
 
 
 class MeetingScraper:
@@ -44,16 +45,16 @@ class MeetingScraper:
         self._log_debug(f"[*] Processing URL: {url}")
         
         # Try table scraper first
-        try:
-            self._log_debug(f"[*] Trying TableScraper for {url}")
-            result = TableScraper.try_scrape(url, start_date, end_date)
-            if result is not None:
-                self._log_debug(f"[+] TableScraper succeeded for {url}")
-                return result
-            else:
-                self._log_debug(f"[-] TableScraper returned None for {url}")
-        except Exception as e:
-            self._log_debug(f"[!] TableScraper failed for {url}: {str(e)}")
+        # try:
+        #     self._log_debug(f"[*] Trying TableScraper for {url}")
+        #     result = TableScraper.try_scrape(url, start_date, end_date)
+        #     if result is not None:
+        #         self._log_debug(f"[+] TableScraper succeeded for {url}")
+        #         return result
+        #     else:
+        #         self._log_debug(f"[-] TableScraper returned None for {url}")
+        # except Exception as e:
+        #     self._log_debug(f"[!] TableScraper failed for {url}: {str(e)}")
         
         # Try list scraper if table scraper failed
         try:
@@ -66,6 +67,18 @@ class MeetingScraper:
                 self._log_debug(f"[-] ListScraper returned None for {url}")
         except Exception as e:
             self._log_debug(f"[!] ListScraper failed for {url}: {str(e)}")
+        
+        # Try PDF scraper if table and list scrapers failed
+        try:
+            self._log_debug(f"[*] Trying PdfScraper for {url}")
+            result = PdfScraper.try_scrape(url, start_date, end_date)
+            if result is not None:
+                self._log_debug(f"[+] PdfScraper succeeded for {url}")
+                return result
+            else:
+                self._log_debug(f"[-] PdfScraper returned None for {url}")
+        except Exception as e:
+            self._log_debug(f"[!] PdfScraper failed for {url}: {str(e)}")
         
         self._log_debug(f"[-] All scrapers failed for {url}")
         return []
