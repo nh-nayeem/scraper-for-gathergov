@@ -55,7 +55,7 @@ class MeetingScraper:
         except Exception as e:
             self._log_debug(f"[!] TableScraper failed for {url}: {str(e)}")
         
-        # Try Link scraper if table and list scrapers failed
+        # Try Link scraper if table scraper failed
         try:
             self._log_debug(f"[*] Trying LinkScraper for {url}")
             result = LinkScraper.try_scrape(url, start_date, end_date)

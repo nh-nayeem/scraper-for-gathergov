@@ -19,6 +19,9 @@
         "https://www.orcuttschools.net/boardoftrustees",
         "https://www.arusd.org/about-us/board-of-trustees/board-agendas"
     ],
+    "tablex_urls": [
+        "https://www.coldspringschool.net/page/agendas-and-minutes"
+    ],
     "pdf_urls": [
         "https://sanduskycountyoh.gov/index.php?page=2024-minutes",
         "https://marioncountytn.net/agendas-minutes-county-commission",
@@ -26,29 +29,25 @@
         "https://twinfallscounty.org/commissioners/minutes/",
         "https://sheboyganmeeting.com/calendarlist.php",
         "https://cumberlandcountytn.gov/document-category/documentsofinterest/",
-        "https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents"
+        "https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents",
+        "https://www.mrpk.org/board-of-education/board-minutes",
+        "https://www.losolivosschool.org/schoolboardmeetings"
     ],
     "pdfx_urls": [
-        "https://www.mrpk.org/board-of-education/board-minutes",
         "https://portwentworthga.gov/gov-agendas-citycouncil/"
+    ],
+    "video_urls": [],
+    "videox_urls": [
+        "https://www.pottcounty-ia.gov/planning_and_development/planning_and_zoning_commission/",
+        "https://www.pleasantvalleysd.org/about-pvsd/board-of-trustees/board-meeting-recordings",
+        "https://www.fuhsd.org/about-us/board-of-trustees/board-meetings",
+        "https://www.woodsideschool.us/District/2025-26-DASHBOARD/Recorded-Zoom-Meetings-/index.html",
+        "https://www.sbceo.org/about/board/boardmaterials",
+        "https://www.smbsd.org/district/school-board/board-meetings-minutes-and-agendas",
+        "https://www.smuhsd.org/our-district/board-of-trustees/accessing-smuhsd-board-meetings"
     ],
     "invalid_urls": [
         "https://rcala.com/russell-county-commission-meeting-mintues/",
         "https://www.oxnardsd.org/school-board/board-meetings/board-meeting-agendas-andminutes"
-    ],
-    "video_urls": [
-        "https://www.pottcounty-ia.gov/planning_and_development/planning_and_zoning_commission/"
-    ],
-    "videox_urls": [
-        "https://www.pleasantvalleysd.org/about-pvsd/board-of-trustees/board-meeting-recordings",
-        "https://www.fuhsd.org/about-us/board-of-trustees/board-meetings",
-        "https://www.woodsideschool.us/District/2025-26-DASHBOARD/Recorded-Zoom-Meetings-/index.html"
-    ],
-    "base_urls": [
-        "https://www.coldspringschool.net/page/agendas-and-minutes",
-        "https://www.losolivosschool.org/schoolboardmeetings",
-        "https://www.sbceo.org/about/board/boardmaterials",
-        "https://www.smbsd.org/district/school-board/board-meetings-minutes-and-agendas",
-        "https://www.smuhsd.org/our-district/board-of-trustees/accessing-smuhsd-board-meetings"
     ]
 }

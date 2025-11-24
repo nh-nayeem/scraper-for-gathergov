@@ -2,6 +2,7 @@ import asyncio
 import random
 import re
 import json
+import requests
 from datetime import datetime
 from urllib.parse import urljoin, urlparse
 from playwright.async_api import async_playwright
@@ -69,7 +70,7 @@ class LinkScraper:
                 await page.set_viewport_size({"width": 1920, "height": 1080})
                 
                 # Navigate to URL
-                await page.goto(url, timeout=45000, wait_until='domcontentloaded')
+                await page.goto(url, timeout=45000, wait_until='networkidle')
                 
                 # Apply stealth mode AFTER navigation
                 await stealth.apply_stealth_async(page)
@@ -98,7 +99,7 @@ class LinkScraper:
                     pass
                 
                 # Additional wait for JS-rendered content
-                await asyncio.sleep(random.uniform(1.5, 2.5))
+                await asyncio.sleep(random.uniform(3.0, 5.0))
                 
                 # Get page content
                 content = await page.content()
@@ -213,8 +214,173 @@ class LinkScraper:
             return True  # If date parsing fails, include by default
     
     @staticmethod
+    def _check_pdf_redirect(url: str) -> Optional[str]:
+        """Check if a URL redirects to a PDF and return the final PDF URL."""
+        try:
+            print(f"DEBUG: Checking redirect for: {url}")
+            response = requests.head(url, allow_redirects=True, timeout=10, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            })
+            
+            print(f"DEBUG: Response status: {response.status_code}, final URL: {response.url}")
+            
+            # Check if the final URL ends with .pdf
+            final_url = response.url
+            if final_url.lower().endswith('.pdf'):
+                print(f"DEBUG: Found PDF redirect: {url} -> {final_url}")
+                return final_url
+                
+            return None
+        except Exception as e:
+            print(f"DEBUG: Error checking redirect for {url}: {e}")
+            return None
+    
+    @staticmethod
+    def _check_content_type_is_pdf(url: str) -> bool:
+        """Check if the content type of a URL is PDF."""
+        try:
+            response = requests.head(url, timeout=10, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            })
+            
+            content_type = response.headers.get('content-type', '').lower()
+            return 'application/pdf' in content_type
+        except Exception as e:
+            print(f"Error checking content type for {url}: {e}")
+            return False
+    
+    @staticmethod
+    def _get_google_drive_filename(view_url: str) -> Optional[str]:
+        """
+        Extract the real file name from a Google Drive link
+        without downloading the file.
+        """
+        try:
+            # Extract file ID
+            match = re.search(r"/file/d/([^/]+)/", view_url)
+            if not match:
+                return None
+            
+            file_id = match.group(1)
+            
+            # Convert to direct download URL
+            download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
+            
+            # Make request (follow redirects)
+            response = requests.get(download_url, allow_redirects=True, stream=True, timeout=15, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            })
+            
+            # Get content disposition header
+            cd = response.headers.get("Content-Disposition", "")
+            if not cd:
+                return None
+            
+            # Extract filename="..."
+            filename_match = re.search(r'filename="([^"]+)"', cd)
+            if filename_match:
+                return filename_match.group(1)
+            
+            return None
+        except Exception as e:
+            print(f"Error getting Google Drive video filename for {view_url}: {e}")
+            return None
+
+    @staticmethod
+    def _is_google_drive_video(url: str) -> bool:
+        """Check if a Google Drive URL points to a video file."""
+        try:
+            filename = LinkScraper._get_google_drive_filename(url)
+            if filename:
+                video_extensions = ['.mp4', '.avi', '.mov', '.wmv', '.flv', '.webm', '.mkv', '.m4v']
+                if any(filename.lower().endswith(ext) for ext in video_extensions):
+                    print(f"DEBUG: Found Google Drive video: {url} -> {filename}")
+                    return True
+            return False
+        except Exception as e:
+            print(f"Error checking Google Drive video for {url}: {e}")
+            return False
+
+    @staticmethod
+    def _is_youtube_link(url: str) -> bool:
+        """Check if a URL is a YouTube video link."""
+        youtube_patterns = [
+            r'youtube\.com/watch\?v=',
+            r'youtu\.be/',
+            r'm\.youtube\.com/watch\?v=',
+            r'youtube\.com/embed/',
+            r'youtube\.com/v/'
+        ]
+        return any(re.search(pattern, url.lower()) for pattern in youtube_patterns)
+
+    @staticmethod
+    def _check_video_redirect(url: str) -> Optional[str]:
+        """Check if a URL redirects to a video and return the final video URL."""
+        try:
+            print(f"DEBUG: Checking video redirect for: {url}")
+            response = requests.head(url, allow_redirects=True, timeout=10, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            })
+            
+            print(f"DEBUG: Response status: {response.status_code}, final URL: {response.url}")
+            
+            # Check if the final URL ends with video extension
+            final_url = response.url
+            video_extensions = ['.mp4', '.avi', '.mov', '.wmv', '.flv', '.webm', '.mkv', '.m4v']
+            if any(final_url.lower().endswith(ext) for ext in video_extensions):
+                print(f"DEBUG: Found video redirect: {url} -> {final_url}")
+                return final_url
+                
+            return None
+        except Exception as e:
+            print(f"DEBUG: Error checking video redirect for {url}: {e}")
+            return None
+    
+    @staticmethod
+    def _check_content_type_is_video(url: str) -> bool:
+        """Check if the content type of a URL is video."""
+        try:
+            response = requests.head(url, timeout=10, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            })
+            
+            content_type = response.headers.get('content-type', '').lower()
+            video_types = [
+                'video/mp4', 'video/quicktime', 'video/x-msvideo', 'video/x-ms-wmv',
+                'video/x-flv', 'video/webm', 'video/x-matroska', 'video/mpeg',
+                'video/3gpp', 'video/x-m4v'
+            ]
+            return any(vt in content_type for vt in video_types)
+        except Exception as e:
+            print(f"Error checking video content type for {url}: {e}")
+            return False
+
+    @staticmethod
+    def _get_youtube_title(video_url: str) -> Optional[str]:
+        """Fetch YouTube video title using oEmbed API."""
+        try:
+            # Use YouTube's oEmbed API to get video metadata
+            oembed_url = f"https://www.youtube.com/oembed?url={video_url}&format=json"
+            response = requests.get(oembed_url, timeout=10, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            })
+            
+            if response.status_code == 200:
+                data = response.json()
+                title = data.get('title', '')
+                print(f"DEBUG: Fetched YouTube title: {video_url} -> {title}")
+                return title
+            else:
+                print(f"DEBUG: Failed to fetch YouTube title for {video_url}: HTTP {response.status_code}")
+                return None
+                
+        except Exception as e:
+            print(f"DEBUG: Error fetching YouTube title for {video_url}: {e}")
+            return None
+
+    @staticmethod
     def _determine_document_type(text: str) -> str:
-        """Determine if PDF is minutes or agenda based on text content."""
+        """Determine if PDF is title based on text content."""
         if not text:
             return "unknown"
         
@@ -231,6 +397,12 @@ class LinkScraper:
         for keyword in agenda_keywords:
             if keyword in text_lower:
                 return "agenda"
+        
+        # Check for packet keywords
+        packet_keywords = ['packet', 'packets']
+        for keyword in packet_keywords:
+            if keyword in text_lower:
+                return "packet"
         
         # Default to unknown if no specific keywords found
         return "unknown"
@@ -316,62 +488,7 @@ class LinkScraper:
             return ""
     
     @staticmethod
-    def _merge_meetings_by_date_and_identifier(meetings: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """Merge meetings that belong to the same meeting based on date and filename identifier."""
-        if not meetings:
-            return []
-        
-        # Group meetings by date
-        meetings_by_date = {}
-        for meeting in meetings:
-            date = meeting.get("date")
-            if date:
-                if date not in meetings_by_date:
-                    meetings_by_date[date] = []
-                meetings_by_date[date].append(meeting)
-        
-        merged_meetings = []
-        
-        for date, date_meetings in meetings_by_date.items():
-            # Group by base identifier within each date
-            meetings_by_identifier = {}
-            
-            for meeting in date_meetings:
-                # Find the PDF URL and extract identifier
-                pdf_url = None
-                for key, value in meeting.items():
-                    if key in ['agenda', 'minutes'] and isinstance(value, str) and value.endswith('.pdf'):
-                        pdf_url = value
-                        break
-                
-                if pdf_url:
-                    filename = pdf_url.split('/')[-1]
-                    document_type = None
-                    for key in meeting.keys():
-                        if key in ['agenda', 'minutes']:
-                            document_type = key
-                            break
-                    
-                    base_identifier = LinkScraper._extract_base_identifier(filename, document_type)
-                    
-                    if base_identifier not in meetings_by_identifier:
-                        meetings_by_identifier[base_identifier] = {}
-                    
-                    # Merge this meeting into the identifier group
-                    for key, value in meeting.items():
-                        if key in ['agenda', 'minutes']:
-                            meetings_by_identifier[base_identifier][key] = value
-                        elif key not in meetings_by_identifier[base_identifier]:
-                            meetings_by_identifier[base_identifier][key] = value
-            
-            # Convert grouped meetings back to list
-            for merged_meeting in meetings_by_identifier.values():
-                merged_meetings.append(merged_meeting)
-        
-        return merged_meetings
-    
-    @staticmethod
-    def _merge_meetings_by_date_and_lcs(meetings: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    def _merge_meetings_by_date_and_matching(meetings: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """Merge meetings that belong to the same meeting based on date and longest common substring."""
         print(f"DEBUG: _merge_meetings_by_date_and_lcs called with {len(meetings)} meetings")
         
@@ -395,82 +512,37 @@ class LinkScraper:
         
         for date, date_meetings in meetings_by_date.items():
             print(f"DEBUG: Processing {len(date_meetings)} meetings for date {date}")
-            # Find PDF URLs and clean filenames for this date
-            meeting_data = []
-            for meeting in date_meetings:
-                pdf_url = None
-                document_type = None
-                for key, value in meeting.items():
-                    if key in ['agenda', 'minutes', 'unknown'] and isinstance(value, str) and value.endswith('.pdf'):
-                        pdf_url = value
-                        document_type = key
-                        break
-                
-                if pdf_url:
-                    filename = pdf_url.split('/')[-1]
-                    cleaned_filename = LinkScraper._clean_filename_for_lcs(filename)
-                    meeting_data.append({
-                        'meeting': meeting,
-                        'pdf_url': pdf_url,
-                        'document_type': document_type,
-                        'cleaned_filename': cleaned_filename,
-                        'original_filename': filename
-                    })
             
-            print(f"DEBUG: Found {len(meeting_data)} meetings with PDF URLs for date {date}")
-            
-            # If no meetings with proper document types, just add them as-is
-            if not meeting_data:
-                print(f"DEBUG: No meetings with PDF URLs found for date {date}, adding original meetings")
+            # For this specific site, all meetings on the same date should be merged
+            # since they follow the pattern YYYY-MM-DD_[doctype]_[number].pdf
+            if len(date_meetings) <= 1:
                 merged_meetings.extend(date_meetings)
                 continue
             
-            # Merge meetings based on LCS
-            used_indices = set()
-            for i, meeting1 in enumerate(meeting_data):
-                if i in used_indices:
-                    continue
+            # Create a single merged meeting for this date
+            merged_meeting = {"date": date}
+            titles = []
+            
+            for meeting in date_meetings:
+                print(f"DEBUG: Merging meeting: {meeting}")
                 
-                merged_meeting = meeting1['meeting'].copy()
-                
-                # Try to find matching meetings
-                for j, meeting2 in enumerate(meeting_data):
-                    if i == j or j in used_indices:
-                        continue
-                    
-                    # Calculate LCS between cleaned filenames
-                    lcs = LinkScraper._longest_common_substring(
-                        meeting1['cleaned_filename'], 
-                        meeting2['cleaned_filename']
-                    )
-                    
-                    # If LCS length >= 8, merge the meetings
-                    if len(lcs) >= 8:
-                        # Add the other document type to merged meeting
-                        if meeting2['document_type'] not in merged_meeting:
-                            merged_meeting[meeting2['document_type']] = meeting2['pdf_url']
-                        
-                        # Merge titles if both exist
-                        title1 = merged_meeting.get('title', '')
-                        title2 = meeting2['meeting'].get('title', '')
-                        
-                        if title1 and title2 and title1 != title2:
-                            # Combine titles, remove duplicates and clean up
-                            title_parts = []
-                            if title1:
-                                title_parts.append(title1)
-                            if title2 and title2 not in title_parts:
-                                title_parts.append(title2)
-                            
-                            # Create combined title like "Agenda, Minutes"
-                            merged_meeting['title'] = ', '.join(title_parts)
-                        elif title2 and not title1:
-                            merged_meeting['title'] = title2
-                        
-                        used_indices.add(j)
-                
-                used_indices.add(i)
-                merged_meetings.append(merged_meeting)
+                # Add document types and URLs
+                for key, value in meeting.items():
+                    if key in ['agenda', 'minutes', 'packet', 'unknown', 'video'] and isinstance(value, str) and (value.endswith('.pdf') or value.endswith('.mp4') or value.endswith('.avi') or value.endswith('.mov') or value.endswith('.wmv') or value.endswith('.flv') or value.endswith('.webm') or value.endswith('.mkv') or value.endswith('.m4v')):
+                        if key not in merged_meeting:
+                            merged_meeting[key] = value
+                    elif key == 'title' and value:
+                        titles.append(value)
+                    elif key not in merged_meeting:
+                        merged_meeting[key] = value
+            
+            # Combine titles
+            if titles:
+                unique_titles = list(dict.fromkeys(titles))  # Remove duplicates while preserving order
+                merged_meeting['title'] = ', '.join(unique_titles)
+            
+            print(f"DEBUG: Created merged meeting: {merged_meeting}")
+            merged_meetings.append(merged_meeting)
         
         return merged_meetings
     
@@ -480,26 +552,141 @@ class LinkScraper:
         soup = BeautifulSoup(html_content, 'html.parser')
         meetings = []
         
-        # Find all links containing PDF
-        pdf_links = soup.find_all('a', href=re.compile(r'\.pdf$', re.IGNORECASE))
+        # Find all links - not just PDF links
+        all_links = soup.find_all('a', href=True)
         
-        print(f"DEBUG: Found {len(pdf_links)} PDF links")
-        for i, link in enumerate(pdf_links[:5]):  # Show first 5 for debugging
-            print(f"DEBUG: PDF {i+1}: href={link.get('href')}, text={link.get_text(strip=True)}")
+        print(f"DEBUG: Found {len(all_links)} total links")
         
-        if not pdf_links:
-            return None
+        # Filter links first to avoid checking every single link
+        # Look for links that might be meeting-related or already PDFs/videos
+        potentially_media_links = []
         
-        for link in pdf_links:
-            meeting = {}
-            meeting_date = None
+        for link in all_links:
+            href = link.get('href')
+            if not href:
+                continue
+            link_text = link.get_text(strip=True)
+            href_lower = href.lower()
             
-            # Get PDF URL
+            # Include if already PDF or video
+            video_extensions = ['.mp4', '.avi', '.mov', '.wmv', '.flv', '.webm', '.mkv', '.m4v']
+            if href_lower.endswith('.pdf') or any(href_lower.endswith(ext) for ext in video_extensions):
+                potentially_media_links.append(link)
+                continue
+            
+            # Include if YouTube link
+            if LinkScraper._is_youtube_link(href):
+                potentially_media_links.append(link)
+                continue
+            
+            # Include if Google Drive link
+            if 'drive.google.com' in href_lower:
+                potentially_media_links.append(link)
+                continue
+            
+            # Include if text contains date data
+            if LinkScraper._parse_date(link_text):
+                potentially_media_links.append(link)
+                continue
+                
+            # Include if href contains date data
+            if LinkScraper._parse_date(href):
+                potentially_media_links.append(link)
+        
+        print(f"DEBUG: Filtered to {len(potentially_media_links)} potentially media links")
+        
+        valid_media_links = []
+        redirect_cache = {}  # Cache to avoid duplicate requests
+        google_drive_filenames = {}  # Cache Google Drive filenames for date extraction
+        google_drive_video_filenames = {}  # Cache Google Drive video filenames
+        youtube_titles = {}  # Cache YouTube titles for date extraction
+        
+        for link in potentially_media_links:
             href = link.get('href')
             if not href:
                 continue
             
-            pdf_url = LinkScraper._normalize_url(href, base_url)
+            link_text = link.get_text(strip=True)
+            print(f"DEBUG: Checking filtered link - href: {href}, text: {link_text}")
+                
+            media_url = LinkScraper._normalize_url(href, base_url)
+            
+            # Check if it's already a PDF or video
+            video_extensions = ['.mp4', '.avi', '.mov', '.wmv', '.flv', '.webm', '.mkv', '.m4v']
+            if media_url.lower().endswith('.pdf') or any(media_url.lower().endswith(ext) for ext in video_extensions):
+                valid_media_links.append(link)
+                continue
+            
+            # Check if it's a YouTube link
+            if LinkScraper._is_youtube_link(media_url):
+                valid_media_links.append(link)
+                continue
+            
+            # Check if it's a Google Drive link
+            if 'drive.google.com' in media_url.lower():
+                # Check for PDF
+                filename = LinkScraper._get_google_drive_filename(media_url)
+                if filename and filename.lower().endswith('.pdf'):
+                    google_drive_filenames[media_url] = filename
+                    print(f"DEBUG: Found Google Drive PDF: {media_url} -> {filename}")
+                    valid_media_links.append(link)
+                    continue
+                
+                # Check for video
+                video_filename = LinkScraper._get_google_drive_filename(media_url)
+                if video_filename and any(video_filename.lower().endswith(ext) for ext in video_extensions):
+                    google_drive_video_filenames[media_url] = video_filename
+                    print(f"DEBUG: Found Google Drive video: {media_url} -> {video_filename}")
+                    valid_media_links.append(link)
+                    continue
+                continue
+            
+            # Use cache to avoid duplicate requests
+            if media_url in redirect_cache:
+                if redirect_cache[media_url]:
+                    valid_media_links.append(link)
+                    continue
+            
+            # If not a direct media file, try to check if it redirects to PDF or video
+            redirect_pdf_url = LinkScraper._check_pdf_redirect(media_url)
+            redirect_video_url = LinkScraper._check_video_redirect(media_url)
+            
+            if redirect_pdf_url or redirect_video_url:
+                final_url = redirect_pdf_url or redirect_video_url
+                redirect_cache[media_url] = final_url
+                print(f"DEBUG: Found redirect to media: {media_url} -> {final_url}")
+                valid_media_links.append(link)
+                continue
+            
+            # If no redirect, check if content type is PDF or video
+            if LinkScraper._check_content_type_is_pdf(media_url) or LinkScraper._check_content_type_is_video(media_url):
+                print(f"DEBUG: Found media by content type: {media_url}")
+                valid_media_links.append(link)
+        
+        print(f"DEBUG: Found {len(valid_media_links)} valid media links")
+        for i, link in enumerate(valid_media_links[:5]):  # Show first 5 for debugging
+            print(f"DEBUG: Media {i+1}: href={link.get('href')}, text={link.get_text(strip=True)}")
+        
+        if not valid_media_links:
+            return None
+        
+        for link in valid_media_links:
+            meeting = {}
+            meeting_date = None
+            
+            # Get media URL
+            href = link.get('href')
+            if not href:
+                continue
+            
+            media_url = LinkScraper._normalize_url(href, base_url)
+            
+            # If not a direct media file, check for redirect again to get the final URL
+            video_extensions = ['.mp4', '.avi', '.mov', '.wmv', '.flv', '.webm', '.mkv', '.m4v']
+            if not (media_url.lower().endswith('.pdf') or any(media_url.lower().endswith(ext) for ext in video_extensions)):
+                redirect_url = redirect_cache.get(media_url) or LinkScraper._check_pdf_redirect(media_url) or LinkScraper._check_video_redirect(media_url)
+                if redirect_url:
+                    media_url = redirect_url
             
             # Get text content for date and document type extraction
             link_text = link.get_text(strip=True)
@@ -511,20 +698,51 @@ class LinkScraper:
             
             # Also try to extract date from filename
             if not meeting_date:
-                filename = pdf_url.split('/')[-1]
+                filename = media_url.split('/')[-1]
                 filename_date = LinkScraper._parse_date(filename)
                 if filename_date:
                     meeting_date = filename_date
             
+            # For Google Drive links, try to extract date from the actual filename
+            if not meeting_date and media_url in google_drive_filenames:
+                gd_filename = google_drive_filenames[media_url]
+                gd_filename_date = LinkScraper._parse_date(gd_filename)
+                if gd_filename_date:
+                    meeting_date = gd_filename_date
+                    print(f"DEBUG: Extracted date from Google Drive filename: {gd_filename} -> {gd_filename_date}")
+            
+            # For Google Drive video links, try to extract date from the video filename
+            if not meeting_date and media_url in google_drive_video_filenames:
+                gd_video_filename = google_drive_video_filenames[media_url]
+                gd_video_filename_date = LinkScraper._parse_date(gd_video_filename)
+                if gd_video_filename_date:
+                    meeting_date = gd_video_filename_date
+                    print(f"DEBUG: Extracted date from Google Drive video filename: {gd_video_filename} -> {gd_video_filename_date}")
+            
+            # For YouTube links, try to extract date from the video title
+            if not meeting_date and LinkScraper._is_youtube_link(media_url):
+                if media_url not in youtube_titles:
+                    youtube_title = LinkScraper._get_youtube_title(media_url)
+                    youtube_titles[media_url] = youtube_title
+                
+                youtube_title = youtube_titles[media_url]
+                if youtube_title:
+                    youtube_title_date = LinkScraper._parse_date(youtube_title)
+                    if youtube_title_date:
+                        meeting_date = youtube_title_date
+                        print(f"DEBUG: Extracted date from YouTube title: {youtube_title} -> {youtube_title_date}")
+            
             # Determine document type
             document_type = LinkScraper._determine_document_type(link_text)
             
-            # print(f"DEBUG: Processing PDF - href: {href}, text: {link_text}, date: {meeting_date}, type: {document_type}")
+            # Check if it's a video file and update document type accordingly
+            if any(media_url.lower().endswith(ext) for ext in video_extensions) or LinkScraper._is_youtube_link(media_url) or media_url in google_drive_video_filenames:
+                document_type = "video"
             
             # If date extraction successful and date is within range
             if meeting_date and LinkScraper._is_date_in_range(meeting_date, start_date, end_date):
                 meeting["date"] = meeting_date
-                meeting[document_type] = pdf_url
+                meeting[document_type] = media_url
                 
                 # Add additional info if available
                 if link_text:
@@ -536,7 +754,7 @@ class LinkScraper:
         # print(f"DEBUG: Total meetings found: {len(meetings)}")
         
         # Merge meetings that belong to the same meeting using LCS
-        merged_meetings = LinkScraper._merge_meetings_by_date_and_lcs(meetings)
+        merged_meetings = LinkScraper._merge_meetings_by_date_and_matching(meetings)
         
         return merged_meetings if merged_meetings else None
     
