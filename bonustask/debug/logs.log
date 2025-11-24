@@ -2,139 +2,37 @@ Meeting Scraper Debug Log
 ========================
 Start Date: 2024-11-20
 End Date: 2025-11-26
-Total URLs: 20
-Timestamp: 2025-11-23T23:22:51.304512
+Total URLs: 7
+Timestamp: 2025-11-24T11:24:35.332324
 
-2025-11-23T23:22:51.304836 - [*] Processing URL: https://sanduskycountyoh.gov/index.php?page=2024-minutes
-2025-11-23T23:22:51.305142 - [*] Trying ListScraper for https://sanduskycountyoh.gov/index.php?page=2024-minutes
-2025-11-23T23:22:51.305517 - [-] ListScraper returned None for https://sanduskycountyoh.gov/index.php?page=2024-minutes
-2025-11-23T23:22:51.305834 - [*] Trying PdfScraper for https://sanduskycountyoh.gov/index.php?page=2024-minutes
-2025-11-23T23:23:12.603711 - [+] PdfScraper succeeded for https://sanduskycountyoh.gov/index.php?page=2024-minutes
-2025-11-23T23:23:12.604084 - [+] Found 9 meetings for https://sanduskycountyoh.gov/index.php?page=2024-minutes
-2025-11-23T23:23:12.605158 - [*] Processing URL: https://marioncountytn.net/agendas-minutes-county-commission
-2025-11-23T23:23:12.609710 - [*] Trying ListScraper for https://marioncountytn.net/agendas-minutes-county-commission
-2025-11-23T23:23:12.610185 - [-] ListScraper returned None for https://marioncountytn.net/agendas-minutes-county-commission
-2025-11-23T23:23:12.610454 - [*] Trying PdfScraper for https://marioncountytn.net/agendas-minutes-county-commission
-2025-11-23T23:23:47.660036 - [+] PdfScraper succeeded for https://marioncountytn.net/agendas-minutes-county-commission
-2025-11-23T23:23:47.660789 - [+] Found 4 meetings for https://marioncountytn.net/agendas-minutes-county-commission
-2025-11-23T23:23:47.661114 - [*] Processing URL: https://rcala.com/russell-county-commission-meeting-mintues/
-2025-11-23T23:23:47.661596 - [*] Trying ListScraper for https://rcala.com/russell-county-commission-meeting-mintues/
-2025-11-23T23:23:47.662753 - [-] ListScraper returned None for https://rcala.com/russell-county-commission-meeting-mintues/
-2025-11-23T23:23:47.663153 - [*] Trying PdfScraper for https://rcala.com/russell-county-commission-meeting-mintues/
-2025-11-23T23:24:01.105138 - [-] PdfScraper returned None for https://rcala.com/russell-county-commission-meeting-mintues/
-2025-11-23T23:24:01.105575 - [-] All scrapers failed for https://rcala.com/russell-county-commission-meeting-mintues/
-2025-11-23T23:24:01.105969 - [!] No meetings found for https://rcala.com/russell-county-commission-meeting-mintues/
-2025-11-23T23:24:01.106295 - [*] Processing URL: https://www.co.waller.tx.us/page/CommCourt.Minutes
-2025-11-23T23:24:01.106625 - [*] Trying ListScraper for https://www.co.waller.tx.us/page/CommCourt.Minutes
-2025-11-23T23:24:01.106998 - [-] ListScraper returned None for https://www.co.waller.tx.us/page/CommCourt.Minutes
-2025-11-23T23:24:01.107352 - [*] Trying PdfScraper for https://www.co.waller.tx.us/page/CommCourt.Minutes
-2025-11-23T23:24:31.642716 - [+] PdfScraper succeeded for https://www.co.waller.tx.us/page/CommCourt.Minutes
-2025-11-23T23:24:32.013486 - [+] Found 12 meetings for https://www.co.waller.tx.us/page/CommCourt.Minutes
-2025-11-23T23:24:32.013830 - [*] Processing URL: https://twinfallscounty.org/commissioners/minutes/
-2025-11-23T23:24:32.014110 - [*] Trying ListScraper for https://twinfallscounty.org/commissioners/minutes/
-2025-11-23T23:24:32.014435 - [-] ListScraper returned None for https://twinfallscounty.org/commissioners/minutes/
-2025-11-23T23:24:32.014822 - [*] Trying PdfScraper for https://twinfallscounty.org/commissioners/minutes/
-2025-11-23T23:24:52.926492 - [-] PdfScraper returned None for https://twinfallscounty.org/commissioners/minutes/
-2025-11-23T23:24:52.926983 - [-] All scrapers failed for https://twinfallscounty.org/commissioners/minutes/
-2025-11-23T23:24:52.927390 - [!] No meetings found for https://twinfallscounty.org/commissioners/minutes/
-2025-11-23T23:24:52.927894 - [*] Processing URL: https://www.pottcounty-ia.gov/planning_and_development/planning_and_zoning_commission/
-2025-11-23T23:24:52.928216 - [*] Trying ListScraper for https://www.pottcounty-ia.gov/planning_and_development/planning_and_zoning_commission/
-2025-11-23T23:24:52.928917 - [-] ListScraper returned None for https://www.pottcounty-ia.gov/planning_and_development/planning_and_zoning_commission/
-2025-11-23T23:24:52.929338 - [*] Trying PdfScraper for https://www.pottcounty-ia.gov/planning_and_development/planning_and_zoning_commission/
-2025-11-23T23:25:23.625990 - [+] PdfScraper succeeded for https://www.pottcounty-ia.gov/planning_and_development/planning_and_zoning_commission/
-2025-11-23T23:25:23.626537 - [+] Found 11 meetings for https://www.pottcounty-ia.gov/planning_and_development/planning_and_zoning_commission/
-2025-11-23T23:25:23.627045 - [*] Processing URL: https://sheboyganmeeting.com/calendarlist.php
-2025-11-23T23:25:23.627389 - [*] Trying ListScraper for https://sheboyganmeeting.com/calendarlist.php
-2025-11-23T23:25:23.627897 - [-] ListScraper returned None for https://sheboyganmeeting.com/calendarlist.php
-2025-11-23T23:25:23.628368 - [*] Trying PdfScraper for https://sheboyganmeeting.com/calendarlist.php
-2025-11-23T23:25:41.210437 - [+] PdfScraper succeeded for https://sheboyganmeeting.com/calendarlist.php
-2025-11-23T23:25:41.210794 - [+] Found 16 meetings for https://sheboyganmeeting.com/calendarlist.php
-2025-11-23T23:25:41.211085 - [*] Processing URL: https://www.pleasantvalleysd.org/about-pvsd/board-of-trustees/board-meeting-recordings
-2025-11-23T23:25:41.211395 - [*] Trying ListScraper for https://www.pleasantvalleysd.org/about-pvsd/board-of-trustees/board-meeting-recordings
-2025-11-23T23:25:41.211672 - [-] ListScraper returned None for https://www.pleasantvalleysd.org/about-pvsd/board-of-trustees/board-meeting-recordings
-2025-11-23T23:25:41.212046 - [*] Trying PdfScraper for https://www.pleasantvalleysd.org/about-pvsd/board-of-trustees/board-meeting-recordings
-2025-11-23T23:26:30.296119 - [-] PdfScraper returned None for https://www.pleasantvalleysd.org/about-pvsd/board-of-trustees/board-meeting-recordings
-2025-11-23T23:26:30.296625 - [-] All scrapers failed for https://www.pleasantvalleysd.org/about-pvsd/board-of-trustees/board-meeting-recordings
-2025-11-23T23:26:30.297671 - [!] No meetings found for https://www.pleasantvalleysd.org/about-pvsd/board-of-trustees/board-meeting-recordings
-2025-11-23T23:26:30.298606 - [*] Processing URL: https://www.oxnardsd.org/school-board/board-meetings/board-meeting-agendas-andminutes
-2025-11-23T23:26:30.299237 - [*] Trying ListScraper for https://www.oxnardsd.org/school-board/board-meetings/board-meeting-agendas-andminutes
-2025-11-23T23:26:30.299675 - [-] ListScraper returned None for https://www.oxnardsd.org/school-board/board-meetings/board-meeting-agendas-andminutes
-2025-11-23T23:26:30.300059 - [*] Trying PdfScraper for https://www.oxnardsd.org/school-board/board-meetings/board-meeting-agendas-andminutes
-2025-11-23T23:27:13.888710 - [-] PdfScraper returned None for https://www.oxnardsd.org/school-board/board-meetings/board-meeting-agendas-andminutes
-2025-11-23T23:27:13.889077 - [-] All scrapers failed for https://www.oxnardsd.org/school-board/board-meetings/board-meeting-agendas-andminutes
-2025-11-23T23:27:13.889391 - [!] No meetings found for https://www.oxnardsd.org/school-board/board-meetings/board-meeting-agendas-andminutes
-2025-11-23T23:27:13.889779 - [*] Processing URL: https://www.mrpk.org/board-of-education/board-minutes
-2025-11-23T23:27:13.890029 - [*] Trying ListScraper for https://www.mrpk.org/board-of-education/board-minutes
-2025-11-23T23:27:13.890251 - [-] ListScraper returned None for https://www.mrpk.org/board-of-education/board-minutes
-2025-11-23T23:27:13.890526 - [*] Trying PdfScraper for https://www.mrpk.org/board-of-education/board-minutes
-2025-11-23T23:28:08.770339 - [-] PdfScraper returned None for https://www.mrpk.org/board-of-education/board-minutes
-2025-11-23T23:28:08.770703 - [-] All scrapers failed for https://www.mrpk.org/board-of-education/board-minutes
-2025-11-23T23:28:08.771010 - [!] No meetings found for https://www.mrpk.org/board-of-education/board-minutes
-2025-11-23T23:28:08.771313 - [*] Processing URL: https://cumberlandcountytn.gov/document-category/documentsofinterest/
-2025-11-23T23:28:08.771590 - [*] Trying ListScraper for https://cumberlandcountytn.gov/document-category/documentsofinterest/
-2025-11-23T23:28:08.771905 - [-] ListScraper returned None for https://cumberlandcountytn.gov/document-category/documentsofinterest/
-2025-11-23T23:28:08.772103 - [*] Trying PdfScraper for https://cumberlandcountytn.gov/document-category/documentsofinterest/
-2025-11-23T23:28:56.353451 - [-] PdfScraper returned None for https://cumberlandcountytn.gov/document-category/documentsofinterest/
-2025-11-23T23:28:56.353782 - [-] All scrapers failed for https://cumberlandcountytn.gov/document-category/documentsofinterest/
-2025-11-23T23:28:56.354116 - [!] No meetings found for https://cumberlandcountytn.gov/document-category/documentsofinterest/
-2025-11-23T23:28:56.354413 - [*] Processing URL: https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents
-2025-11-23T23:28:56.354654 - [*] Trying ListScraper for https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents
-2025-11-23T23:28:56.354932 - [-] ListScraper returned None for https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents
-2025-11-23T23:28:56.355197 - [*] Trying PdfScraper for https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents
-2025-11-23T23:29:43.749044 - [-] PdfScraper returned None for https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents
-2025-11-23T23:29:43.749405 - [-] All scrapers failed for https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents
-2025-11-23T23:29:43.749687 - [!] No meetings found for https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents
-2025-11-23T23:29:43.749994 - [*] Processing URL: https://www.fuhsd.org/about-us/board-of-trustees/board-meetings
-2025-11-23T23:29:43.750307 - [*] Trying ListScraper for https://www.fuhsd.org/about-us/board-of-trustees/board-meetings
-2025-11-23T23:29:43.750581 - [-] ListScraper returned None for https://www.fuhsd.org/about-us/board-of-trustees/board-meetings
-2025-11-23T23:29:43.750870 - [*] Trying PdfScraper for https://www.fuhsd.org/about-us/board-of-trustees/board-meetings
-2025-11-23T23:30:30.004786 - [-] PdfScraper returned None for https://www.fuhsd.org/about-us/board-of-trustees/board-meetings
-2025-11-23T23:30:30.005140 - [-] All scrapers failed for https://www.fuhsd.org/about-us/board-of-trustees/board-meetings
-2025-11-23T23:30:30.005381 - [!] No meetings found for https://www.fuhsd.org/about-us/board-of-trustees/board-meetings
-2025-11-23T23:30:30.005632 - [*] Processing URL: https://portwentworthga.gov/gov-agendas-citycouncil/
-2025-11-23T23:30:30.005891 - [*] Trying ListScraper for https://portwentworthga.gov/gov-agendas-citycouncil/
-2025-11-23T23:30:30.006168 - [-] ListScraper returned None for https://portwentworthga.gov/gov-agendas-citycouncil/
-2025-11-23T23:30:30.006417 - [*] Trying PdfScraper for https://portwentworthga.gov/gov-agendas-citycouncil/
-2025-11-23T23:30:54.794868 - [-] PdfScraper returned None for https://portwentworthga.gov/gov-agendas-citycouncil/
-2025-11-23T23:30:54.795218 - [-] All scrapers failed for https://portwentworthga.gov/gov-agendas-citycouncil/
-2025-11-23T23:30:54.795554 - [!] No meetings found for https://portwentworthga.gov/gov-agendas-citycouncil/
-2025-11-23T23:30:54.795869 - [*] Processing URL: https://www.woodsideschool.us/District/2025-26-DASHBOARD/Recorded-Zoom-Meetings-/index.html
-2025-11-23T23:30:54.796156 - [*] Trying ListScraper for https://www.woodsideschool.us/District/2025-26-DASHBOARD/Recorded-Zoom-Meetings-/index.html
-2025-11-23T23:30:54.796508 - [-] ListScraper returned None for https://www.woodsideschool.us/District/2025-26-DASHBOARD/Recorded-Zoom-Meetings-/index.html
-2025-11-23T23:30:54.796802 - [*] Trying PdfScraper for https://www.woodsideschool.us/District/2025-26-DASHBOARD/Recorded-Zoom-Meetings-/index.html
-2025-11-23T23:31:48.737962 - [+] PdfScraper succeeded for https://www.woodsideschool.us/District/2025-26-DASHBOARD/Recorded-Zoom-Meetings-/index.html
-2025-11-23T23:31:48.738435 - [+] Found 1 meetings for https://www.woodsideschool.us/District/2025-26-DASHBOARD/Recorded-Zoom-Meetings-/index.html
-2025-11-23T23:31:48.738739 - [*] Processing URL: https://www.coldspringschool.net/page/agendas-and-minutes
-2025-11-23T23:31:48.739214 - [*] Trying ListScraper for https://www.coldspringschool.net/page/agendas-and-minutes
-2025-11-23T23:31:48.739589 - [-] ListScraper returned None for https://www.coldspringschool.net/page/agendas-and-minutes
-2025-11-23T23:31:48.739950 - [*] Trying PdfScraper for https://www.coldspringschool.net/page/agendas-and-minutes
-2025-11-23T23:31:53.416468 - [-] PdfScraper returned None for https://www.coldspringschool.net/page/agendas-and-minutes
-2025-11-23T23:31:53.416784 - [-] All scrapers failed for https://www.coldspringschool.net/page/agendas-and-minutes
-2025-11-23T23:31:53.417096 - [!] No meetings found for https://www.coldspringschool.net/page/agendas-and-minutes
-2025-11-23T23:31:53.417396 - [*] Processing URL: https://www.losolivosschool.org/schoolboardmeetings
-2025-11-23T23:31:53.417693 - [*] Trying ListScraper for https://www.losolivosschool.org/schoolboardmeetings
-2025-11-23T23:31:53.417989 - [-] ListScraper returned None for https://www.losolivosschool.org/schoolboardmeetings
-2025-11-23T23:31:53.418251 - [*] Trying PdfScraper for https://www.losolivosschool.org/schoolboardmeetings
-2025-11-23T23:32:41.129550 - [-] PdfScraper returned None for https://www.losolivosschool.org/schoolboardmeetings
-2025-11-23T23:32:41.130060 - [-] All scrapers failed for https://www.losolivosschool.org/schoolboardmeetings
-2025-11-23T23:32:41.130502 - [!] No meetings found for https://www.losolivosschool.org/schoolboardmeetings
-2025-11-23T23:32:41.130814 - [*] Processing URL: https://www.sbceo.org/about/board/boardmaterials
-2025-11-23T23:32:41.131200 - [*] Trying ListScraper for https://www.sbceo.org/about/board/boardmaterials
-2025-11-23T23:32:41.131473 - [-] ListScraper returned None for https://www.sbceo.org/about/board/boardmaterials
-2025-11-23T23:32:41.131695 - [*] Trying PdfScraper for https://www.sbceo.org/about/board/boardmaterials
-2025-11-23T23:33:31.689687 - [-] PdfScraper returned None for https://www.sbceo.org/about/board/boardmaterials
-2025-11-23T23:33:31.690087 - [-] All scrapers failed for https://www.sbceo.org/about/board/boardmaterials
-2025-11-23T23:33:31.690381 - [!] No meetings found for https://www.sbceo.org/about/board/boardmaterials
-2025-11-23T23:33:31.690751 - [*] Processing URL: https://www.smbsd.org/district/school-board/board-meetings-minutes-and-agendas
-2025-11-23T23:33:31.691117 - [*] Trying ListScraper for https://www.smbsd.org/district/school-board/board-meetings-minutes-and-agendas
-2025-11-23T23:33:31.691416 - [-] ListScraper returned None for https://www.smbsd.org/district/school-board/board-meetings-minutes-and-agendas
-2025-11-23T23:33:31.691716 - [*] Trying PdfScraper for https://www.smbsd.org/district/school-board/board-meetings-minutes-and-agendas
-2025-11-23T23:34:16.234530 - [-] PdfScraper returned None for https://www.smbsd.org/district/school-board/board-meetings-minutes-and-agendas
-2025-11-23T23:34:16.235921 - [-] All scrapers failed for https://www.smbsd.org/district/school-board/board-meetings-minutes-and-agendas
-2025-11-23T23:34:16.236503 - [!] No meetings found for https://www.smbsd.org/district/school-board/board-meetings-minutes-and-agendas
-2025-11-23T23:34:16.236873 - [*] Processing URL: https://www.smuhsd.org/our-district/board-of-trustees/accessing-smuhsd-board-meetings
-2025-11-23T23:34:16.237226 - [*] Trying ListScraper for https://www.smuhsd.org/our-district/board-of-trustees/accessing-smuhsd-board-meetings
-2025-11-23T23:34:16.237556 - [-] ListScraper returned None for https://www.smuhsd.org/our-district/board-of-trustees/accessing-smuhsd-board-meetings
-2025-11-23T23:34:16.237980 - [*] Trying PdfScraper for https://www.smuhsd.org/our-district/board-of-trustees/accessing-smuhsd-board-meetings
-2025-11-23T23:35:37.749786 - [+] PdfScraper succeeded for https://www.smuhsd.org/our-district/board-of-trustees/accessing-smuhsd-board-meetings
-2025-11-23T23:35:37.750251 - [+] Found 11 meetings for https://www.smuhsd.org/our-district/board-of-trustees/accessing-smuhsd-board-meetings
+2025-11-24T11:24:35.332651 - [*] Processing URL: https://sanduskycountyoh.gov/index.php?page=2024-minutes
+2025-11-24T11:24:35.332909 - [*] Trying LinkScraper for https://sanduskycountyoh.gov/index.php?page=2024-minutes
+2025-11-24T11:24:57.135347 - [+] LinkScraper succeeded for https://sanduskycountyoh.gov/index.php?page=2024-minutes
+2025-11-24T11:24:57.135832 - [+] Found 9 meetings for https://sanduskycountyoh.gov/index.php?page=2024-minutes
+2025-11-24T11:24:57.136163 - [*] Processing URL: https://marioncountytn.net/agendas-minutes-county-commission
+2025-11-24T11:24:57.136442 - [*] Trying LinkScraper for https://marioncountytn.net/agendas-minutes-county-commission
+2025-11-24T11:25:37.048614 - [+] LinkScraper succeeded for https://marioncountytn.net/agendas-minutes-county-commission
+2025-11-24T11:25:37.048904 - [+] Found 4 meetings for https://marioncountytn.net/agendas-minutes-county-commission
+2025-11-24T11:25:37.049099 - [*] Processing URL: https://www.co.waller.tx.us/page/CommCourt.Minutes
+2025-11-24T11:25:37.049416 - [*] Trying LinkScraper for https://www.co.waller.tx.us/page/CommCourt.Minutes
+2025-11-24T11:26:28.687399 - [+] LinkScraper succeeded for https://www.co.waller.tx.us/page/CommCourt.Minutes
+2025-11-24T11:26:28.688010 - [+] Found 12 meetings for https://www.co.waller.tx.us/page/CommCourt.Minutes
+2025-11-24T11:26:28.688347 - [*] Processing URL: https://twinfallscounty.org/commissioners/minutes/
+2025-11-24T11:26:28.689243 - [*] Trying LinkScraper for https://twinfallscounty.org/commissioners/minutes/
+2025-11-24T11:27:16.316465 - [-] LinkScraper returned None for https://twinfallscounty.org/commissioners/minutes/
+2025-11-24T11:27:16.316830 - [-] All scrapers failed for https://twinfallscounty.org/commissioners/minutes/
+2025-11-24T11:27:16.317225 - [!] No meetings found for https://twinfallscounty.org/commissioners/minutes/
+2025-11-24T11:27:16.317583 - [*] Processing URL: https://sheboyganmeeting.com/calendarlist.php
+2025-11-24T11:27:16.317874 - [*] Trying LinkScraper for https://sheboyganmeeting.com/calendarlist.php
+2025-11-24T11:27:44.426433 - [+] LinkScraper succeeded for https://sheboyganmeeting.com/calendarlist.php
+2025-11-24T11:27:44.426884 - [+] Found 16 meetings for https://sheboyganmeeting.com/calendarlist.php
+2025-11-24T11:27:44.427174 - [*] Processing URL: https://cumberlandcountytn.gov/document-category/documentsofinterest/
+2025-11-24T11:27:44.427424 - [*] Trying LinkScraper for https://cumberlandcountytn.gov/document-category/documentsofinterest/
+2025-11-24T11:28:32.265787 - [-] LinkScraper returned None for https://cumberlandcountytn.gov/document-category/documentsofinterest/
+2025-11-24T11:28:32.266058 - [-] All scrapers failed for https://cumberlandcountytn.gov/document-category/documentsofinterest/
+2025-11-24T11:28:32.266305 - [!] No meetings found for https://cumberlandcountytn.gov/document-category/documentsofinterest/
+2025-11-24T11:28:32.266632 - [*] Processing URL: https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents
+2025-11-24T11:28:32.266894 - [*] Trying LinkScraper for https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents
+2025-11-24T11:29:19.933488 - [-] LinkScraper returned None for https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents
+2025-11-24T11:29:19.933802 - [-] All scrapers failed for https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents
+2025-11-24T11:29:19.934069 - [!] No meetings found for https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents

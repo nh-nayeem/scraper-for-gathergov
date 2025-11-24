@@ -2,6 +2,12 @@
     "start_date": "2024-11-20",
     "end_date": "2025-11-26",
     "base_urls": [
-        "https://portwentworthga.gov/gov-agendas-citycouncil/"
+        "https://sanduskycountyoh.gov/index.php?page=2024-minutes",
+        "https://marioncountytn.net/agendas-minutes-county-commission",
+        "https://www.co.waller.tx.us/page/CommCourt.Minutes",
+        "https://twinfallscounty.org/commissioners/minutes/",
+        "https://sheboyganmeeting.com/calendarlist.php",
+        "https://cumberlandcountytn.gov/document-category/documentsofinterest/",
+        "https://www.co.nezperce.id.us/Departments/Planning-and-Building/Planning-and-Zoning-Commission/2024-Archived-Documents"
     ]
 }

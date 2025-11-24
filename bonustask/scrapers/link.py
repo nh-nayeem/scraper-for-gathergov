@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from typing import Dict, Any, List, Optional
 from pathlib import Path
 
-class PdfScraper:
+class LinkScraper:
     @staticmethod
     async def _load_page_with_playwright(url: str) -> Optional[str]:
         """Load page content using Playwright with stealth mode."""
@@ -352,7 +352,7 @@ class PdfScraper:
                             document_type = key
                             break
                     
-                    base_identifier = PdfScraper._extract_base_identifier(filename, document_type)
+                    base_identifier = LinkScraper._extract_base_identifier(filename, document_type)
                     
                     if base_identifier not in meetings_by_identifier:
                         meetings_by_identifier[base_identifier] = {}
@@ -408,7 +408,7 @@ class PdfScraper:
                 
                 if pdf_url:
                     filename = pdf_url.split('/')[-1]
-                    cleaned_filename = PdfScraper._clean_filename_for_lcs(filename)
+                    cleaned_filename = LinkScraper._clean_filename_for_lcs(filename)
                     meeting_data.append({
                         'meeting': meeting,
                         'pdf_url': pdf_url,
@@ -439,7 +439,7 @@ class PdfScraper:
                         continue
                     
                     # Calculate LCS between cleaned filenames
-                    lcs = PdfScraper._longest_common_substring(
+                    lcs = LinkScraper._longest_common_substring(
                         meeting1['cleaned_filename'], 
                         meeting2['cleaned_filename']
                     )
@@ -499,30 +499,30 @@ class PdfScraper:
             if not href:
                 continue
             
-            pdf_url = PdfScraper._normalize_url(href, base_url)
+            pdf_url = LinkScraper._normalize_url(href, base_url)
             
             # Get text content for date and document type extraction
             link_text = link.get_text(strip=True)
             
             # Try to extract date from link text first
-            parsed_date = PdfScraper._parse_date(link_text)
+            parsed_date = LinkScraper._parse_date(link_text)
             if parsed_date:
                 meeting_date = parsed_date
             
             # Also try to extract date from filename
             if not meeting_date:
                 filename = pdf_url.split('/')[-1]
-                filename_date = PdfScraper._parse_date(filename)
+                filename_date = LinkScraper._parse_date(filename)
                 if filename_date:
                     meeting_date = filename_date
             
             # Determine document type
-            document_type = PdfScraper._determine_document_type(link_text)
+            document_type = LinkScraper._determine_document_type(link_text)
             
             # print(f"DEBUG: Processing PDF - href: {href}, text: {link_text}, date: {meeting_date}, type: {document_type}")
             
             # If date extraction successful and date is within range
-            if meeting_date and PdfScraper._is_date_in_range(meeting_date, start_date, end_date):
+            if meeting_date and LinkScraper._is_date_in_range(meeting_date, start_date, end_date):
                 meeting["date"] = meeting_date
                 meeting[document_type] = pdf_url
                 
@@ -536,7 +536,7 @@ class PdfScraper:
         # print(f"DEBUG: Total meetings found: {len(meetings)}")
         
         # Merge meetings that belong to the same meeting using LCS
-        merged_meetings = PdfScraper._merge_meetings_by_date_and_lcs(meetings)
+        merged_meetings = LinkScraper._merge_meetings_by_date_and_lcs(meetings)
         
         return merged_meetings if merged_meetings else None
     
@@ -554,13 +554,13 @@ class PdfScraper:
         """
         try:
             # Run async function to get page content
-            html_content = asyncio.run(PdfScraper._load_page_with_playwright(url))
+            html_content = asyncio.run(LinkScraper._load_page_with_playwright(url))
             
             if html_content is None:
                 return None
             
             # Extract PDF data with date filtering
-            meetings = PdfScraper._extract_pdf_data(html_content, url, start_date, end_date)
+            meetings = LinkScraper._extract_pdf_data(html_content, url, start_date, end_date)
             
             if meetings is None:
                 return None
@@ -568,5 +568,5 @@ class PdfScraper:
             return meetings
             
         except Exception as e:
-            print(f"Error in PdfScraper for {url}: {e}")
+            print(f"Error in LinkScraper for {url}: {e}")
             return None
