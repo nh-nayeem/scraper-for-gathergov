@@ -20,6 +20,12 @@ To run the scraper, use the following command:
 python scraper.py
 ```
 
+To run the scraper with browser head , use the following command:
+
+```bash
+python scraper.py --head
+```
+
 ## Requirements
 - Python 3.7+
 - Playwright

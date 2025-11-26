@@ -1,123 +1,13 @@
-import asyncio
-import random
 import re
 import json
 import requests
 from datetime import datetime
 from urllib.parse import urljoin, urlparse
-from playwright.async_api import async_playwright
-from playwright_stealth import Stealth
 from bs4 import BeautifulSoup
 from typing import Dict, Any, List, Optional
 from pathlib import Path
 
 class LinkScraper:
-    @staticmethod
-    async def _load_page_with_playwright(url: str) -> Optional[str]:
-        """Load page content using Playwright with stealth mode."""
-        stealth = Stealth(
-            navigator_languages_override=("en-US", "en"),
-            navigator_platform="Win32",
-            init_scripts_only=True
-        )
-        
-        async with async_playwright() as p:
-            browser = await p.chromium.launch(
-                headless=False,
-                args=[
-                    '--disable-blink-features=AutomationControlled',
-                    '--disable-dev-shm-usage',
-                    '--no-sandbox',
-                    '--disable-web-security',
-                    '--disable-features=VizDisplayCompositor',
-                    '--disable-background-timer-throttling',
-                    '--disable-renderer-backgrounding',
-                    '--disable-backgrounding-occluded-windows',
-                    '--disable-ipc-flooding-protection',
-                    '--no-first-run',
-                    '--no-default-browser-check',
-                    '--disable-default-apps',
-                    '--disable-popup-blocking'
-                ]
-            )
-            
-            try:
-                context = await browser.new_context(
-                    user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                    locale='en-US',
-                    timezone_id='America/New_York',
-                    permissions=['geolocation'],
-                    accept_downloads=False,
-                    java_script_enabled=True,
-                    ignore_https_errors=True
-                )
-                
-                await context.set_extra_http_headers({
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-                    'Accept-Language': 'en-US,en;q=0.9',
-                    'Accept-Encoding': 'gzip, deflate, br',
-                    'DNT': '1',
-                    'Connection': 'keep-alive',
-                    'Upgrade-Insecure-Requests': '1',
-                    'Sec-Fetch-Dest': 'document',
-                    'Sec-Fetch-Mode': 'navigate',
-                    'Sec-Fetch-Site': 'none',
-                    'Sec-Fetch-User': '?1',
-                    'Cache-Control': 'max-age=0'
-                })
-                
-                page = await context.new_page()
-                await page.set_viewport_size({"width": 1920, "height": 1080})
-                
-                # Navigate to URL
-                await page.goto(url, timeout=45000, wait_until='networkidle')
-                
-                # Apply stealth mode AFTER navigation
-                await stealth.apply_stealth_async(page)
-                
-                # Wait for either content or timeout
-                try:
-                    await page.wait_for_selector('a[href*=".pdf"]', timeout=15000)
-                except:
-                    pass
-                
-                # Wait for page to be more stable
-                await page.wait_for_load_state('domcontentloaded', timeout=10000)
-                
-                # Smart scrolling to trigger lazy loading
-                try:
-                    page_height = await page.evaluate("document.body.scrollHeight")
-                    viewport_height = 1080
-                    
-                    for i in range(0, page_height, viewport_height // 2):
-                        await page.evaluate(f"window.scrollTo(0, {i})")
-                        await asyncio.sleep(random.uniform(0.5, 1.0))
-                    
-                    await page.evaluate("window.scrollTo(0, 0)")
-                    await asyncio.sleep(random.uniform(0.5, 1.0))
-                except Exception:
-                    pass
-                
-                # Additional wait for JS-rendered content
-                await asyncio.sleep(random.uniform(3.0, 5.0))
-                
-                # Get page content
-                content = await page.content()
-                
-                # Save HTML content to debug file
-                debug_dir = Path("debug")
-                debug_dir.mkdir(exist_ok=True)
-                with open(debug_dir / "element.html", 'w', encoding='utf-8') as f:
-                    f.write(content)
-                
-                return content
-                
-            except Exception as e:
-                print(f"Error loading {url}: {e}")
-                return None
-            finally:
-                await browser.close()
-    
     @staticmethod
     def _normalize_url(url: str, base_url: str) -> str:
         """Normalize URL - convert relative URLs to absolute."""
@@ -759,11 +649,12 @@ class LinkScraper:
         return merged_meetings if merged_meetings else None
     
     @staticmethod
-    def try_scrape(url: str, start_date: str, end_date: str) -> Optional[List[Dict[str, Any]]]:
+    def try_scrape(html_content: str, url: str, start_date: str, end_date: str) -> Optional[List[Dict[str, Any]]]:
         """Try to scrape meeting data by collecting meeting agendas and minutes from PDF files.
         
         Args:
-            url: The URL to scrape
+            html_content: The HTML content to parse
+            url: The URL that was scraped
             start_date: Start date in YYYY-MM-DD format
             end_date: End date in YYYY-MM-DD format
             
@@ -771,9 +662,6 @@ class LinkScraper:
             Meeting data if successful, None if unsuccessful
         """
         try:
-            # Run async function to get page content
-            html_content = asyncio.run(LinkScraper._load_page_with_playwright(url))
-            
             if html_content is None:
                 return None
             
