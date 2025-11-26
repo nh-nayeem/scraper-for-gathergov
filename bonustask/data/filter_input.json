@@ -4,7 +4,6 @@
         "https://morgancounty.colorado.gov/planning-commission-agendas-and-minutes",
         "https://www.webstercountyia.gov/departments/board_of_supervisors/directory_of_meeting_minutes/2024.php",
         "https://www.towncloud.io/go/maryville-mo",
-        "https://hagerstown.novusagenda.com/agendapublic/",
         "https://www.robertsoncountytn.gov/local_government/county_commissioners/county_commission_minutes.php",
         "https://www.cityofmandeville.com/meetings?field_microsite_tid_1=27",
         "https://www.moreland.org/apps/pages/index.jsp?uREC_ID=427275&type=d&pREC_ID=990660",
@@ -20,6 +19,7 @@
         "https://www.arusd.org/about-us/board-of-trustees/board-agendas"
     ],
     "tablex_urls": [
+        "https://hagerstown.novusagenda.com/agendapublic/",
         "https://www.coldspringschool.net/page/agendas-and-minutes"
     ],
     "pdf_urls": [
