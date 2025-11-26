@@ -1,5 +1,1257 @@
 [
   {
+    "base_url": "https://sanduskycountyoh.gov/index.php?page=2024-minutes",
+    "meetings": [
+      {
+        "date": "2024-12-31",
+        "minutes": "https://sanduskycountyoh.gov/uploads/Commissioners/2025%20minutes/123124.pdf",
+        "title": "Commissioners Minutes 12/31/24"
+      },
+      {
+        "date": "2024-12-24",
+        "minutes": "https://sanduskycountyoh.gov/uploads/Commissioners/2025%20minutes/122424.pdf",
+        "title": "Commissioners Minutes 12.24.24"
+      },
+      {
+        "date": "2024-12-19",
+        "minutes": "https://sanduskycountyoh.gov/uploads/Commissioners/2024/121924.pdf",
+        "title": "Commissioners Minutes 12.19.24"
+      },
+      {
+        "date": "2024-12-17",
+        "minutes": "https://sanduskycountyoh.gov/uploads/Commissioners/2024/121724.pdf",
+        "title": "Commissioners Minutes 12.17.24"
+      },
+      {
+        "date": "2024-12-12",
+        "minutes": "https://sanduskycountyoh.gov/uploads/Commissioners/2024/121224.pdf",
+        "title": "Commissioners Minutes 12.12.24"
+      },
+      {
+        "date": "2024-12-10",
+        "minutes": "https://sanduskycountyoh.gov/uploads/Commissioners/2024/121024.pdf",
+        "title": "Commissioners Minutes 12.10.24"
+      },
+      {
+        "date": "2024-12-03",
+        "minutes": "https://sanduskycountyoh.gov/uploads/Commissioners/2024/120324.pdf",
+        "title": "Commissioners Minutes 12.03.24"
+      },
+      {
+        "date": "2024-11-26",
+        "minutes": "https://sanduskycountyoh.gov/uploads/Commissioners/2024/112624.pdf",
+        "title": "Commissioners Minutes 11.26.24"
+      },
+      {
+        "date": "2024-11-21",
+        "minutes": "https://sanduskycountyoh.gov/uploads/Commissioners/2024/112124.pdf",
+        "title": "Commissioners Minutes 11.21.24"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.cityofsanteeca.gov/city-clerk/agendas-minutes",
+    "meetings": [
+      {
+        "date": "2025-11-12",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/11-12-2025-agenda-packet.pdf",
+        "agenda;02": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/11-12-2025-non-agenda-correspondence.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2178?site=1"
+      },
+      {
+        "date": "2025-10-22",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/10-22-2025-agenda-packet.pdf",
+        "notice": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/10-22-2025-dif-report-notice-of-review-2025.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2167?site=1"
+      },
+      {
+        "date": "2025-10-08",
+        "notice": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/10-08-2025-cancellation-notice.pdf"
+      },
+      {
+        "date": "2025-09-24",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/09-24-2025-agenda-packet.pdf",
+        "plan": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/09-24-2025-item-8-project-plans-attachment.pdf",
+        "other": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/09-24-2025-item-8-ceqa-addendum-attachment.pdf",
+        "correspondence": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/09-24-2025-item-8-correspondence.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2159?site=1"
+      },
+      {
+        "date": "2025-09-10",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/09-10-2025-agenda-packet.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2151?site=1"
+      },
+      {
+        "date": "2025-08-27",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/08-27-2025-agenda-packet.pdf",
+        "attachment": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/08-27-2025-item-8-final-eir-attachment.pdf",
+        "Item 8 - EIR Appendices": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/08-27-2025-item-8-final-eir-attachment-appendices.pdf",
+        "plan": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/08-27-2025-item-8-project-plans-attachment.pdf",
+        "agenda;02": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/08-27-2025-item-8-updated-agenda-material.pdf",
+        "correspondence": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/08-27-2025-item-8-correspondence.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2146?site=1"
+      },
+      {
+        "date": "2025-08-20",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/08-20-2025-special-meeting-agenda.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2140?site=1"
+      },
+      {
+        "date": "2025-08-13",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/08-13-2025-agenda-packet.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2134?site=1"
+      },
+      {
+        "date": "2025-08-12",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/08-12-2025-special-meeting-agenda.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2135?site=1"
+      },
+      {
+        "date": "2025-08-04",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/08-04-2025-special-meeting-agenda-pm.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2136?site=1"
+      },
+      {
+        "date": "2025-08-04",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/08-04-2025-special-meeting-agenda-am.pdf",
+        "minutes": "Minutes"
+      },
+      {
+        "date": "2025-07-23",
+        "notice": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-23-2025-cancellation-notice.pdf"
+      },
+      {
+        "date": "2025-07-09",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-09-2025-agenda-packet.pdf",
+        "attachment": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-09-2025-item-9-project-plans.pdf",
+        "attachment;02": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-09-2025-item-9-addendum-and-ceqa-environmental-checklist.pdf",
+        "attachment;03": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-09-2025-item-10-exhibit-a-summary-attachment.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2124?site=1"
+      },
+      {
+        "special_meeting": "July 8, 10, and 11, 2025, Special Meeting**This single meeting will be held over 3 days.",
+        "date": "2025-07-08",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-agenda-packet-special.pdf",
+        "agenda;02": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-item-1-updated-agenda-material.pdf",
+        "correspondence": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-item-1-correspondence-07-08-2025.pdf",
+        "correspondence;02": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-10-2025-item-1-correspondence-07-10-2025.pdf",
+        "correspondence;03": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-11-2025-item-1-correspondence-07-11-2025.pdf",
+        "correspondence;04": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-11-2025-item-1-correspondence-late.pdf",
+        "1 - Siesta Life": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-siesta-life-application.pdf",
+        "2 - Flame": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-flame-application.pdf",
+        "3 - Green Reserve": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-green-reserve-application.pdf",
+        "4 - Catalyst": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-catalyst-application.pdf",
+        "5 - Dr Green Thumbs": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-dr-green-thumbs-application.pdf",
+        "6 - Flyte": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-flyte-application.pdf",
+        "7 - Embarc": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-embarc-application.pdf",
+        "8 - Off the Charts": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-off-the-charts-application.pdf",
+        "9 - Mission Greens": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-mission-greens-application.pdf",
+        "10 - Hightend": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-hightend-application.pdf",
+        "11 - Wellgreens": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-wellgreens-application.pdf",
+        "12 - Buzz": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-buzz-application.pdf",
+        "13 - Culture Cannabis Club": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-culture-cannabis-club-application.pdf",
+        "14 - Leaf Society": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-leaf-society-application.pdf",
+        "15 - March and Ash": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-march-and-ash-application.pdf",
+        "16 - Santee Holistics": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/07-08-2025-holistic-application.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2125?site=1",
+        "recording;02": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2126?site=1",
+        "recording;03": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2127?site=1"
+      },
+      {
+        "date": "2025-06-25",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/06-25-2025-agenda-packet.pdf",
+        "correspondence": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/Item%207%20-%20Correspondence.pdf",
+        "correspondence;02": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/Item%208%20-%20Correspondence.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2116?site=1"
+      },
+      {
+        "date": "2025-06-11",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/06-11-2025-agenda-packet.pdf",
+        "attachment": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/06-11-2025-item-9-proposed-operating-budget.pdf",
+        "correspondence": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/06-11-2025-item-2-correspondence.pdf",
+        "correspondence;02": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/06-11-2025-item-6-correspondence.pdf",
+        "correspondence;03": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/06-11-2025-item-6-correspondence-after-4pm.pdf",
+        "correspondence;04": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/06-11-2025-item-8-correspondence.pdf",
+        "correspondence;05": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/06-11-2025-item-9-correspondence.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2112?site=1"
+      },
+      {
+        "date": "2025-06-11",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/06-11-2025-special-meeting-agenda-packet.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2113?site=1"
+      },
+      {
+        "date": "2025-05-28",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/05-28-2025-agenda-packet.pdf",
+        "material": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/05-28-2025-item-10-updated-material.pdf",
+        "attachment": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/05-28-2025-item-10-project-plans.pdf",
+        "attachment;02": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/05-28-2025-item-10-class-32-ceqa-exemption-analysis.pdf",
+        "attachment;03": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/05-28-2025-item-15-proposed-capital-improvement-program.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2102?site=1"
+      },
+      {
+        "date": "2025-05-14",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/05-14-2025-agenda-packet.pdf",
+        "attachment": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/05-14-2025-item-12-attachment-safety-element.pdf",
+        "attachment;02": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/05-14-2025-item-12-attachment-negative-declaration.pdf",
+        "attachment;03": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/05-14-2025-item-12-attachment-floodway-maps.pdf",
+        "attachment;04": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/05-14-2025-item-13-attachment-ceqa-analysis.pdf",
+        "attachment;05": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/05-14-2025-item-13-attachment-plans.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2095?site=1"
+      },
+      {
+        "date": "2025-04-23",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/04-23-2025-agenda-packet.pdf",
+        "agenda;02": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/04-23-2025-item-14-updated-agenda-documents.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2085?site=1"
+      },
+      {
+        "date": "2025-04-20",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/04-20-2025-special-meeting-agenda.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2081?site=1"
+      },
+      {
+        "date": "2025-04-18",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/04-18-2025-special-meeting-agenda.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2080?site=1"
+      },
+      {
+        "date": "2025-04-17",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/Agenda%2004-17-2025%20SPCL%20-%20Town%20Hall.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2079?site=1"
+      },
+      {
+        "date": "2025-04-09",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/04-09-2025-agenda-packet.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2082?site=1"
+      },
+      {
+        "date": "2025-03-26",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/03-26-2025-agenda-packet.pdf",
+        "attachment": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/03-26-2025-item-8-project-plans-attachment.pdf",
+        "minutes": "Minutes",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2061?site=1"
+      },
+      {
+        "date": "2025-03-12",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/03-12-2025-agenda-packet.pdf",
+        "attachment": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/03-12-2025-item-9-ordinance-attachment-exhibit-a.pdf",
+        "minutes": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/minutes/minutes-03-12-2025-reg.pdf",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2056?site=1"
+      },
+      {
+        "date": "2025-02-27",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/02-27-2025-agenda-spcl.pdf",
+        "minutes": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/minutes/minutes-02-27-2023-spcl.pdf"
+      },
+      {
+        "date": "2025-02-26",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/02-26-2025-agenda-packet.pdf",
+        "attachment": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/02-26-2025-item-8-ordinance-attachment-exhibit-a.pdf",
+        "attachment;02": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/02-26-2025-item-8-9-strike-through-version-tcsp-february-2025.pdf",
+        "attachment;03": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/02-26-2025-item-8-10-santee-tcsp-final-eir-volume-%201.pdf",
+        "attachment;04": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/02-26-2025-item-8-11-santee-tcsp-eir-volumeii-revised-draft-eir.pdf",
+        "attachment;05": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/02-26-2025-item-8-12-santee-tcsp-eir-volume-iii-appendices.pdf",
+        "attachment;06": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/02-26-2025-item-9-project-plan-attachment.pdf",
+        "attachment;07": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/02-26-2025-item-9-class-32-ceqa-exemption-analysis.pdf",
+        "minutes": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/minutes/minutes-02-26-2025-reg.pdf",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2046?site=1"
+      },
+      {
+        "date": "2025-02-12",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/02-12-2025-agenda-packet.pdf",
+        "presentation": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/02-12-2025-item-12-powerpoint.pdf",
+        "minutes": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/minutes/minutes-02-12-2025-reg.pdf",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2035?site=1"
+      },
+      {
+        "date": "2025-01-22",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/01-22-2025-agenda-packet.pdf",
+        "minutes": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/minutes/minutes-01-22-2025-reg.pdf",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2027?site=1"
+      },
+      {
+        "date": "2025-01-08",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/01-08-2025-agenda-packet.pdf",
+        "correspondence": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/01-08-2025-item-8-updated-meeting-material.pdf",
+        "Comprehensive Development Impact Fee Nexus Study": "https://www.cityofsanteeca.gov/documents/finance/comprehensive-development-impact-fee-study-december-2024.pdf",
+        "minutes": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2025/minutes/minutes-01-08-2025-reg.pdf",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2021?site=1"
+      },
+      {
+        "date": "2024-12-11",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2024/12-11-2024-agenda-packet.pdf",
+        "minutes": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2024/minutes/minutes-12-11-2024-reg.pdf",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2015?site=1"
+      },
+      {
+        "date": "2024-12-11",
+        "agenda": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2024/12-11-2024-special-agenda.pdf",
+        "minutes": "https://www.cityofsanteeca.gov/documents/city-clerk/council-agendas/2024/minutes/minutes-12-11-2024-spcl.pdf",
+        "recording": "https://cityofsantee.cablecast.tv/CablecastPublicSite/show/2014?site=1"
+      }
+    ]
+  },
+  {
+    "base_url": "https://morgancounty.colorado.gov/planning-commission-agendas-and-minutes",
+    "meetings": [
+      {
+        "date": "2025-11-10",
+        "agenda": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Agenda%2011-10-2025_1.pdf",
+        "agenda_packet": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Board%20Packet%2011-10-2025%20KS%20Land.pdf",
+        "Web Link to 11-10-2025 PC Meeting(opens in new window)": "https://us02web.zoom.us/j/81217215233",
+        "minutes": "Minutes posted upon approval"
+      },
+      {
+        "date": "2025-10-14",
+        "agenda": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Agenda%2010-14-2025%20Rev-1.pdf",
+        "agenda_packet": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Board%20Packet%2010-14-2025.pdf",
+        "minutes": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Minutes%2010-14-2025%20-%20Comprehensive%20Plan.pdf",
+        "Watch 10-14-2025 PC Meeting(opens in new window)": "https://us02web.zoom.us/rec/share/RGRURckS9ZpGnbVKb1sK06Bdg0kyPu6mm-QOyTLmNhe-7HtL4CuAGbA_5GWT6zQ7.Aa0ViluWPrQE4gsF?startTime=1760486604000"
+      },
+      {
+        "date": "2025-10-06",
+        "agenda": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Agenda%20Special%20Meeting%2010-06-2025.pdf",
+        "Xtreme LLC / Terry and Connie Tormohlen(opens in new window)": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Board%20Packet%2010-06-2025%20Tormohlen.pdf",
+        "Andrew Witt / Polar Block Properties, LLC(opens in new window)": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Board%20Packet%2010-06-2025%20Polar%20Block.pdf",
+        "Zoning amendments related to cisterns(opens in new window)": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Board%20Packet%2009-08-2025%20Cisterns%20%26%20Misc%20Amd.pdf",
+        "minutes": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Minutes%2010-06-2025%20-%20Tormohlen-Polar%20Block-Cisterns.pdf",
+        "Watch 10-06-2025 PC Meeting(opens in new window)": "https://us02web.zoom.us/rec/share/HRiKlXY1hWUD5Fh5hrh4XCk-c836WdXnXr50TuaDBeuSqclJmwaWZA5ySy7z3I5R.gx5nQRlfLdgtmnWh?startTime=1759795304000"
+      },
+      {
+        "date": "2025-09-08",
+        "agenda": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Agenda%2009-08-2025.pdf",
+        "agenda_packet": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Board%20Packet%2009-08-2025%20Cisterns%20%26%20Misc%20Amd.pdf",
+        "minutes": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Minutes%2009-08-2025%20-%20Amendments.pdf",
+        "Watch 09-08-2025 PC Meeting(opens in new window)": "https://us02web.zoom.us/rec/share/oMW75GElkHrSCP6fc4P7QsXTmRKbmAaflijva0mP8gh5Em7NO74IJGD0tm00l4s.F_7XPa7UtoPMpdDG?startTime=1757376538000"
+      },
+      {
+        "date": "2025-08-11",
+        "agenda": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Agenda%20PC%2008-11-2025.pdf",
+        "agenda_packet": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Board%20Packet%2008-11-2025%20bkmd_Redacted_0.pdf",
+        "minutes": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Minutes%20-%2008-11-2025.pdf",
+        "Watch 08-11-2025 PC Meeting(opens in new window)": "https://us02web.zoom.us/rec/share/yGwMm7EKA6X1T7gIz_eYOLimYUvgr2cZJIQ2N4q_sDUcAOI_DbmUKz_9H0-_kzaA.LmtP4t_RVKIE7Bi3?startTime=1754956876000"
+      },
+      {
+        "date": "2025-07-14",
+        "agenda": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Agenda%2007-14-2025.pdf",
+        "agenda_packet": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Board%20Packet%2007-14-2025.pdf",
+        "minutes": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Minutes%20-%2007-14-2025.pdf",
+        "Watch 07-14-2025 PC Meeting(opens in new window)": "https://us02web.zoom.us/rec/share/j7a_oIYEJqS8SS6Sh2f4owuFad0yGW3-37mJy3kNJCCVyhpH_jN_WXoTcA_XZUya.YScVsJ8JSuudWorJ?startTime=1752537632000"
+      },
+      {
+        "date": "2025-05-12",
+        "agenda": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Agenda%2005-12-2025.pdf",
+        "agenda_packet": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Board%20Packet%2005-12-2025.pdf",
+        "Web Link to 04-28-2025 PC Meeting(opens in new window)": "https://us02web.zoom.us/j/81727527108",
+        "minutes": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Minutes%20-%2005-12-2025.pdf",
+        "Watch 05-12-2025 PC Meeting(opens in new window)": "https://us02web.zoom.us/rec/share/a9eM3CH-p8X1luIgFgiM3T61k25-0OoEaa1pTqFcYlgg98Xu1pE3b622Kqb2sw.tYm1BDKKfjh2ZuAS?startTime=1747094423000"
+      },
+      {
+        "date": "2025-04-28",
+        "agenda": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Agenda%2004-28-2025%20-%20Special%20Meeting.pdf",
+        "agenda_packet": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Board%20Packet%2004-28-2025%20Bellendir%20%26%20Greener.pdf",
+        "Web Link to 04-28-2025 PC Meeting(opens in new window)": "https://us02web.zoom.us/j/89345385960",
+        "minutes": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Minutes%20-%2004-28-2025.pdf",
+        "Watch 04-28-2025 PC Meeting(opens in new window)": "https://us02web.zoom.us/rec/share/rQGCbNIPhJUhCT7cV9WuDOErMODHtgqzOHEjeuGVfPdqo58qdwb14KovD34miny-.LIvRMOQWYj0bdafK?startTime=1745884973000"
+      },
+      {
+        "date": "2025-02-10",
+        "agenda": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Agenda%2002-10-2025_0.pdf",
+        "agenda_packet": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Board%20Packet%2002-10-2025.pdf",
+        "minutes": "https://morgancounty.colorado.gov/sites/morgancounty/files/documents/PC%20Minutes%20-%2002-10-2025.pdf",
+        "Watch 02-10-2025 PC Meeting(opens in new window)": "https://us02web.zoom.us/rec/share/a7yGNOU4t86c9NL182EHCi5VRm0AcSPocwLRdJmJM6m3p0POiHRS0Fe3sK99pGwI.8rCDzbsL0VMDn8wf?startTime=1739235618000"
+      }
+    ]
+  },
+  {
+    "base_url": "https://marioncountytn.net/agendas-minutes-county-commission",
+    "meetings": [
+      {
+        "date": "2024-11-25",
+        "unknown": "https://marioncountytn.net/s/Agenda112524.pdf",
+        "title": "November 2024"
+      },
+      {
+        "date": "2025-01-27",
+        "unknown": "https://marioncountytn.net/s/Agenda012725.pdf",
+        "title": "January 2025"
+      },
+      {
+        "date": "2025-02-24",
+        "unknown": "https://marioncountytn.net/s/Agenda022425.pdf",
+        "title": "February 2025"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.co.waller.tx.us/page/CommCourt.Minutes",
+    "meetings": [
+      {
+        "date": "2025-01-08",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/01.08.25%20Regular.pdf",
+        "title": "01.08.25 Regular.pdf"
+      },
+      {
+        "date": "2025-01-23",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/01.23.25%20Regular.pdf",
+        "title": "01.23.25 Regular.pdf"
+      },
+      {
+        "date": "2025-02-05",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/02.05.25%20Regular.pdf",
+        "title": "02.05.25 Regular.pdf"
+      },
+      {
+        "date": "2025-02-18",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/02.18.25%20Regular.pdf",
+        "title": "02.18.25 Regular.pdf"
+      },
+      {
+        "date": "2025-03-05",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/03.05.25%20Regular.pdf",
+        "title": "03.05.25 Regular.pdf"
+      },
+      {
+        "date": "2025-03-19",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/03.19.25%20Regular.pdf",
+        "title": "03.19.25 Regular.pdf"
+      },
+      {
+        "date": "2025-04-02",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/04.02.25%20Regular.pdf",
+        "title": "04.02.25 Regular.pdf"
+      },
+      {
+        "date": "2025-04-16",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/04.16.25%20Regular.pdf",
+        "title": "04.16.25 Regular.pdf"
+      },
+      {
+        "date": "2025-04-30",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/04.30.25%20Regular.pdf",
+        "title": "04.30.25 Regular.pdf"
+      },
+      {
+        "date": "2024-11-20",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/11.20.24%20Regular.pdf",
+        "title": "11.20.24 Regular.pdf"
+      },
+      {
+        "date": "2024-12-11",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/12.11.24%20Regular.pdf",
+        "title": "12.11.24 Regular.pdf"
+      },
+      {
+        "date": "2024-12-18",
+        "unknown": "https://www.co.waller.tx.us/page/download/3034/0/12.18.24%20Regular.pdf",
+        "title": "12.18.24 Regular.pdf"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.webstercountyia.gov/departments/board_of_supervisors/directory_of_meeting_minutes/2024.php",
+    "meetings": [
+      {
+        "date": "2024-12-17",
+        "agenda": "https://www.webstercountyia.gov/departments/board_of_supervisors/directory_of_meeting_minutes/document_center/Departments/Board of Supervisors/Minutes/2024/2024-12-17_AgendaU.pdf",
+        "minutes": "https://www.webstercountyia.gov/departments/board_of_supervisors/directory_of_meeting_minutes/document_center/Departments/Board of Supervisors/Minutes/2024/2024-12-17_minutes.pdf",
+        "recording": "https://www.facebook.com/wciabosvideos/videos/549665297868242"
+      },
+      {
+        "date": "2024-12-05",
+        "agenda": "https://www.webstercountyia.gov/departments/board_of_supervisors/directory_of_meeting_minutes/document_center/Departments/Board of Supervisors/Minutes/2024/2024-12-05 workshop.pdf",
+        "recording": "https://www.facebook.com/wciabosvideos/videos/887762810226007"
+      },
+      {
+        "date": "2024-12-03",
+        "agenda": "https://www.webstercountyia.gov/departments/board_of_supervisors/directory_of_meeting_minutes/document_center/Departments/Board of Supervisors/Minutes/2024/2024-12-03_AgendaU.pdf",
+        "minutes": "https://www.webstercountyia.gov/departments/board_of_supervisors/directory_of_meeting_minutes/document_center/Departments/Board of Supervisors/Minutes/2024/2024-12-03_Minutes.pdf",
+        "recording": "https://www.facebook.com/wciabosvideos/videos/1337752910969884"
+      },
+      {
+        "date": "2024-12-03",
+        "agenda": "https://www.webstercountyia.gov/departments/board_of_supervisors/directory_of_meeting_minutes/document_center/Departments/Board of Supervisors/Minutes/2024/Budget Hearings revised Day 2.pdf",
+        "minutes": "https://www.webstercountyia.gov/departments/board_of_supervisors/directory_of_meeting_minutes/document_center/Departments/Board of Supervisors/Minutes/2024/Budget Calender.pdf"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.towncloud.io/go/maryville-mo",
+    "meetings": [
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-11-24",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/604/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/604/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-11-10",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/603/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/603/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-10-13",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/602/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/602/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "special_meeting": "SPECIAL CITY COUNCIL MEETING",
+        "date": "2025-09-30",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/601/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/601/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-09-22",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/599/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/599/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "special_meeting": "SPECIAL CITY COUNCIL MEETING",
+        "date": "2025-09-22",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/600/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/600/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "special_meeting": "SPECIAL CITY COUNCIL MEETING",
+        "date": "2025-09-09",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/598/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/598/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-09-08",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/596/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/596/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "special_meeting": "SPECIAL CITY COUNCIL MEETING",
+        "date": "2025-09-08",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/597/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/597/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-08-25",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/595/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/595/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-08-11",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/561/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/561/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "special_meeting": "SPECIAL CITY COUNCIL MEETING",
+        "date": "2025-08-11",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/562/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/562/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-07-28",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/560/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/560/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "special_meeting": "SPECIAL CITY COUNCIL MEETING",
+        "date": "2025-07-16",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/559/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/559/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-07-14",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/557/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/557/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "special_meeting": "SPECIAL CITY COUNCIL MEETING",
+        "date": "2025-07-11",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/558/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/558/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-06-23",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/556/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/556/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-06-09",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/555/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/555/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-05-27",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/522/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/522/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-05-12",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/521/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/521/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-04-28",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/519/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/519/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "special_meeting": "SPECIAL CITY COUNCIL MEETING",
+        "date": "2025-04-23",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/520/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/520/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-04-14",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/516/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/516/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-03-24",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/515/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/515/pdf_packet/get_agenda_document_link"
+      },
+      {
+        "regular_meeting": "REGULAR CITY COUNCIL MEETING",
+        "date": "2025-03-10",
+        "agenda": "https://www.towncloud.io/go/maryville-mo/agendas/482/PDF/get_agenda_document_link",
+        "agenda_packet": "https://www.towncloud.io/go/maryville-mo/agendas/482/pdf_packet/get_agenda_document_link"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.pottcounty-ia.gov/planning_and_development/planning_and_zoning_commission/",
+    "meetings": [
+      {
+        "date": "2025-10-20",
+        "packet": "https://www.pottcounty-ia.gov/files/meetings/2025-10-20_packet_4776.pdf",
+        "agenda": "https://www.pottcounty-ia.gov/files/meetings/2025-10-20_agenda_7020.pdf",
+        "video": "https://www.youtube.com/watch?v=bF49XHXVp9s",
+        "title": "Packet, Agenda, Video"
+      },
+      {
+        "date": "2025-07-21",
+        "packet": "https://www.pottcounty-ia.gov/files/meetings/2025-07-21_packet_planning_and_zoning_35657.pdf",
+        "agenda": "https://www.pottcounty-ia.gov/files/meetings/2025-07-21_agenda_4080.pdf",
+        "minutes": "https://www.pottcounty-ia.gov/files/meetings/2025-07-21_minutes_8899.pdf",
+        "video": "https://www.youtube.com/watch?v=Og5MdybYCfw",
+        "title": "Packet, Agenda, Minutes, Video"
+      },
+      {
+        "date": "2025-03-17",
+        "packet": "https://www.pottcounty-ia.gov/files/meetings/2025-03-17_packet_2889.pdf",
+        "agenda": "https://www.pottcounty-ia.gov/files/meetings/2025-03-17_agenda_5627.pdf",
+        "minutes": "https://www.pottcounty-ia.gov/files/meetings/2025-03-17_minutes_4107.pdf",
+        "video": "https://www.youtube.com/watch?v=g4thnZdeA4U",
+        "title": "Packet, Agenda, Minutes, Video"
+      },
+      {
+        "date": "2024-12-16",
+        "packet": "https://www.pottcounty-ia.gov/files/meetings/2024-12-16_packet_7022.pdf",
+        "agenda": "https://www.pottcounty-ia.gov/files/meetings/2024-12-16_agenda_planning_and_zoning_30637.pdf",
+        "minutes": "https://www.pottcounty-ia.gov/files/meetings/2024-12-16_minutes_4229.pdf",
+        "video": "https://www.youtube.com/watch?v=UqPJPyR-16U",
+        "title": "Packet, Agenda, Minutes, Video"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.robertsoncountytn.gov/local_government/county_commissioners/county_commission_minutes.php",
+    "meetings": [
+      {
+        "date": "2025-11-17",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/November 2025 online.pdf?t=202511131536010",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/meeting minutes/2025/november2025.pdf?t=202511181540210",
+        "recording": "https://youtu.be/AYeMRybpaZI"
+      },
+      {
+        "date": "2025-10-20",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/October 2025 online (2).pdf?t=202510151157380",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/meeting minutes/2025/october2025.pdf?t=202510221722400",
+        "recording": "https://youtu.be/KipLGSwTNi4"
+      },
+      {
+        "date": "2025-09-15",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/September 2025 online.pdf?t=202509121016430",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/meeting minutes/2025/septmber2025.pdf?t=202510231213150",
+        "recording": "https://youtu.be/6iSPr3weKZE"
+      },
+      {
+        "date": "2025-08-18",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/2025 August online.pdf?t=202508140915250",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/meeting minutes/2025/august2025.pdf?t=202508201616200",
+        "recording": "https://youtu.be/ApSabMXL0h0"
+      },
+      {
+        "date": "2025-07-21",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/July 2025.pdf?t=202507161508580",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/meeting minutes/2025/july2025.pdf?t=202507221318450",
+        "recording": "https://youtu.be/fg6Y796vR9A"
+      },
+      {
+        "date": "2025-06-16",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/June online.pdf?t=202506111002270",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/meeting minutes/2025/june2025.pdf?t=202506241700490",
+        "recording": "https://youtu.be/ccgJGYLrnpc"
+      },
+      {
+        "date": "2025-05-19",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/May online.pdf?t=202505191100380",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/meeting minutes/2025/may2025.pdf?t=202505211010480",
+        "recording": "https://youtu.be/JPAaAjMnPoo"
+      },
+      {
+        "date": "2025-04-21",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/April online.pdf?t=202504170950400",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/County Clerk/Minutes/RC Meeting Minutes April 2025.pdf?t=202504241342580",
+        "recording": "https://youtu.be/hKELpw_DIZk"
+      },
+      {
+        "date": "2025-03-24",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/March 2025 online.pdf?t=202503241947380",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/meeting minutes/2025/march2025.pdf?t=202503261156090",
+        "recording": "https://youtu.be/qD6XzKNTaeg"
+      },
+      {
+        "date": "2025-02-24",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/February online.pdf?t=202502211137340",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/meeting minutes/2025/february2025.pdf?t=202502261358040",
+        "recording": "https://youtu.be/k7HvLSwfLhs"
+      },
+      {
+        "date": "2025-01-27",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/January online.pdf?t=202501221457340",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/meeting minutes/2025/january2025.pdf?t=202502261549380",
+        "recording": "https://youtu.be/cJj9OPBbzZo"
+      },
+      {
+        "date": "2024-12-16",
+        "agenda_packet": "https://www.robertsoncountytn.gov/local_government/county_commissioners/December online.pdf?t=202412111449310",
+        "minutes": "https://www.robertsoncountytn.gov/local_government/county_commissioners/meeting minutes/2024/december2024.pdf?t=202412191044350",
+        "recording": "https://youtu.be/jUkBnO2vvOY"
+      }
+    ]
+  },
+  {
+    "base_url": "https://sheboyganmeeting.com/calendarlist.php",
+    "meetings": [
+      {
+        "date": "2025-11-03",
+        "agenda": "https://sheboyganmeeting.com/perch/resources/2025-11-03-transportation-committee-agenda-combined.pdf",
+        "minutes": "https://sheboyganmeeting.com/perch/resources/2025-11-03-transportation-committee-minutes-draft.pdf",
+        "title": "Agenda, Minutes"
+      },
+      {
+        "date": "2025-11-04",
+        "minutes": "https://sheboyganmeeting.com/perch/resources/11-04-25.pdf",
+        "title": "Minutes"
+      },
+      {
+        "date": "2025-11-10",
+        "agenda": "https://sheboyganmeeting.com/perch/resources/11-10-25-hrc-agenda-packet.pdf",
+        "minutes": "https://sheboyganmeeting.com/perch/resources/11-10-2025-hrc-meeting-minutes.pdf",
+        "title": "Agenda, Minutes"
+      },
+      {
+        "date": "2025-11-11",
+        "agenda": "https://sheboyganmeeting.com/perch/resources/propery-committee-full-agenda-11-11-25.pdf",
+        "minutes": "https://sheboyganmeeting.com/perch/resources/11-11-25-property-committee-minutes-corrected.pdf",
+        "title": "Agenda, Minutes"
+      },
+      {
+        "date": "2025-11-12",
+        "agenda": "https://sheboyganmeeting.com/perch/resources/updated-11-12-25-agenda-packet.pdf",
+        "title": "Agenda"
+      },
+      {
+        "date": "2025-11-13",
+        "agenda": "https://sheboyganmeeting.com/perch/resources/11-13-25.pdf",
+        "minutes": "https://sheboyganmeeting.com/perch/resources/11-13-25-1.pdf",
+        "title": "Agenda, Minutes"
+      },
+      {
+        "date": "2025-11-14",
+        "agenda": "https://sheboyganmeeting.com/perch/resources/11-14-25.pdf",
+        "minutes": "https://sheboyganmeeting.com/perch/resources/11-14-25-1.pdf",
+        "title": "Agenda, Minutes"
+      },
+      {
+        "date": "2025-11-18",
+        "agenda": "https://sheboyganmeeting.com/perch/resources/hhs-committee-meeting-agenda-packet-11-18-25.pdf",
+        "minutes": "https://sheboyganmeeting.com/perch/resources/minutes-hhs-committee-11-18-2025.pdf",
+        "title": "Agenda, Minutes"
+      },
+      {
+        "date": "2025-11-19",
+        "agenda": "https://sheboyganmeeting.com/perch/resources/11-19-25.pdf",
+        "title": "Agenda"
+      },
+      {
+        "date": "2025-11-20",
+        "agenda": "https://sheboyganmeeting.com/perch/resources/11-20-25.pdf",
+        "title": "Agenda"
+      },
+      {
+        "date": "2025-11-24",
+        "agenda": "https://sheboyganmeeting.com/perch/resources/11-24-2025-hrc-agenda-packet.pdf",
+        "minutes": "https://sheboyganmeeting.com/perch/resources/11-24-2025-hrc-meeting-minutes.pdf",
+        "title": "Agenda, Minutes"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.mpesd.org/our-district/board-of-trustees/agendas-minutes",
+    "meetings": [
+      {
+        "date": "2025-08-13",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/1673c5a5-dfc7-4cb9-95f6-232aa94cd938",
+        "regular_meeting": "Regular"
+      },
+      {
+        "date": "2025-09-10",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/65217696-7af6-4c9d-97ed-0860bc2beceb",
+        "regular_meeting": "Regular"
+      },
+      {
+        "date": "2025-10-08",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/5b3e5e04-93c4-412d-b2fb-b3bf351f779f",
+        "regular_meeting": "Regular"
+      },
+      {
+        "date": "2024-12-18",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/65ca99f8-a86f-43cb-aa55-7c5c13dbbd03",
+        "regular_meeting": "Regular"
+      },
+      {
+        "date": "2025-01-15",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/b8d943b5-5b90-4f77-a258-25f683564e80",
+        "regular_meeting": "Regular"
+      },
+      {
+        "date": "2025-01-22",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/a8558f92-6525-4a8c-81d6-3b4dff54ae16",
+        "special_meeting": "Special"
+      },
+      {
+        "date": "2025-02-12",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/7b1750ed-b03b-4158-9aa7-4b4c579bcd96",
+        "regular_meeting": "Regular"
+      },
+      {
+        "date": "2025-03-12",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/da390c4f-d697-4c49-925a-25b27869b990",
+        "regular_meeting": "Regular"
+      },
+      {
+        "date": "2025-04-09",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/10a95b2a-ab87-4290-978f-284316663d31",
+        "regular_meeting": "Regular"
+      },
+      {
+        "date": "2025-05-14",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/a27a0898-3f27-42aa-8e99-8eeb073d9590",
+        "regular_meeting": "Regular"
+      },
+      {
+        "date": "2025-05-21",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/7f53a7ad-2d89-4805-84d1-4ece81fb64eb",
+        "special_meeting": "Special"
+      },
+      {
+        "date": "2025-05-28",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/64988bc4-360b-470a-ad36-45c6149a65ac",
+        "regular_meeting": "Regular"
+      },
+      {
+        "date": "2025-06-04",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/ef1712c6-b94d-4083-90ce-730c8ebe75b6",
+        "special_meeting": "Special"
+      },
+      {
+        "date": "2025-06-11",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/4852fe2b-6439-4733-85d9-054d3fdbb093",
+        "regular_meeting": "Regular"
+      },
+      {
+        "date": "2025-06-25",
+        "minutes": "https://www.mpesd.org/fs/resource-manager/view/fdf79269-a11c-4eed-8a36-cdeb20ca5f91",
+        "regular_meeting": "Regular"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.pleasantvalleysd.org/about-pvsd/board-of-trustees/board-meeting-recordings",
+    "meetings": [
+      {
+        "date": "2025-01-16",
+        "video": "https://resources.finalsite.net/videos/t_video_mp4_480/v1737494637/pleasantvalleysdorg/watvsfqw8leqsnfqronw/PVSDRegularBoardMeeting01-16-25.mp4",
+        "title": "1-16-2025"
+      },
+      {
+        "date": "2025-04-11",
+        "video": "https://resources.finalsite.net/videos/t_video_mp4_480/v1747254493/pleasantvalleysdorg/cgk0abnjbwihgjrwpch5/PVSDRegularBoardMeeting4-10-25.mp4",
+        "title": "4-11-2025"
+      },
+      {
+        "date": "2025-08-21",
+        "video": "https://resources.finalsite.net/videos/t_video_mp4_480/v1757692607/pleasantvalleysdorg/fdxbw0qjr5khmgn4tfzi/PVSDRegularBoardMeeting8-21-25.mp4",
+        "title": "8-21-25"
+      },
+      {
+        "date": "2025-11-20",
+        "video": "https://resources.finalsite.net/videos/t_video_mp4_480/v1763753186/pleasantvalleysdorg/tmvbicku7un6bmpgv6hb/PVSDRegularBoardMeeting11-20-25.mp4",
+        "title": "11-20-25"
+      },
+      {
+        "date": "2025-02-13",
+        "video": "https://resources.finalsite.net/videos/t_video_mp4_480/v1747254299/pleasantvalleysdorg/rve9allra5a51gyuwb2p/PVSDRegularBoardMeeting2_13_2025.mp4",
+        "title": "2-13-2025"
+      },
+      {
+        "date": "2025-05-15",
+        "video": "https://resources.finalsite.net/videos/t_video_mp4_480/v1747409114/pleasantvalleysdorg/nygt9uiknw4bhkxo5zlr/PVSDRegularBoardMeeting5-15-25.mp4",
+        "title": "5-15-2025"
+      },
+      {
+        "date": "2025-03-06",
+        "video": "https://resources.finalsite.net/videos/t_video_mp4_480/v1744388135/pleasantvalleysdorg/zywytxfs70pa7ewefcig/PVSDRegularBoardMeeting3-6-25.mp4",
+        "title": "3-6-2025"
+      },
+      {
+        "date": "2025-06-12",
+        "video": "https://resources.finalsite.net/videos/t_video_mp4_480/v1749829458/pleasantvalleysdorg/mhvfvjt5o4j5vbgx8dla/PVSDRegularBoardMeeting6-12-2025.mp4",
+        "title": "6-12-2025"
+      },
+      {
+        "date": "2025-06-19",
+        "video": "https://resources.finalsite.net/videos/t_video_mp4_480/v1750432826/pleasantvalleysdorg/iyxu2vk9ip1you0ius2i/PVSDRegularBoardMeeting6-19-2025.mp4",
+        "title": "6-19-2025"
+      },
+      {
+        "date": "2025-10-16",
+        "video": "https://resources.finalsite.net/videos/t_video_mp4_480/v1760714446/pleasantvalleysdorg/mzw1mx4xdxnlu4j1vn6t/PVSDRegularBoardMeeting10-16-25.mp4",
+        "title": "10-16-25"
+      },
+      {
+        "date": "2024-12-17",
+        "video": "https://resources.finalsite.net/videos/t_video_mp4_480/v1734642599/pleasantvalleysdorg/cellniphbcyp63ftisby/PVSDRegularBoardMeeting12_17_24.mp4",
+        "title": "12-17-2024"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.mrpk.org/board-of-education/board-minutes",
+    "meetings": [
+      {
+        "date": "2025-10-29",
+        "unknown": "https://resources.finalsite.net/images/v1763678081/mrpkorg/ouufb5s4ieufsgmtbk0f/BM10-29-25SpecialMeeting.pdf",
+        "title": "October\u00a029, 2025"
+      },
+      {
+        "date": "2025-10-14",
+        "unknown": "https://resources.finalsite.net/images/v1763678131/mrpkorg/s079gfw0qbjx85gfszjd/BM10-14-25.pdf",
+        "title": "October 14, 2025"
+      },
+      {
+        "date": "2025-09-09",
+        "unknown": "https://resources.finalsite.net/images/v1763678044/mrpkorg/fuigrtdjwigiixoqi0yv/BM9-9-25.pdf",
+        "title": "September 9, 2025"
+      },
+      {
+        "date": "2025-08-05",
+        "unknown": "https://resources.finalsite.net/images/v1757606385/mrpkorg/mt7uqyfojrjrymr9l2xl/BM8-5-25_1.pdf",
+        "title": "August 5, 2025"
+      },
+      {
+        "date": "2025-07-07",
+        "unknown": "https://resources.finalsite.net/images/v1757604920/mrpkorg/gifd5rnmh71xggmujizr/BM7-7-25.pdf",
+        "title": "July 7, 2025"
+      },
+      {
+        "date": "2025-04-23",
+        "unknown": "https://resources.finalsite.net/images/v1746654024/mrpkorg/pou120jdlgnqhvkn77qe/BM4-23-25SpecialMeeting.pdf",
+        "title": "April 23, 2025 - Special Meeting"
+      },
+      {
+        "date": "2025-04-08",
+        "unknown": "https://resources.finalsite.net/images/v1746653995/mrpkorg/o51jlm1vjyfzsjordaja/BM4-8-25.pdf",
+        "title": "April 8, 2025"
+      },
+      {
+        "date": "2025-03-11",
+        "unknown": "https://resources.finalsite.net/images/v1746132677/mrpkorg/alpufhiipwounax9uavy/BM3-11-25.pdf",
+        "title": "March 11, 2025"
+      },
+      {
+        "date": "2025-02-25",
+        "unknown": "https://resources.finalsite.net/images/v1743703522/mrpkorg/k15vmiv9x10nkhps7r60/BM2-25-25.pdf",
+        "title": "February 25, 2025"
+      },
+      {
+        "date": "2025-02-11",
+        "unknown": "https://resources.finalsite.net/images/v1740677310/mrpkorg/e6ercfyevcjdtb8ckkas/BM2-11-25.pdf",
+        "title": "February 11, 2025"
+      },
+      {
+        "date": "2025-01-21",
+        "unknown": "https://resources.finalsite.net/images/v1740677287/mrpkorg/eswxlfoznyicd86i2c3m/BA1-21-25SpecialMeetingGovernanceTraining.pdf",
+        "title": "January 21, 2025"
+      },
+      {
+        "date": "2025-01-14",
+        "unknown": "https://resources.finalsite.net/images/v1740677261/mrpkorg/pwx0dvdg6voafm9dh4yf/BM1-14-25.pdf",
+        "title": "January 14, 2025"
+      },
+      {
+        "date": "2024-12-16",
+        "unknown": "https://resources.finalsite.net/images/v1738709429/mrpkorg/bgn0duamsklpbnofrqkl/BM12-16-24.pdf",
+        "title": "December 16, 2024"
+      }
+    ]
+  },
+  {
+    "base_url": "https://cumberlandcountytn.gov/document-category/documentsofinterest/",
+    "meetings": [
+      {
+        "date": "2025-11-17",
+        "agenda": "https://cumberlandcountytn.gov/wp-content/uploads/2025/11/2025-11-17-County-Commission-Monthly-Meeting-Agenda.pdf",
+        "title": "2025-11-17 \u2014 County Commission Monthly Meeting Agenda"
+      },
+      {
+        "date": "2025-10-20",
+        "agenda": "https://cumberlandcountytn.gov/wp-content/uploads/2025/10/2025-10-20-County-Commission-Monthly-Meeting-Agenda.pdf",
+        "minutes": "https://cumberlandcountytn.gov/wp-content/uploads/2024/05/2025-10-20-County-Commission-Monthly-Meeting-Minutes.pdf",
+        "title": "2025-10-20 \u2014 County Commission Monthly Meeting Agenda, 2025-10-20 \u2014 County Commission Monthly Meeting Minutes"
+      },
+      {
+        "date": "2025-09-15",
+        "agenda": "https://cumberlandcountytn.gov/wp-content/uploads/2019/07/2025-09-15-Cumberland-County-Commission-Monthly-Meeting-Agenda.pdf",
+        "minutes": "https://cumberlandcountytn.gov/wp-content/uploads/2024/05/2025-09-15-County-Commission-Monthly-Meeting-Minutes.pdf",
+        "title": "2025-09-15 \u2014 Cumberland County Commission Monthly Meeting Agenda, 2025-09-15 \u2014 County Commission Monthly Meeting Minutes"
+      },
+      {
+        "date": "2025-08-12",
+        "unknown": "https://cumberlandcountytn.gov/wp-content/uploads/2025/08/2025-08-12-County-Commission-Special-Called-Budget.pdf",
+        "title": "2025-08-12 \u2014 County Commission Special Called Session: Budget Approval, 2025-08-12 \u2014 County Commission Special Called Budget Session"
+      },
+      {
+        "date": "2025-08-18",
+        "agenda": "https://cumberlandcountytn.gov/wp-content/uploads/2025/08/2025-08-18-County-Commission-Monthly-Meeting-Agenda.pdf",
+        "minutes": "https://cumberlandcountytn.gov/wp-content/uploads/2024/05/2025-08-18-County-Commission-Monthly-Meeting-Minutes.pdf",
+        "title": "2025-08-18 \u2014 County Commission Monthly Meeting Agenda, 2025-08-18 \u2014 County Commission Monthly Meeting Minutes"
+      },
+      {
+        "date": "2025-07-21",
+        "agenda": "https://cumberlandcountytn.gov/wp-content/uploads/2025/07/2025-07-21-County-Commission-Monthly-Meeting-Agenda.pdf",
+        "minutes": "https://cumberlandcountytn.gov/wp-content/uploads/2024/05/2025-07-21-County-Commission-Monthly-Meeting-Minutes.pdf",
+        "title": "2025-07-21 \u2014 County Commission Monthly Meeting Agenda, 2025-07-21 \u2014 County Commission Monthly Meeting Minutes"
+      },
+      {
+        "date": "2025-06-16",
+        "agenda": "https://cumberlandcountytn.gov/wp-content/uploads/2025/06/2025-06-16-County-Commission-Monthly-Meeting-Agenda.pdf",
+        "minutes": "https://cumberlandcountytn.gov/wp-content/uploads/2024/05/2025-06-16-County-Commission-Monthly-Meeting-Minutes.pdf",
+        "title": "2025-06-16 \u2014 County Commission Monthly Meeting Agenda, 2025-06-16 \u2014 County Commission Monthly Meeting Minutes"
+      },
+      {
+        "date": "2025-05-19",
+        "agenda": "https://cumberlandcountytn.gov/wp-content/uploads/2019/07/05-19-2025-County-Commission-Monthly-Meeting-Agenda.pdf",
+        "minutes": "https://cumberlandcountytn.gov/wp-content/uploads/2024/05/2025-05-19-County-Commission-Monthly-Meeting-Minutes.pdf",
+        "title": "2025-05-19 \u2014 County Commission Monthly Meeting Agenda, 2025-05-19 \u2014 County Commission Monthly Meeting Minutes"
+      },
+      {
+        "date": "2025-04-21",
+        "minutes": "https://cumberlandcountytn.gov/wp-content/uploads/2024/05/2025-04-21-County-Commission-Monthly-Meeting-Minutes.pdf",
+        "title": "2025-04-21 \u2014 County Commission Monthly Meeting Minutes"
+      },
+      {
+        "date": "2025-03-25",
+        "minutes": "https://cumberlandcountytn.gov/wp-content/uploads/2024/05/2025-03-25-County-Commission-Monthly-Meeting-Minutes.pdf",
+        "title": "2025-03-25 \u2014 County Commission Monthly Meeting Minutes"
+      },
+      {
+        "date": "2025-02-18",
+        "minutes": "https://cumberlandcountytn.gov/wp-content/uploads/2024/05/2025-02-18-County-Commission-Monthly-Meeting-Minutes.pdf",
+        "title": "2025-02-18 \u2014 County Commission Monthly Meeting Minutes"
+      },
+      {
+        "date": "2025-01-21",
+        "minutes": "https://cumberlandcountytn.gov/wp-content/uploads/2024/05/2025-01-21-County-Commission-Monthly-Meeting-Minutes.pdf",
+        "title": "2025-01-21 \u2014 County Commission Monthly Meeting Minutes"
+      },
+      {
+        "date": "2024-12-16",
+        "minutes": "https://cumberlandcountytn.gov/wp-content/uploads/2024/05/2024-12-16-County-Commission-Monthly-Meeting-Minutes.pdf",
+        "title": "2024-12-16 \u2014 County Commission Monthly Meeting Minutes"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.esuhsd.org/BoardSuperintendent/Board-Meeting-Agendas--Reports/index.html",
+    "meetings": [
+      {
+        "special_meeting": "Special Board Meeting",
+        "date": "2025-07-15",
+        "July 15, 2025": "https://esuhsd.community.highbond.com/Portal/MeetingInformation.aspx?Id=733"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-08-14",
+        "August 14, 2025": "https://esuhsd.community.highbond.com/Portal/MeetingInformation.aspx?Org=Cal&Id=711"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-09-11",
+        "September 11, 2025": "https://esuhsd.community.highbond.com/Portal/MeetingInformation.aspx?Id=715"
+      },
+      {
+        "special_meeting": "Special Board Meeting",
+        "date": "2025-09-18",
+        "September 18, 2025": "https://esuhsd.community.highbond.com/Portal/MeetingInformation.aspx?Id=746"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-09-25",
+        "September 25, 2025": "https://esuhsd.community.diligentoneplatform.com/Portal/MeetingInformation.aspx?Id=716"
+      },
+      {
+        "special_meeting": "Special Board Meeting",
+        "date": "2025-10-03",
+        "October 3, 2025": "https://esuhsd.community.diligentoneplatform.com/Portal/MeetingInformation.aspx?Id=747"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-10-16",
+        "October 16, 2025": "https://esuhsd.community.diligentoneplatform.com/Portal/MeetingInformation.aspx?Id=717"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-11-06",
+        "November 6, 2025": "https://esuhsd.community.diligentoneplatform.com/Portal/MeetingInformation.aspx?Id=719"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-11-20",
+        "November 20, 2025": "https://esuhsd.community.diligentoneplatform.com/Portal/MeetingInformation.aspx?Id=720"
+      },
+      {
+        "regular_meeting": "Annual Organizational /Regular Board Meeting",
+        "date": "2024-12-17",
+        "December 17, 2024": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=D8H2Z403EFD6"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-01-09",
+        "January 9, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=D8H37704D4E9"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-01-23",
+        "January 23, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DBU5EF0FE169"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-02-13",
+        "February 13, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DD5AE4274488"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-03-06",
+        "March 6, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DDNND65F6256"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-03-20",
+        "March 20, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DDNNCR5F4EE1"
+      },
+      {
+        "special_meeting": "Special Board Meeting",
+        "date": "2025-04-01",
+        "April 1, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DF8TMW7819BE"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-04-08",
+        "April 8, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DDNNHA5F8766"
+      },
+      {
+        "special_meeting": "Special Board Meeting",
+        "date": "2025-04-10",
+        "April 10, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DFK9Q9241241"
+      },
+      {
+        "date": "2025-04-11",
+        "April 11, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DFJ7RG1ADF1C"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-05-08",
+        "May 8, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DFMN7G5E8AE5"
+      },
+      {
+        "special_meeting": "Special Board Meeting",
+        "date": "2025-05-12",
+        "May 12, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DGF6KZ1561F3"
+      },
+      {
+        "special_meeting": "Special Board Meeting",
+        "date": "2025-05-20",
+        "May 20, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DGH44X08D996"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-06-05",
+        "June 5, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DGH3T5085E20"
+      },
+      {
+        "regular_meeting": "Regular Board Meeting",
+        "date": "2025-06-17",
+        "une 17, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DGH3Y308A192"
+      },
+      {
+        "date": "2025-06-18",
+        "June 18, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DHMQW96B432D"
+      },
+      {
+        "special_meeting": "Special Board Meeting",
+        "date": "2025-06-26",
+        "June 26, 2025": "https://go.boarddocs.com/ca/esuhsd/Board.nsf/goto?open&id=DHSVW582AE53"
+      }
+    ]
+  },
+  {
     "base_url": "https://www.fuhsd.org/about-us/board-of-trustees/board-meetings",
     "meetings": [
       {
@@ -41,6 +1293,1106 @@
         "date": "2025-11-04",
         "unknown": "https://fuhsd-org.zoom.us/rec/share/T5Ro4SD7JPb21RTQ7jPF9laMQ5ViAX8-R2gXWxaICLZjCt6Ts4TXNLmzp0fv-TCd.hr-NIEevnqSbDSoR",
         "title": "Nov. 4, 2025"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.lakesidelosgatos.org/board-meeting-materials",
+    "meetings": [
+      {
+        "date": "2025-11-12",
+        "regular_meeting": "Regular Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/17Uv1Eywv-jBBqefdjPq7JeaL0g1KHaj5/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204412822&usg=AOvVaw1LughaRtggyrUzGSj9nFMq",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1XepuD_0T4yasrjOmn0tIRheZrtmjweSa?usp%3Dsharing&sa=D&source=editors&ust=1764154204412853&usg=AOvVaw2zzelwsABB1YysS9q3NRji",
+        "minutes": "Minutes"
+      },
+      {
+        "date": "2025-10-01",
+        "regular_meeting": "Regular Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1_nw25AevlsjLgE5o22VJu2ww22QAHKZS/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204412947&usg=AOvVaw1Xtg3L5IzDQTeS5UbjRuW-",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1IM3LNTWwq68xJYiCX6CzBN1pke71ZjTE?usp%3Dsharing&sa=D&source=editors&ust=1764154204412972&usg=AOvVaw1X3iCyqe3gErpmNVp3IdCh",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1S-QbG4JEk3UNbD30x32ZV1TRpia_Uoa4/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204412994&usg=AOvVaw3-VXHpaTYNAkag5IfDV5dW"
+      },
+      {
+        "date": "2025-09-10",
+        "regular_meeting": "Regular Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/13z0TXifdjGuR_1v7f4anx6EwxI4geYCR/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204413101&usg=AOvVaw3wMe-rxtfWxYl7NcValjuz",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1bcchtVDUQ5BPKbgDSZqAZjgQna9arJbY?usp%3Dsharing&sa=D&source=editors&ust=1764154204413154&usg=AOvVaw2jnuKBBsSru85xVGRH2Lph",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1BEqXuGbMrLQyzTmQQ2StGYzEvzFU9Zlz/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204413193&usg=AOvVaw2NfxjSKhUTp_preJbr80cg"
+      },
+      {
+        "date": "2025-08-13",
+        "regular_meeting": "Regular Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1NHIprro-7n7Ast6ZiWKWs6RSaAz83d0i/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204413362&usg=AOvVaw36RhjXHCJdjc8NZvFPNQuT",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/103biV-PkeSZrWgxNZN44BifNG-eF48i0?usp%3Dsharing&sa=D&source=editors&ust=1764154204413403&usg=AOvVaw0tA8ssK75-VohIkD0g5-iE",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1X5D808DZBnXTSDwfHKyBjsZyZviZr47E/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204413435&usg=AOvVaw28quqRomJ8hDfyZHIV0gh1"
+      },
+      {
+        "date": "2025-06-30",
+        "special_meeting": "Special Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/18Ksz6CPktjHI_blnCv3_nH9eIOLxokzw/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204413569&usg=AOvVaw2F_roanPuqtxlDPomqfBb9",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1Ux8G8L-08qjFo8U96OIuglsIRplBbcof?usp%3Dsharing&sa=D&source=editors&ust=1764154204413606&usg=AOvVaw0lTmO-Be_ILJOSUkCx4ixv",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1q33ENBvuoKtTAwknhTh3il5t0YoIcWVW/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204413641&usg=AOvVaw2nlvueCowiSfY-vx6ZlNGO"
+      },
+      {
+        "date": "2025-06-25",
+        "special_meeting": "Special Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1dxLSwhRfUzYp3Sq61lNmeK68CMBQIUp_/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204413730&usg=AOvVaw3CXvGRK_kFePpevTOM8i-m",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1aD_DXwYwGR4REpFk1Gm-0nK02XaM2muv?usp%3Dsharing&sa=D&source=editors&ust=1764154204413764&usg=AOvVaw3_-qOXnSm0QpXkG--73jJ9",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1TAGreY7uygBS15rekGjgvqzSeU2pDWfJ/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204413800&usg=AOvVaw10PoqwBjMaHymrtbHetslJ"
+      },
+      {
+        "date": "2025-06-11",
+        "regular_meeting": "Regular Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/140b9T2k95DpjlXOT4LO4DPjBne2uT0Fr/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204413870&usg=AOvVaw0bAZmjZV70-wSRmgYHSIfZ",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1kcqh1n9rAAjHU6SbJJho0okRavKnGTjd?usp%3Dsharing&sa=D&source=editors&ust=1764154204413895&usg=AOvVaw06QFgDDYlTSHCvmEO_C21-",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1wg233c8p2y_F_3PpP7z-n-QCljVnpFCx/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204413917&usg=AOvVaw2M0ep_SIU0Vn73D-O1ETAZ"
+      },
+      {
+        "date": "2025-05-07",
+        "regular_meeting": "Regular Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1svrf4Iy7FBopB6zqHK-a2d2MgJIWvY98/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204413993&usg=AOvVaw2ZgkZMnZabj0wM4qQRNQyT",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1mhjcilObVifL2FozhuFAw0TQLTmGOjj5?usp%3Dsharing&sa=D&source=editors&ust=1764154204414028&usg=AOvVaw3zO9oIRdSI17z7dMvdBMdw",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1N1FjVTCDm2BZd6ua6ESLTw3c0n6xDNWd/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414063&usg=AOvVaw3l3WVr4QtrpvBvtUzwB64B"
+      },
+      {
+        "date": "2025-04-14",
+        "special_meeting": "Special Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1njLcUDUVCT08fkjRKbVZzs0LKJrrlQ4x/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414167&usg=AOvVaw04K4zxEVTs1y8D56204zRy",
+        "material": "No Materials",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1IAs45wNImpoNNyXFyWhtuZ_NgbJ2L2iz/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414207&usg=AOvVaw2gPseY69Jv0OPFtLYHPZnr"
+      },
+      {
+        "date": "2025-04-02",
+        "regular_meeting": "Regular Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/19TqAlDIsNpUX_mkvlx2IvzQ0DWeqXK0a/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414269&usg=AOvVaw21OACYr6Gn_RtSRdOQjdI0",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1UioGTZFGfY3UrdoZo8dizcjTT7PVp_fP?usp%3Dsharing&sa=D&source=editors&ust=1764154204414293&usg=AOvVaw2acCVT8Qo4ZpI7uq94dbPs",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1mteFmvLWyL4OLofFz4pSTZ3ogv7nEsKy/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414315&usg=AOvVaw36e4MOG4-dLEV7JyF7PQ97"
+      },
+      {
+        "date": "2025-03-27",
+        "special_meeting": "Special Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/17pgPcx2p1BOvWzs2OBC8-1vNxSKHh4rU/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414385&usg=AOvVaw1O9XpHPC8PX81ELhMXhYxX",
+        "material": "No Materials",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1ntmzrj4ZF4HKLbGmIc-aY-tIVA0uMey_/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414473&usg=AOvVaw0FbE4Is7tu2VFdbICqAvWu"
+      },
+      {
+        "date": "2025-03-22",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1j5wMKSO-kAQuWFCNX8ukAmtzHmzjhVUq/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414555&usg=AOvVaw2Dn5QmfoZbt0xealXaU4Ie",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1mgqOAvXKMa2yo92frx2Y2FDZCoqmiO_F?usp%3Dsharing&sa=D&source=editors&ust=1764154204414585&usg=AOvVaw3bBjzm20pPn6IpR1I3hVZO",
+        "minutes": "Minutes"
+      },
+      {
+        "date": "2025-03-12",
+        "regular_meeting": "Regular Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1G36Tb7iLAk2SdGG2QO4sGr5PtflvU8-2/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414665&usg=AOvVaw2DSsfMQK17oHTY_HvKveoW",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1P3I7yZpv2aJ9Bitf50GbIlDASuK7rUY4?usp%3Dsharing&sa=D&source=editors&ust=1764154204414690&usg=AOvVaw0D5ys_PQCMQSfy2Uyo0Jrc",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/18fgPkJOHFfNj1565tGPCjVc7Hgvf41jV/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414711&usg=AOvVaw1U8G3n2h9HhNDyvHJ-zeY2"
+      },
+      {
+        "date": "2025-02-05",
+        "regular_meeting": "Regular Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1xIT3j4r4XziH-7j6Lja6zDTMTro9fQE2/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414824&usg=AOvVaw1W-m15nNvWTp-VVbY4tg44",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1XQ63iGre43iVLOXeoD0kgDEBH56xOHLo?usp%3Dsharing&sa=D&source=editors&ust=1764154204414881&usg=AOvVaw39MvDRiaxFAliU94SYB5Kq",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1Gvs4Hp1lqW5NkcEf4ZGhCsh1M2deaOUL/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414907&usg=AOvVaw2jwvUxKIkpYLy7Pd7BKfID"
+      },
+      {
+        "date": "2025-01-29",
+        "special_meeting": "Special Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1QAu-bGzzLM2Yb-riIAg4T1ZlNRSO4g7l/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204414974&usg=AOvVaw1t6lgI5O7-yaMqh6_ur94s",
+        "material": "No Materials",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1Iak-tuNm5Z_iJ-fGIzHWxFkQn5EFRCOq/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204415012&usg=AOvVaw2FowWACbANWhqsqPd1RqnG"
+      },
+      {
+        "date": "2025-01-15",
+        "regular_meeting": "Regular Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1OwpC5TpxPByjPhU0RnRsC6PW2fg3zqtY/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204415074&usg=AOvVaw2YBfi_r2STVlelENC0HxDl",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1N1xhmyoxGg-iccvqI7EN9VRNMoYJxK9P?usp%3Dsharing&sa=D&source=editors&ust=1764154204415105&usg=AOvVaw0ah4hs5LqmwUH9YifDgjED",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1aw4Gyey60dSMCrEfbIO2U__crdLBHjAD/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204415127&usg=AOvVaw0xPiHlx2ROppqAiRY6vc2g"
+      },
+      {
+        "date": "2024-12-16",
+        "special_meeting": "Special Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1lPlAanPEy4w3v8dwxKfzYeyLDZ-Ul_Bu/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204415201&usg=AOvVaw3YmzROOYOLYj9ZF5Q6kBsi",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1qJv0b7J6oZIL0OUZdNVCGrtd0BqGC7aP?usp%3Dsharing&sa=D&source=editors&ust=1764154204415238&usg=AOvVaw2g19FxAVWl_HlAL1TUOoRC",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1b0ac_C3aC7NxC2mLXRi7CPVSebgFlssQ/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204415274&usg=AOvVaw1HNHtd19Opoi3A7ZEh6N1S"
+      },
+      {
+        "date": "2024-12-11",
+        "regular_meeting": "Regular Board Meeting",
+        "agenda": "https://www.google.com/url?q=https://drive.google.com/file/d/1r7XfccTVjZZ8xOes7Unx3BciZoI0hnQw/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204415339&usg=AOvVaw0zFQa-ts9MEvnzIxdkyEbP",
+        "material": "https://www.google.com/url?q=https://drive.google.com/drive/folders/1hQB2QCnrGSizAT8EfJDE0Q9AQtcOhzjw?usp%3Dsharing&sa=D&source=editors&ust=1764154204415363&usg=AOvVaw0XyM5K76hnEkRubPklYbPr",
+        "minutes": "https://www.google.com/url?q=https://drive.google.com/file/d/1hEpkbGuRdA4bmX4UByUzmrZraxSedD__/view?usp%3Dsharing&sa=D&source=editors&ust=1764154204415384&usg=AOvVaw1jLx9zf6Hamk6ZzU_1UBpU"
+      }
+    ]
+  },
+  {
+    "base_url": "https://lasdschools.org/182036_3",
+    "meetings": [
+      {
+        "date": "2025-06-09",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/regular_agenda_060925.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=40416",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_-_060925_regular.pdf",
+        "recording": "https://youtu.be/2zP3CRSCZy0"
+      },
+      {
+        "date": "2025-06-09",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/special_agenda_060925.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=41304",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/minutes_-_060925_special.pdf",
+        "recording": "https://youtu.be/-BmZhasmPy8"
+      },
+      {
+        "date": "2025-06-02",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/agenda_060225.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=40407",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_-_060225.pdf",
+        "recording": "https://youtu.be/wY4G11Zs-Jk"
+      },
+      {
+        "date": "2025-05-19",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/rev_agenda_051925.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=39075",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_051925_regular.pdf",
+        "recording": "https://www.youtube.com/embed/P-JqqqT9-ec?si=f7NZfA5bHY4n8-MQ?start=0"
+      },
+      {
+        "date": "2025-05-19",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/special_agenda_051925.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=39984",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_051925_special.pdf",
+        "recording": "https://www.youtube.com/embed/WdROEX0A7VI?si=EEWAjjOig5T1t0DU?start=0"
+      },
+      {
+        "date": "2025-05-05",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/agenda_050525.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=38452",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_050525.pdf",
+        "recording": "https://www.youtube.com/embed/zmszsr9MuTY?si=eaUWkAX5WGwHT5RFstart=0"
+      },
+      {
+        "date": "2025-04-21",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/agenda_042125.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=37963&Tab=Agenda",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_042125.pdf",
+        "recording": "https://www.youtube.com/embed/Wuh1aAWjJ2E?si=Me7QtxAPhN9dDQ3C?start=0"
+      },
+      {
+        "date": "2025-03-17",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/agenda_031725.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=37676",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_031725.pdf",
+        "recording": "https://www.youtube.com/embed/szr69muXVCA?si=Pd_mn51HBt6AxBV5?start=0"
+      },
+      {
+        "date": "2025-03-03",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/agenda_030325.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=36970",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_030325.pdf",
+        "recording": "https://www.youtube.com/embed/GoY9XHCKKZo?si=NQO_hPizdg1-vtXU?start=0"
+      },
+      {
+        "date": "2025-02-10",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/agenda_021025.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=36629",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_021025.pdf",
+        "recording": "https://youtu.be/sJ_F1b0i8UU"
+      },
+      {
+        "date": "2025-01-27",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/revagenda_012725.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=36285",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_012725.pdf",
+        "recording": "https://youtu.be/mbYlF4rLudU"
+      },
+      {
+        "date": "2025-01-23",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/agenda_012325.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=36625",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_012325.pdf"
+      },
+      {
+        "date": "2025-01-13",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/agenda_011325.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=35384",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_011325.pdf",
+        "recording": "https://youtu.be/tPkrZFZ4y5A"
+      },
+      {
+        "date": "2024-12-16",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/agenda_121624.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=34163&Tab=Agenda",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_121624.pdf",
+        "recording": "https://www.youtube.com/watch?v=hn6bqg-NDbk"
+      },
+      {
+        "date": "2024-11-22",
+        "agenda": "https://files.smartsites.parentsquare.com/9655/special_agenda_112224.pdf",
+        "Supporting Documentation": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=36030305&MID=34982",
+        "minutes": "https://files.smartsites.parentsquare.com/9655/approved_minutes_112224.pdf",
+        "recording": "https://youtu.be/KBgfCFYsUu4"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.woodsideschool.us/District/2025-26-DASHBOARD/Recorded-Zoom-Meetings-/index.html",
+    "meetings": [
+      {
+        "date": "2025-07-01",
+        "unknown": "https://www.woodsideschool.us/District/2025-26-DASHBOARD/Recorded-Zoom-Meetings-/documents/District/Facilities-and-Maintenance/FOR CONTRACTORS/WESD CUPCCAA Vendor List 7.1.25.pdf",
+        "title": "2025 CUPCCAA Vendor List \u2014 7.1.25"
+      }
+    ]
+  },
+  {
+    "base_url": "https://ballardschool.org/2024-board-of-trustee-meetings/",
+    "meetings": [
+      {
+        "date": "2025-11-21",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/11/2025-November-21-1.pdf"
+      },
+      {
+        "date": "2025-10-15",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/10/October-15-2025.pdf"
+      },
+      {
+        "date": "2025-09-17",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/09/2025-Sept-17-1.pdf"
+      },
+      {
+        "date": "2025-08-20",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/08/2025-August-20.pdf"
+      },
+      {
+        "date": "2025-08-06",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/07/August-6-2025.pdf"
+      },
+      {
+        "date": "2025-06-13",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/06/2025-June-13th.pdf"
+      },
+      {
+        "date": "2025-06-09",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/06/June-9th-2025-Special-Meeting.pdf"
+      },
+      {
+        "date": "2025-05-21",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/05/May-21-2025-1.pdf"
+      },
+      {
+        "date": "2025-04-16",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/05/Agenda-4.16.25.pdf"
+      },
+      {
+        "date": "2025-03-19",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/05/Agenda-3.19.25.pdf"
+      },
+      {
+        "date": "2025-02-26",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/05/Agenda-2.26.25.pdf"
+      },
+      {
+        "date": "2025-01-22",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2025/01/20250117112229444.pdf"
+      },
+      {
+        "date": "2024-11-20",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2024/11/20241115115408336.pdf"
+      },
+      {
+        "date": "2024-12-11",
+        "agenda": "https://ballardschool.org/wp-content/uploads/2024/12/20241213094211075.pdf"
+      },
+      {
+        "date": "2025-11-03",
+        "See more details": "https://www.google.com/calendar/event?eid=NnQxNWRnOWI5cGJ0c2k0cGpkaTkxMmw2bW0gY18zODZwN2hxa3NxNzh2YmFsYjk0bm8xaGVxY0Bn&ctz=America/Los_Angeles"
+      },
+      {
+        "date": "2025-11-10",
+        "See more details": "https://www.google.com/calendar/event?eid=NWozMHAxajY5aHY5cjRyM3VscGNjaHJwbXQgY18zODZwN2hxa3NxNzh2YmFsYjk0bm8xaGVxY0Bn&ctz=America/Los_Angeles",
+        "See more details;02": "https://www.google.com/calendar/event?eid=N243MnNrdnBkZzVyY2F1aWtqdmtyZmE3ZjVfMjAyNTExMTEgY18zODZwN2hxa3NxNzh2YmFsYjk0bm8xaGVxY0Bn&ctz=America/Los_Angeles"
+      },
+      {
+        "date": "2025-11-17",
+        "See more details": "https://www.google.com/calendar/event?eid=NGdrcTJoMzE2azNhYmFnZTBzYmxjOGtsZWogY18zODZwN2hxa3NxNzh2YmFsYjk0bm8xaGVxY0Bn&ctz=America/Los_Angeles",
+        "See more details;02": "https://www.google.com/calendar/event?eid=NWE1a2FjOGFoMnMybDQwYnQzbjVyajZzbHVfMjAyNTExMTlUMjM0NTAwWiBjXzM4NnA3aHFrc3E3OHZiYWxiOTRubzFoZXFjQGc&ctz=America/Los_Angeles",
+        "See more details;03": "https://www.google.com/calendar/event?eid=NmhzdHFvM2RxNXI2OTE0cms0Mm90Y2U5N20gY18zODZwN2hxa3NxNzh2YmFsYjk0bm8xaGVxY0Bn&ctz=America/Los_Angeles",
+        "See more details;04": "https://www.google.com/calendar/event?eid=MjNhZzA0bGJlNHY0N2M0OWtrMWJnbnJhY20gY18zODZwN2hxa3NxNzh2YmFsYjk0bm8xaGVxY0Bn&ctz=America/Los_Angeles"
+      },
+      {
+        "date": "2025-11-24",
+        "See more details": "https://www.google.com/calendar/event?eid=MHNudGg1dHFoNzQ4c2FyM2x0YjI5N2kzbDQgY18zODZwN2hxa3NxNzh2YmFsYjk0bm8xaGVxY0Bn&ctz=America/Los_Angeles"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.coldspringschool.net/page/agendas-and-minutes",
+    "meetings": [
+      {
+        "date": "2025-10-13",
+        "unknown": "https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3037/CSSD/6087080/AGENDA_PACKET_10-13-2025.pdf"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.losolivosschool.org/schoolboardmeetings",
+    "meetings": [
+      {
+        "date": "2025-08-11",
+        "unknown": "https://drive.google.com/file/d/16TXOVQC4beEttNcIqLXHnLtVvk5lV1kh/view?usp=sharing"
+      },
+      {
+        "date": "2025-09-08",
+        "unknown": "https://drive.google.com/file/d/1vlakMh0ArvRxpXH4nX5ftXdzV7A3ZQCj/view?usp=sharing"
+      },
+      {
+        "date": "2025-10-13",
+        "unknown": "https://drive.google.com/file/d/1x6CVYDKJquPM9AWNJkM0dc7V2BMtdvvT/view?usp=sharing"
+      },
+      {
+        "date": "2025-11-10",
+        "unknown": "https://drive.google.com/file/d/1lhxtelowhcZ12wEr-o2BxMHAofj0v3Ic/view?usp=sharing"
+      },
+      {
+        "date": "2024-12-16",
+        "unknown": "https://drive.google.com/file/d/1RzJyLPsifqhABCkvLmpXl1i0B6uKfpAw/view?usp=sharing"
+      },
+      {
+        "date": "2025-01-13",
+        "unknown": "https://drive.google.com/file/d/1YTasPjTezsd4ApqhtU-aZ-7WbrUae-fM/view?usp=sharing"
+      },
+      {
+        "date": "2025-01-16",
+        "unknown": "https://drive.google.com/file/d/1n97EXk30D8R7t7ICoSbH3KeqAtKvHKnl/view?usp=sharing"
+      },
+      {
+        "date": "2025-02-10",
+        "unknown": "https://drive.google.com/file/d/13BWFwtPUQz31Y3HQghbGdLIXHdNSRfmG/view?usp=sharing"
+      },
+      {
+        "date": "2025-02-24",
+        "unknown": "https://drive.google.com/file/d/1UTEtg6H8IyY9cVqrFKmVD3inLor35-qK/view?usp=sharing"
+      },
+      {
+        "date": "2025-03-10",
+        "unknown": "https://drive.google.com/file/d/1bcEBGMp-J6mBZ57QAiAeRQoq7U8RFmsq/view?usp=sharing"
+      },
+      {
+        "date": "2025-04-14",
+        "unknown": "https://drive.google.com/file/d/13tCvyVsODRgFp9Sspl-PmwcqKCbU-53f/view?usp=sharing"
+      },
+      {
+        "date": "2025-04-22",
+        "unknown": "https://drive.google.com/file/d/1nOvVNIHmC_m44VtlPWCfWFpimVUPdi99/view?usp=sharing"
+      },
+      {
+        "date": "2025-05-12",
+        "unknown": "https://drive.google.com/file/d/1oHYesEKFwt2eRXXfx3qSROzoOXYNRAon/view?usp=sharing"
+      },
+      {
+        "date": "2025-06-09",
+        "unknown": "https://drive.google.com/file/d/1gYlJvqzGJuQ5v_rzVyfx4Z5AzUbISkhS/view?usp=sharing"
+      },
+      {
+        "date": "2025-06-23",
+        "unknown": "https://drive.google.com/file/d/1D10_BlRFFcMYxcHeal5fPuaomfbG03_s/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.orcuttschools.net/boardoftrustees",
+    "meetings": [
+      {
+        "date": "2025-11-12",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/11122025boardagendapublic.pdf"
+      },
+      {
+        "date": "2025-10-22",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/10222025specialboardagenda.pdf"
+      },
+      {
+        "date": "2025-10-08",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/10082025boardagendapublic.pdf"
+      },
+      {
+        "date": "2025-09-10",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/09102025boardagendapublic_1.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_september_10_2025_board_meeting_minutes.pdf"
+      },
+      {
+        "date": "2025-08-27",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/08272025specialboardagenda.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_8-27-25_special_board_meeting_minutes.pdf"
+      },
+      {
+        "date": "2025-08-13",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/08132025boardagendapublic1.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_8-13-25_regular_board_meeting_minutes.pdf"
+      },
+      {
+        "date": "2025-07-24",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/07242025specialboardagenda.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_7-24-25special_board_meeting_mimutes.pdf"
+      },
+      {
+        "date": "2025-06-18",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/061825specialboardagendabookmarked.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_6-18-25_special_board_meeting_minutes.pdf"
+      },
+      {
+        "date": "2025-06-11",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/06112025boardagendabookmarked.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_revised_june_11_2025_board_meeting_minutes.pdf"
+      },
+      {
+        "date": "2025-06-02",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/06022025specialboardagenda.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_june_2_2025_special_board_meeting_minutes.pdf"
+      },
+      {
+        "date": "2025-05-14",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/05152025agendapublic_2.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_may_14_2025_board_meeting_minutes.pdf"
+      },
+      {
+        "date": "2025-04-09",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/04092025boardagendapublic1.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_april_9_2025_board_meeting_minutes_1.pdf"
+      },
+      {
+        "date": "2025-03-12",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/03122025boardagendapublic_1.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_march_12_2025_meeting_minutes.pdf"
+      },
+      {
+        "date": "2025-02-26",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/02262025specialboardagenda.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/singed_february_26_2025_special_board_meeting_minutes.pdf"
+      },
+      {
+        "date": "2025-02-12",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/02122025boardagendapublic_2.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_february_12_2025_board_meeting_minutes.pdf"
+      },
+      {
+        "date": "2025-01-15",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/01152025boardagendapublic.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_january_15_2025_board_meeting_minutes.pdf"
+      },
+      {
+        "date": "2025-01-11",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/01112025specialboardagendagovernancereterat_1.pdf"
+      },
+      {
+        "date": "2024-12-18",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/12182024specialboardagendaboardupdated.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_december_18_2024_special_board_meeting_minutes.pdf"
+      },
+      {
+        "date": "2024-12-11",
+        "agenda": "https://files.smartsites.parentsquare.com/4376/121124boardagendapublic.pdf",
+        "minutes": "https://files.smartsites.parentsquare.com/4376/signed_december_11_2024_board_meeting_minutes.pdf"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.sbceo.org/about/board/boardmaterials",
+    "meetings": [
+      {
+        "date": "2025-01-09",
+        "video": "https://youtu.be/oylvkchvXoU",
+        "title": "Video English"
+      },
+      {
+        "date": "2025-02-13",
+        "video": "https://youtu.be/TpQlf3z8HhU",
+        "title": "Video English"
+      },
+      {
+        "date": "2025-03-13",
+        "video": "https://youtu.be/L1N8RRXiLoE",
+        "title": "Video English"
+      },
+      {
+        "date": "2025-04-10",
+        "video": "https://youtu.be/UTuA1rC5Z44",
+        "title": "Video English"
+      },
+      {
+        "date": "2025-05-08",
+        "video": "https://youtu.be/5UtrVOuOBYU",
+        "title": "Video English"
+      },
+      {
+        "date": "2025-06-12",
+        "video": "https://youtu.be/xJUQVwvlIns",
+        "title": "Video English"
+      },
+      {
+        "date": "2025-06-18",
+        "video": "https://youtu.be/9xxiRV7l_QY",
+        "title": "Video English"
+      },
+      {
+        "date": "2025-08-14",
+        "video": "https://youtu.be/-5ZCGnm1rBw",
+        "title": "Video English"
+      },
+      {
+        "date": "2025-09-11",
+        "video": "https://youtu.be/bLLKjMsG5qg",
+        "title": "Video English"
+      },
+      {
+        "date": "2025-10-09",
+        "video": "https://youtu.be/-ZixvtSsbdM",
+        "title": "Video English"
+      },
+      {
+        "date": "2025-11-13",
+        "video": "https://youtu.be/BcxpmTN8hnc",
+        "title": "Video English"
+      },
+      {
+        "date": "2024-12-13",
+        "video": "https://youtu.be/pG1bu67F9oU",
+        "title": "Video English"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.smbsd.org/district/school-board/board-meetings-minutes-and-agendas",
+    "meetings": [
+      {
+        "date": "2025-10-08",
+        "video": "https://www.youtube.com/watch?v=IEbTpQtx7rM",
+        "title": "Video"
+      },
+      {
+        "date": "2025-09-24",
+        "video": "https://www.youtube.com/watch?v=prV5e5eDT1I",
+        "title": "Video"
+      },
+      {
+        "date": "2025-07-09",
+        "video": "https://www.youtube.com/watch?v=C8WnFJ90hk0",
+        "title": "Video"
+      },
+      {
+        "date": "2025-06-25",
+        "video": "https://www.youtube.com/watch?v=8FcoqOemhWA",
+        "title": "Video"
+      },
+      {
+        "date": "2025-06-11",
+        "video": "https://www.youtube.com/watch?v=tx5g_zcyBf8",
+        "title": "Video"
+      },
+      {
+        "date": "2025-04-09",
+        "video": "https://www.youtube.com/watch?v=2knPVAVO2qs",
+        "title": "Video"
+      },
+      {
+        "date": "2025-02-12",
+        "video": "https://www.youtube.com/watch?v=4Axp-_ix4Fs",
+        "title": "Video Link"
+      },
+      {
+        "date": "2025-01-15",
+        "video": "https://www.youtube.com/watch?v=HCGzLqKTRJ0&t=956s",
+        "title": "Video Link"
+      },
+      {
+        "date": "2024-12-11",
+        "agenda": "https://drive.google.com/file/d/1AN8zznEl88G2Zu74L-OsRQLTa5yOWAb4/view?usp=sharing",
+        "video": "https://www.youtube.com/watch?v=ONkWCZA1_eg",
+        "unknown": "https://drive.google.com/file/d/1NWKUHRB7zqyvMEfMImW-9OfX6uqb6wl7/view?usp=sharing",
+        "title": "Wednesday, December 11, 2024, 6 p.m. - Regular Meeting Agenda, Video Link, Mi\u00e9rcoles 11 de diciembre de 2024, 18 h. - Orden del d\u00eda de la reuni\u00f3n ordinaria"
+      },
+      {
+        "date": "2024-12-13",
+        "agenda": "https://drive.google.com/file/d/1dWY5WdtYyiE2TTNqelVQPN70-om3OSlD/view?usp=sharing",
+        "title": "FRIDAY, December 13, 2024, 4 p.m. - Annual Organizational Meeting Agenda, VIERNES 13 de diciembre de 2024, 4 p.m. - Agenda de la Reuni\u00f3n Organizacional Anual"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.arusd.org/about-us/board-of-trustees/board-agendas",
+    "meetings": [
+      {
+        "date": "2025-11-20",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/c37e00ee-f52b-4b98-a939-0c2cfece59aa",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/160bba03-3689-4dd2-b3c2-e579bbf9a906",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/b31fb695-d2fb-4a73-8abb-ebb4d3c72143",
+        "November 20, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/517277ad-78ce-4402-8522-6159e1fcaace",
+        "presentation": "https://www.arusd.org/fs/resource-manager/view/17b899e0-cb75-49b1-98b2-37c3b73119a2",
+        "presentation;02": "https://www.arusd.org/fs/resource-manager/view/d0ba80a8-1d8d-4437-a360-f31da0d28854",
+        "presentation;03": "https://www.arusd.org/fs/resource-manager/view/2ef3a413-63bc-4705-8748-390539af7ba1",
+        "youtube": "https://www.youtube.com/watch?v=2Wfu9cTXQhk"
+      },
+      {
+        "date": "2025-11-08",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/d3db57eb-e720-445b-804a-c7eb377b2603",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/1c95fe50-7c67-4600-b55a-e3d7595594d7",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/1e03a9e0-4836-4aec-a707-a61a88239669",
+        "November 8, 2025": "https://www.arusd.org/fs/resource-manager/view/a29b89c8-d5bb-40c8-a109-13a3ab49423d"
+      },
+      {
+        "date": "2025-11-06",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/6db050b5-c5e2-48eb-9440-ebed5eb328c9",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/36b25dca-ab35-4128-9957-d241defd1b3b",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/13d8bc29-56b7-4d46-9080-79ed6e802f47",
+        "November 6, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/d8f31583-82c8-457d-bd89-edae58829bb1",
+        "November 6,2025": "https://www.arusd.org/fs/resource-manager/view/652921fa-079c-44ba-98e4-61a04fb166f8",
+        "youtube": "https://www.youtube.com/watch?v=9WrUHcDDPFs"
+      },
+      {
+        "date": "2025-10-23",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/4ee899ab-024c-461a-89c7-b17e30a70b2a",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/a8cdbce2-c528-4825-9140-8fe7eccaf3a5",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/b9064149-793f-44da-9215-1ae991e72d00",
+        "October 23, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/b7ecd8cd-8f80-4689-a4f5-07a87911642d",
+        "October 23, 2025": "https://www.arusd.org/fs/resource-manager/view/ce91b699-d478-4caf-b2ef-f1cacd8c6f01",
+        "Board Policies and Board Bylaws": "https://www.arusd.org/fs/resource-manager/view/7a801131-05da-4827-96e2-e8ceae75e404",
+        "presentation": "https://www.arusd.org/fs/resource-manager/view/badf93f8-bd19-4410-86bc-86543794f75d",
+        "presentation;02": "https://www.arusd.org/fs/resource-manager/view/83bbd60c-fb26-49a6-ab4c-00f1e3a79f91",
+        "youtube": "https://www.youtube.com/watch?v=z3V2OL2e3GY"
+      },
+      {
+        "date": "2025-10-09",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/e5823628-4fae-416e-809d-8521f42bcf91",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/2f590c20-3fef-44a6-8566-98ecbfdab478",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/f3fa2dc3-b1fa-4fa6-bdc4-48bbb47359a6",
+        "October 9, 2025": "https://www.arusd.org/fs/resource-manager/view/32ac86f7-4aa9-4e38-8b9e-4e73cb18dcde",
+        "youtube": "https://www.youtube.com/watch?v=JaHqi6dEa_I"
+      },
+      {
+        "date": "2025-09-25",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/8ed3460a-8f9c-45a9-9495-11c3de869b9e",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/7373c548-bb4b-4951-ae8b-13594c3fc53a",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/229632fc-d563-49b5-b777-e8ee8601e5f8",
+        "September 25, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/eb7e5d13-c818-46a3-b15e-6191038eb136",
+        "September 25, 2025": "https://www.arusd.org/fs/resource-manager/view/738a6367-3eb4-406a-ba03-b616644920dd",
+        "report": "https://www.arusd.org/fs/resource-manager/view/f6cfdd89-8a8f-48bd-ac3f-b7272b60f70d",
+        "MACSA/Furman Construction Inspection-Item 4.2": "https://www.arusd.org/fs/resource-manager/view/91f3284d-3db5-4d90-b8b1-3047a89d24af",
+        "report;02": "https://www.arusd.org/fs/resource-manager/view/170288a5-a39b-4641-a18b-1885b0df63a5",
+        "report;03": "https://www.arusd.org/fs/resource-manager/view/78666519-e802-49fe-a808-4dfc3ecaf36c",
+        "youtube": "https://www.youtube.com/watch?v=JWm_wwLeBFo"
+      },
+      {
+        "date": "2025-09-11",
+        "September 11, 2025": "https://www.arusd.org/fs/resource-manager/view/c18422de-1a1d-42ca-bb56-00335f95fccf",
+        "September 11, 2025 Spanish": "https://www.arusd.org/fs/resource-manager/view/70585a4a-b63c-4c29-9dec-2efdc013e716",
+        "September 11, 2025 Vietnamese": "https://www.arusd.org/fs/resource-manager/view/35deab82-1708-4378-a41b-0d39fe0e6052",
+        "September 11, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/2d47b025-7b8e-4b7c-824b-eab19fdea3cc",
+        "September 11, 2025;02": "https://www.arusd.org/fs/resource-manager/view/b222d06e-dc6f-4c7c-a644-fac1ef47a33b",
+        "youtube": "https://www.youtube.com/watch?v=mC1zadO_ZrU",
+        "report": "https://www.arusd.org/fs/resource-manager/view/093455a0-5417-4632-8aaa-a9e3a7f38d48"
+      },
+      {
+        "date": "2025-08-30",
+        "special_meeting": "https://www.arusd.org/fs/resource-manager/view/effccdd6-114d-4106-82e2-beb8616dbae7",
+        "special_meeting;02": "https://www.arusd.org/fs/resource-manager/view/282acaad-7c0f-428d-a746-f7c914b1d35e",
+        "special_meeting;03": "https://www.arusd.org/fs/resource-manager/view/c2aff5fa-9114-4b4d-b708-fb91fd53174a"
+      },
+      {
+        "date": "2025-08-28",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/e7ca0d2f-7151-4150-90b4-922d976cf0ea",
+        "August 28, 2025 Spanish": "https://www.arusd.org/fs/resource-manager/view/2a24965e-a6f1-4046-b119-37794a8266c1",
+        "August 28, 2025 Vietnamese": "https://www.arusd.org/fs/resource-manager/view/c1fb02f6-c5d3-47d6-98b5-0f7af5f6b003",
+        "August 28, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/84f79908-5f7c-4acb-9e89-5dac92ffea57"
+      },
+      {
+        "date": "2025-08-14",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/67e19cad-7e03-48c8-8ea0-f5383e971f8d",
+        "August 14, 2025 Spanish": "https://www.arusd.org/fs/resource-manager/view/4009bc59-53d7-4287-a617-06951d1ac009",
+        "August 14, 2025 Vietnamese": "https://www.arusd.org/fs/resource-manager/view/409b120c-92ae-48fd-998b-047eec87b18a",
+        "August 14, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/8bdcef87-64f8-4726-8fe9-95b6f0feea9b",
+        "August 14, 2025": "https://www.arusd.org/fs/resource-manager/view/96f1ac6f-e03d-4932-9c8c-c457d8913845"
+      },
+      {
+        "date": "2025-08-02",
+        "special_meeting": "https://www.arusd.org/fs/resource-manager/view/94d94351-05b2-4ca9-be79-d4b529cb9668",
+        "special_meeting;02": "https://www.arusd.org/fs/resource-manager/view/ce77f584-791b-4c6d-9d1e-53116ae56d15",
+        "special_meeting;03": "https://www.arusd.org/fs/resource-manager/view/e55b7333-6953-46e8-81dd-4279a516e38e",
+        "August 2, 2025": "https://www.arusd.org/fs/resource-manager/view/93c70e17-cb33-4506-8545-551662c86a69",
+        "youtube": "https://www.youtube.com/watch?v=r34F73Bz6co"
+      },
+      {
+        "date": "2025-07-31",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/ac3455f6-8c68-44a7-b6a4-c1c1a7ce2636",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/cf833aab-217e-4fb3-afe1-d816bfed9eb0",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/58543998-b9dd-4c99-9745-0571f32b357c",
+        "July 31, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/3c8e1714-f993-4a94-80c6-20b023d8300e",
+        "youtube": "https://www.youtube.com/watch?v=igqhGr0t54E"
+      },
+      {
+        "date": "2025-07-17",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/66264b5e-3262-4fd4-8878-4fb1cfa33125",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/c6e997de-1529-4e8d-a516-d3b56da31262",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/5b2e4c34-931f-4d90-b5bf-81d760ccf4dc",
+        "July 17, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/bf9dafb0-7b98-4648-89ed-05d04c3ca7d6",
+        "youtube": "https://www.youtube.com/watch?v=zErdpL_mPLA"
+      },
+      {
+        "date": "2025-06-26",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/5c22f486-bd22-4d82-8776-2202cac7f5b1",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/e64023c0-2672-4225-82e7-df7a42a08603",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/9ff3948b-d46e-45ca-86fe-88813bd6152a",
+        "June 26, 2025 Brd Bk 1 of 2 Amended": "https://www.arusd.org/fs/resource-manager/view/5edf7d83-b93f-45dc-8742-8ae52670024e",
+        "June 26, 2025 Brd Bk 2 of 2 Amended": "https://www.arusd.org/fs/resource-manager/view/eb888b11-5810-4a3a-ab98-87ea5156307d",
+        "June 26, 2025": "https://www.arusd.org/fs/resource-manager/view/f13ef970-388c-4f26-827e-6bef6f6af714",
+        "plan": "https://www.arusd.org/fs/resource-manager/view/35cb3efc-6990-48bb-8d2c-543dd8e5c1d1",
+        "plan;02": "https://www.arusd.org/fs/resource-manager/view/856e584a-746d-4c78-a362-fbee4cf7f1f6",
+        "presentation": "https://www.arusd.org/fs/resource-manager/view/284de1ea-8b22-453f-b94b-09be20a0afbc",
+        "presentation;02": "https://www.arusd.org/fs/resource-manager/view/dc511ef3-29e9-408e-98a9-c8b3d4a57faf",
+        "youtube": "https://www.youtube.com/watch?v=XBKFwsL0Jz8"
+      },
+      {
+        "date": "2025-06-18",
+        "special_meeting": "https://www.arusd.org/fs/resource-manager/view/fb3ab05b-cdef-45ab-8acc-0dcfba141285",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/39bbfd94-96dc-421e-b9cb-fbb115cb08ac",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/4ac2e42b-e3d8-49ef-afb3-7dd67b34fac8",
+        "June 18, 2025": "https://www.arusd.org/fs/resource-manager/view/3641b6a8-8ddd-404a-9212-075b1ca94d4d",
+        "youtube": "https://www.youtube.com/watch?v=LHZQ_103nYA"
+      },
+      {
+        "date": "2025-06-12",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/e4f03f96-a998-45a1-9534-760dcfd0f57a",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/d20ac252-3c95-45ec-b77a-c2c606a6f2f4",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/023a7959-d48e-43b9-9ba6-a17c728110e7",
+        "June 12, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/1a76d535-85fb-45cb-9e5e-f93ee93acda8",
+        "June 12, 2025": "https://www.arusd.org/fs/resource-manager/view/58a33d01-7fab-4794-a7de-5ca512823df5",
+        "presentation": "https://www.arusd.org/fs/resource-manager/view/4b1011a9-b5db-46df-af5c-fb96454bd3f6",
+        "presentation;02": "https://www.arusd.org/fs/resource-manager/view/28aedfe7-118e-49dd-bf90-87e1a99420ee",
+        "youtube": "https://www.youtube.com/watch?v=_tzgqXK8uWo"
+      },
+      {
+        "date": "2025-06-05",
+        "special_meeting": "https://www.arusd.org/fs/resource-manager/view/75354c90-e5b6-4a60-a569-bad047cdb157",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/d91d7de2-ea66-465d-b8f4-459420ae0cae",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/268a9fcc-4e5f-408d-9813-032475cf2eed",
+        "June 5, 2025": "https://www.arusd.org/fs/resource-manager/view/2feb22be-b47a-4bee-b9ea-d399bcae3607",
+        "youtube": "https://www.youtube.com/watch?v=Pfqz0_5acO4"
+      },
+      {
+        "date": "2025-06-02",
+        "June 2, 2025 S": "https://www.arusd.org/fs/resource-manager/view/1c6dbf12-ad5b-4170-b9cc-c06a4d832b1f",
+        "pecial Board Meeting - Amended": "https://www.arusd.org/fs/resource-manager/view/033197d9-d755-4535-9056-64ff1c039e75",
+        "June 2, 2025 Spanish Amended": "https://www.arusd.org/fs/resource-manager/view/ff83569c-59c9-4408-9089-2e01c2f7e6cb",
+        "June 2, 2025 Vietnamese Amended": "https://www.arusd.org/fs/resource-manager/view/2acfd996-3bc8-4097-b4cd-e7cdbfd32743",
+        "June 2, 2025": "https://www.arusd.org/fs/resource-manager/view/bd8e2542-80c3-4512-b5d0-2c20ff506302",
+        "youtube": "https://www.youtube.com/watch?v=Vvf-nU1rLms"
+      },
+      {
+        "date": "2025-05-22",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/5da53d00-bf76-43ab-942f-990cf3d20cbe",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/5066a7af-c6cf-46fe-b4b8-f4421f1c1fe2",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/156ca94d-0881-43cc-b7a0-ac3406c096ee",
+        "May 22, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/b8d1aaa7-74bf-4130-8204-40fcecb31d16",
+        "May 22, 2025": "https://www.arusd.org/fs/resource-manager/view/65f97143-4e01-43d6-a6b6-dd3b03c15cfd",
+        "presentation": "https://www.arusd.org/fs/resource-manager/view/92c486ec-2ba8-4f66-9c35-4f893340f2e6",
+        "special_meeting": "https://www.arusd.org/fs/resource-manager/view/86f6d420-b4c0-4c30-af0a-36aa936ae4f1",
+        "youtube": "https://www.youtube.com/watch?v=CUDwlCRDav0"
+      },
+      {
+        "date": "2025-05-08",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/be03b212-eacd-4db7-b246-e31202ea254f",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/1438de29-03db-4dda-bdad-f25d5addca8d",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/e63a87c6-e4a5-4a47-b4e3-b148462eff05",
+        "May 8, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/6d387ea1-8b32-40b0-b653-6ad6bfc49602",
+        "May 8, 2025": "https://www.arusd.org/fs/resource-manager/view/a6e0aee6-b8aa-4ed5-bec7-d8822ec848d4",
+        "presentation": "https://www.arusd.org/fs/resource-manager/view/298d42f0-a1ad-45d9-b72d-45f520ecbbf2",
+        "Website Redesign": "https://www.arusd.org/fs/resource-manager/view/a8a6748f-e0a4-4f04-8b7c-754cc76660ef",
+        "youtube": "https://www.youtube.com/watch?v=qI9g5EjA89M"
+      },
+      {
+        "date": "2025-04-24",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/828b090e-d76f-42c7-bacf-f1ac4760380f",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/af433f43-016f-4890-854e-c3217c803e5c",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/cb6c5fb9-0e83-4f85-a0b2-21b60692aa03",
+        "April 24, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/5b9193f6-d11d-4bc8-ba7b-04371e02f491",
+        "April 24, 2025": "https://www.arusd.org/fs/resource-manager/view/b2d8576f-5a24-418f-949a-1b686866c2c6",
+        "youtube": "https://www.youtube.com/watch?v=JCApNP5rdP8"
+      },
+      {
+        "date": "2025-04-16",
+        "special_meeting": "https://www.arusd.org/fs/resource-manager/view/6b418329-6e17-4262-b367-a89b99bb434d",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/261d79a2-b92b-427d-afa5-22907e15a117",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/83a02ddf-00bd-41e7-b5e1-853cfb7f48b6",
+        "April 16, 2025": "https://www.arusd.org/fs/resource-manager/view/a3bcb504-c1fa-45f8-af59-f6750fec3a0d",
+        "youtube": "https://www.youtube.com/watch?v=6CbkXElSjaw"
+      },
+      {
+        "date": "2025-03-27",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/6ba2356d-6459-4abb-970e-053a03104f2f",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/1d7b139e-eeb7-4149-bc6f-5349c3f1b9e2",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/4202508d-eb52-4973-9012-25d74047c7f4",
+        "March 27, 2025 Amended Board Book": "https://www.arusd.org/fs/resource-manager/view/ae39e2ab-361e-4db8-861d-3d27727982ed",
+        "March 27, 2025": "https://www.arusd.org/fs/resource-manager/view/3ef1de6f-1e9b-419a-9acf-2001b129ec1a",
+        "Auditor Rotation & Other Audit Requirements": "https://www.arusd.org/fs/resource-manager/view/883d235d-a525-431e-9f24-3cdc97366b54",
+        "youtube": "https://www.youtube.com/watch?v=UZYZ1ugdjak"
+      },
+      {
+        "date": "2025-03-13",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/e021c2c5-7380-4016-a9f7-993c61cbf015",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/43472b55-ba87-4417-8c35-7276f35bafd4",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/3612a9be-7c7c-47a2-aebb-ae7d46056c2b",
+        "March 13, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/d22a0e3a-7478-4622-b195-c8c02406b9b2",
+        "March 13, 2025": "https://www.arusd.org/fs/resource-manager/view/37dafa61-7c0d-46ec-88a3-db463cdd9a7f",
+        "presentation": "https://www.arusd.org/fs/resource-manager/view/ddc1a761-60d4-444a-b038-0c6d6249a35f",
+        "presentation;02": "https://www.arusd.org/fs/resource-manager/view/9bdab20c-4743-42bf-a10e-4818b0763725",
+        "presentation;03": "https://www.arusd.org/fs/resource-manager/view/0de66891-bef0-45fc-80e4-03005291c50d",
+        "presentation;04": "https://www.arusd.org/fs/resource-manager/view/e2f0b45e-e71b-44af-8194-07dbd1873d75",
+        "youtube": "https://www.youtube.com/watch?v=ZY12S8z4qfM"
+      },
+      {
+        "date": "2025-02-27",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/19c72788-3715-4cc5-abba-e182d62ccbcf",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/a5525fcd-3c56-48d6-a762-afef3e7b1a25",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/920d991c-4070-4ff6-9839-4893b3732f76",
+        "February 27, 2025 Amended Board Book": "https://www.arusd.org/fs/resource-manager/view/aa2e8891-8141-4507-ac4f-c928b7ea8b0d",
+        "February 27, 2025": "https://www.arusd.org/fs/resource-manager/view/786ce12a-9f24-45bd-a22b-5848a494acb8",
+        "youtube": "https://www.youtube.com/watch?v=cxOd5lozBN4"
+      },
+      {
+        "date": "2025-02-13",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/1f107645-7702-491c-bfa3-4ea65cd6608e",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/16f2e83b-8350-42a1-9e9b-93a9678e4452",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/b5565566-4b4a-48f5-9b73-e742c6c54e2c",
+        "February 13, 2025 -Board Book": "https://www.arusd.org/fs/resource-manager/view/a1baf752-d466-4f5f-991b-5533b0297d88",
+        "February 13, 2025": "https://www.arusd.org/fs/resource-manager/view/e1bf5698-f912-4005-952b-4089ac013067",
+        "youtube": "https://www.youtube.com/watch?v=ks_Li1Ur9bM"
+      },
+      {
+        "date": "2025-02-08",
+        "special_meeting": "https://www.arusd.org/fs/resource-manager/view/a7ad44a0-55e0-4743-a35e-76e91c835bad",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/9c229770-2d7a-4ecb-b8b3-b91097ad7385",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/3246b937-e0e3-46d7-b1f9-78b38da3baf3",
+        "February 8, 2025": "https://www.arusd.org/fs/resource-manager/view/6111eb13-8279-44e2-af2b-51ad687bc902"
+      },
+      {
+        "date": "2025-01-30",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/eb353542-e526-47ce-98c6-76b1ea8390d2",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/65fc67e1-8cbd-4223-af2f-e54582c42f33",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/4c8115ee-3516-408a-97e6-1bfc480daef0",
+        "January 30, 2025 -Board Book": "https://www.arusd.org/fs/resource-manager/view/cca4fdba-111b-49fa-8ea9-431f9b3610fa",
+        "January 30, 2025": "https://www.arusd.org/fs/resource-manager/view/df76a752-aa8a-4c8a-951a-73e50821e5cf",
+        "presentation": "https://www.arusd.org/fs/resource-manager/view/31add745-6089-4969-b6e0-a62fd4381e4f",
+        "report": "https://www.arusd.org/fs/resource-manager/view/f86f9660-7e3d-450d-8597-32c473fa433f",
+        "Annual Performance and Financial Audit": "https://www.arusd.org/fs/resource-manager/view/d2752682-8b07-4b2a-bc18-2cc46a922fd6",
+        "youtube": "https://www.youtube.com/watch?v=wszPO7lEdEU"
+      },
+      {
+        "date": "2025-01-24",
+        "special_meeting": "https://www.arusd.org/fs/resource-manager/view/18fdd12d-d74d-4f60-98fd-70e36c525a06",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/7953f563-0cfc-4349-9355-c115810b666c",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/7eb972fc-4f6c-4777-82f5-243e5562a243",
+        "January 24, 2025": "https://www.arusd.org/fs/resource-manager/view/e1cfa4c5-1f74-4c05-9f84-c7f1a8da01e1",
+        "youtube": "https://www.youtube.com/watch?v=XeqB-_6DEnk"
+      },
+      {
+        "date": "2025-01-21",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/0d523f3f-3a84-46ec-9469-2e3fab5d8fa2",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/dc22454f-b68a-4454-bf52-9684f719aa1c",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/886725a9-c17d-4988-ab28-672dd7c92231",
+        "January 21, 2025": "https://www.arusd.org/fs/resource-manager/view/a3b177b2-f8de-4794-9823-284eb2d5e5c9",
+        "youtube": "https://www.youtube.com/watch?v=xEFOHvcJbKY"
+      },
+      {
+        "date": "2025-01-16",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/d2e6e45b-c906-4d37-99fe-5f0e61323dc6",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/4527afd0-266a-4036-b035-7f1f28c575e6",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/d4407924-ea95-422d-a3ab-48453e43d7d4",
+        "January 16, 2025 Board Book": "https://www.arusd.org/fs/resource-manager/view/ebdd8ef9-d19d-4cb6-a338-2dab03e92a70",
+        "January 16, 2025": "https://www.arusd.org/fs/resource-manager/view/889c6bb2-75bd-41bf-a0c3-2c4e17dea22c",
+        "youtube": "https://www.youtube.com/watch?v=wjuN1FIsotE"
+      },
+      {
+        "date": "2025-01-11",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/415e91bc-5d02-4916-82e3-7f861064c539",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/2fe04eaf-e07e-4ae9-ab80-acd770c37a75",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/86c90ac7-93b8-4d28-afaa-f506ae0284fe",
+        "January 11, 2025": "https://www.arusd.org/fs/resource-manager/view/391c08ef-46d7-41bd-8e37-5afa201aff12"
+      },
+      {
+        "date": "2024-12-19",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/9fdc38b9-1f9b-4587-bc15-88dc362bb89d",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/65efbe1c-a9ae-4bf8-80eb-3f0a5f696fd7",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/82805c61-4b11-4d0d-bcb9-bdb4a0902237",
+        "December 19, 2024 Board Book": "https://www.arusd.org/fs/resource-manager/view/705aae12-1db6-493b-81f7-0f0da8ba9185",
+        "December 19, 2024": "https://www.arusd.org/fs/resource-manager/view/deadc067-7515-4037-b178-4b970bda9ddb",
+        "2024-25 First Interim": "https://www.arusd.org/fs/resource-manager/view/d51da756-226d-4a8b-b40d-bf58c3f09ba4",
+        "presentation": "https://www.arusd.org/fs/resource-manager/view/fce9be83-e097-4c36-94bd-db224102cca8",
+        "Revised Board Bylaw 9270": "https://www.arusd.org/fs/resource-manager/view/1dfba25e-4994-47f5-a420-4cf107dcfde7",
+        "notice": "https://www.arusd.org/fs/resource-manager/view/b3ded194-f0aa-4750-9988-34830d026a25",
+        "youtube": "https://www.youtube.com/watch?v=gNGUkXxsQR4"
+      },
+      {
+        "date": "2024-12-02",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/c40394cf-ff55-447c-bd3d-249c8a2bb680",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/5ff50f05-8b65-46a4-8f64-99d0b026aa2c",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/6ffd1fda-5e88-4951-b194-93e138d43161",
+        "December 2, 2024 Board Book": "https://www.arusd.org/fs/resource-manager/view/2e5ac63d-e475-45e6-99ab-37360f0314e7",
+        "December 2, 2024": "https://www.arusd.org/fs/resource-manager/view/4ebd1a52-6c3b-400b-954d-87f7a8d506a1",
+        "plan": "https://www.arusd.org/fs/resource-manager/view/94d18471-bba9-4194-893a-96c994dc2fb1",
+        "School Closures and Consolidation Resolution No. 26-24/25": "https://www.arusd.org/fs/resource-manager/view/71651005-368c-44be-958d-0e4e0d847396",
+        "Superintendent's Recommendation for School Consolidation/Closures/Redesign": "https://www.arusd.org/fs/resource-manager/view/5cabc2f1-f285-4204-b4e3-2993349bda72",
+        "Trustee Pham's Proposal": "https://www.arusd.org/fs/resource-manager/view/e19184b1-f078-4ddc-bcc4-94d6e1658973",
+        "New Boundaries": "https://www.arusd.org/fs/resource-manager/view/1072d2b9-c631-4d4a-8233-3a077cae5a91",
+        "youtube": "https://www.youtube.com/watch?v=8gzGxS6N668"
+      },
+      {
+        "date": "2024-11-21",
+        "agenda": "https://www.arusd.org/fs/resource-manager/view/ad4728a0-1f7f-42ce-a955-0fdcaae24ef0",
+        "agenda;02": "https://www.arusd.org/fs/resource-manager/view/ea418ef3-d47d-4199-9b68-7154442833c3",
+        "agenda;03": "https://www.arusd.org/fs/resource-manager/view/04ac6505-e3bc-4898-a93d-23f90879fd2f",
+        "November 21, 2024 Board Book": "https://www.arusd.org/fs/resource-manager/view/211c5557-89ac-4d96-84ee-61e04820788b",
+        "November 21, 2024": "https://www.arusd.org/fs/resource-manager/view/405ae466-5edb-4b9f-9c48-3f4f098859f4",
+        "other": "https://www.arusd.org/fs/resource-manager/view/d870bc7b-6fad-4430-bf23-de1c48fde4ea",
+        "Portable Classroom purchase and relocation costs": "https://www.arusd.org/fs/resource-manager/view/d745c3ea-cd77-4d25-90bd-e10eba9fb958",
+        "presentation": "https://www.arusd.org/fs/resource-manager/view/01d89b2f-3a4a-4998-8264-520c692ab56a",
+        "Consolidated Ren @ Fischer": "https://www.arusd.org/fs/resource-manager/view/9374464f-3e02-4448-b4da-081ead26cc9b",
+        "School Consolidation Study Ren @ Fischer": "https://www.arusd.org/fs/resource-manager/view/9a32486e-0d6a-4f5f-a6a7-1f75a4369c37",
+        "other;02": "https://www.arusd.org/fs/resource-manager/view/469ffb50-0d24-4a81-92d9-847bce1960f1",
+        "youtube": "https://www.youtube.com/watch?v=xNauFoR2srs"
+      }
+    ]
+  },
+  {
+    "base_url": "https://www.smuhsd.org/our-district/board-of-trustees/accessing-smuhsd-board-meetings",
+    "meetings": [
+      {
+        "date": "2024-11-21",
+        "minutes": "https://resources.finalsite.net/images/v1742332975/smuhsdorg/ej8gzmt857agy2yiwty1/November212024FinalMinutes.pdf",
+        "video": "https://www.youtube.com/watch?v=M2lF7hBGNeI",
+        "title": "November 21, 2024 Board Meeting Minutes, November 21, 2024"
+      },
+      {
+        "date": "2024-12-11",
+        "minutes": "https://resources.finalsite.net/images/v1757009683/smuhsdorg/h3g1e8ba8paqetrj7dmh/December112024FinalMinutes.pdf",
+        "video": "https://www.youtube.com/watch?v=UN6MmKQwX4A",
+        "title": "December 11, 2024 Board Meeting Minutes, December 11, 2024"
+      },
+      {
+        "date": "2024-12-19",
+        "minutes": "https://resources.finalsite.net/images/v1757009683/smuhsdorg/w4zyxqhbn5vnxtofrmhc/December192024FinalMinutes.pdf",
+        "title": "December 19, 2024 Board Meeting Minutes"
+      },
+      {
+        "date": "2025-01-16",
+        "minutes": "https://resources.finalsite.net/images/v1757009684/smuhsdorg/wqu9b23enzgwcmmyivfq/January162025FinalMinutes.pdf",
+        "video": "https://www.youtube.com/watch?v=PH169gpPAM4",
+        "title": "January 16, 2025 Board Meeting Minutes, January 16, 2025"
+      },
+      {
+        "date": "2025-02-13",
+        "minutes": "https://resources.finalsite.net/images/v1757009683/smuhsdorg/pfd4xo0kcifmkagj6aew/February132025FinalMinutes.pdf",
+        "video": "https://www.youtube.com/watch?v=jWaT0hcgU_k",
+        "title": "February 13, 2025 Board Meeting Minutes, February 13, 2025"
+      },
+      {
+        "date": "2025-02-27",
+        "minutes": "https://resources.finalsite.net/images/v1757009683/smuhsdorg/wxtj5jihdaizisv5tk9e/February272025FinalMinutes.pdf",
+        "video": "https://www.youtube.com/watch?v=4hxF0DdJFZI",
+        "title": "February 27, 2025 Board Meeting Minutes, February 27, 2025"
+      },
+      {
+        "date": "2025-03-27",
+        "minutes": "https://resources.finalsite.net/images/v1757009684/smuhsdorg/ayksiqikdx4d2idhcrqz/March272025FinalMinutes.pdf",
+        "video": "https://www.youtube.com/watch?v=fW0HNPJzKz4",
+        "title": "March 27, 2025 Board Meeting Minutes, March 27, 2025"
+      },
+      {
+        "date": "2025-04-10",
+        "minutes": "https://resources.finalsite.net/images/v1757009683/smuhsdorg/tfqv1vnsrzsepplvbkvj/April102025FinalMinutes.pdf",
+        "video": "https://www.youtube.com/watch?v=ZLU2P6KO46E",
+        "title": "April 10, 2025 Board Meeting Minutes, April 10, 2025"
+      },
+      {
+        "date": "2025-04-24",
+        "minutes": "https://resources.finalsite.net/images/v1757009683/smuhsdorg/prb3i3zivv7wiizmgljv/April242025FinalMinutes.pdf",
+        "video": "https://www.youtube.com/watch?v=O5u9F-UTR6o&t=1446s",
+        "title": "April 24, 2025 Board Meeting Minutes, April 24, 2025"
+      },
+      {
+        "date": "2025-05-08",
+        "minutes": "https://resources.finalsite.net/images/v1757009684/smuhsdorg/behz33fctyuge9nfggox/May82025FinalMinutes.pdf",
+        "video": "https://www.youtube.com/watch?v=mEQE18QuNeM",
+        "title": "May 8, 2025 Board Meeting Minutes, May 8, 2025"
+      },
+      {
+        "date": "2025-05-22",
+        "minutes": "https://resources.finalsite.net/images/v1757009684/smuhsdorg/kxzxahitk4njx3qcpsfx/May222025FinalMinutes.pdf",
+        "video": "https://www.youtube.com/watch?v=ZiOUeJb_wM8",
+        "title": "May 22, 2025 Board Meeting Minutes, May 22, 2025"
+      },
+      {
+        "date": "2025-11-20",
+        "video": "https://www.youtube.com/watch?v=4rEodDjqai4",
+        "title": "November 20, 2025"
+      },
+      {
+        "date": "2025-11-06",
+        "video": "https://www.youtube.com/watch?v=bcaey2AU_V0",
+        "title": "November 6, 2025"
+      },
+      {
+        "date": "2025-10-23",
+        "video": "https://www.youtube.com/watch?v=ytvzRdYsA_c",
+        "title": "October 23, 2025"
+      },
+      {
+        "date": "2025-10-09",
+        "video": "https://www.youtube.com/watch?v=ez6ZuU6xReI",
+        "title": "October 9, 2025"
+      },
+      {
+        "date": "2025-09-25",
+        "video": "https://www.youtube.com/watch?v=1vY2uuPqKp4",
+        "title": "September 25, 2025"
+      },
+      {
+        "date": "2025-09-10",
+        "video": "https://www.youtube.com/watch?v=IquxuQFv8C4",
+        "title": "September 10, 2025"
+      },
+      {
+        "date": "2025-08-28",
+        "video": "https://www.youtube.com/watch?v=YylOyH-vBIk",
+        "title": "August 28, 2025"
+      },
+      {
+        "date": "2025-08-14",
+        "video": "https://www.youtube.com/watch?v=-PUCWk24egA",
+        "title": "August 14, 2025"
+      },
+      {
+        "date": "2025-06-26",
+        "video": "https://www.youtube.com/watch?v=4UIKJWMR6SE&t=3076s",
+        "title": "June 26, 2025"
+      },
+      {
+        "date": "2025-06-12",
+        "video": "https://www.youtube.com/watch?v=HKzeDZ_DTAk",
+        "title": "June 12, 2025"
+      },
+      {
+        "date": "2025-05-01",
+        "video": "https://www.youtube.com/watch?v=M1QOAx_DckU",
+        "title": "May 1, 2025"
+      },
+      {
+        "date": "2025-04-17",
+        "video": "https://www.youtube.com/watch?v=n1uj_u36H2o",
+        "title": "April 17, 2025"
+      },
+      {
+        "date": "2025-03-12",
+        "video": "https://www.youtube.com/watch?v=64-R6OCG-oQ",
+        "title": "March 12, 2025"
       }
     ]
   }
